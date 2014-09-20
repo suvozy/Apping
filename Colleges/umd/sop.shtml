@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <title> Tips on Writing a Statement of Purpose by Arun Vasan @ Univ. of Maryland</title>
+  <meta name="GENERATOR" content="I wrote this in Emacs">
+  <meta name="Home Page" contents="Arun, Arunchandar, Vasan">
+  <link rel="shortcut icon" href="http://www.umd.edu/gr/favicon.ico">
+
+  <link rel="stylesheet" href="sop_files/default.css" type="text/css" media="screen,projection">
+  <link rel="stylesheet" href="sop_files/menu-topnav-buttonlike.css" type="text/css" media="screen,projection">
+  <link rel="stylesheet" href="sop_files/menu-sidenav.css" type="text/css" media="screen,projection">
+
+  <script type="text/javascript" src="sop_files/funcs.js"></script>
+
+  <!--[if lt IE 7]>
+    <link rel="stylesheet" href="/assets/styles/2008/fixed-width-IE5.css" type="text/css" media="screen,projection" />
+    <script type="text/javascript" src="/assets/js/drop-menu-IE5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="sop_files/default-print.css" type="text/css" media="print">
+
+
+  <style>
+    #main li {margin:1em;}
+  </style>
+</head>
+<body>
+<a href="http://www.umd.edu/"><img id="umdlogo" src="sop_files/globe2.gif" title="University of Maryland" alt="University of Maryland" border="0"></a>
+
+<div id="topnav">
+  <a href="http://www.cs.umd.edu/"><img id="cslogo" src="sop_files/department-of-computer-science.png" title="Department of Computer Science" alt="Department of Computer Science" border="0"></a>
+  <ul id="topnav-menu">
+    <li class="expand-down"><a href="http://www.cs.umd.edu/department/">About</a>
+      <ul class="sub">
+        <li><a class="first" href="http://www.cs.umd.edu/department/awards-ceremony/">CS Annual Awards</a></li>
+        <li><a href="http://www.cs.umd.edu/newsletters/">Inside CS newsletter</a></li>
+        <li><a href="http://www.cs.umd.edu/projects/photohistory/">Photo history</a></li>
+        <li><a href="http://www.cs.umd.edu/special-events/">Special events</a></li>
+        <li class="expand"><a href="http://www.cs.umd.edu/department/dept-history/">CS Department</a>
+          <ul>
+            <h5>Department History</h5>
+            <li><a href="http://www.cs.umd.edu/department/dept-history/minker-report.pdf">Dr. Minker's report <small>1940s-1979</small></a></li>
+            <li><a href="http://www.cs.umd.edu/department/dept-history/zelkowitz-report.pdf">Dr. Zelkowitz's report <small>1979-2006</small></a></li>
+            <li><a href="http://www.cs.umd.edu/special-events/miller-workshop/">Ray Miller's memoirs</a></li>
+            <li><a href="http://www.cs.umd.edu/department/obituaries/">In memoriam</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li class="expand-down"><a href="http://www.cs.umd.edu/people.shtml">People</a>
+      <ul class="sub">
+        <li><a class="first" href="http://www.cs.umd.edu/department/phone-book.shtml">Faculty/Staff phone book</a></li>
+        <li><a href="http://www.umd.edu/directories/">University directory</a></li>
+        <li><a href="http://www.cs.umd.edu/users/">User web pages</a></li>
+
+        <li class="expand"><a href="http://www.cs.umd.edu/faculty/">Faculty</a>
+          <ul>
+            <h5>Faculty</h5>
+            <li><a href="http://www.cs.umd.edu/faculty/">Faculty listing</a></li>
+            <li><a href="http://www.cs.umd.edu/faculty/awards/">Honors &amp; awards</a></li>
+            <li><a href="http://www.cs.umd.edu/areas/">Research areas</a></li>
+          </ul>
+        </li>
+<!--//        <li><a href="#">Staff</a></li> //-->
+        <li class="expand"><a href="http://www.cs.umd.edu/students/">Students</a>
+          <ul>
+            <h5>Graduate Students</h5>
+            <li><a href="http://webapps.cs.umd.edu/gradoff/photos/">Current students</a></li>
+            <li><a href="http://webapps.cs.umd.edu/gradoff/gradphd/">Graduating PhDs</a></li>
+            <li><a href="http://www.cs.umd.edu/students/awards/">Honors &amp; awards</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+    <li class="expand-down"><a href="http://www.cs.umd.edu/areas/">Research</a>
+      <ul class="sub">
+        <li><a class="first" href="http://www.cs.umd.edu/Library/">Departmental library</a></li>
+        <li class="expand"><a href="http://www.cs.umd.edu/areas/">Research areas</a>
+           <ul>
+             <h5>Research areas</h5>
+             <li><a href="http://www.cs.umd.edu/areas/ai.shtml">Artificial intelligence</a></li>
+<!--
+             <li><a href="/areas/cbcb.shtml">Bioinformatics and computational biology</a></li>
+-->
+             <li><a href="http://cbcb.umd.edu/">Bioinformatics and computational biology</a></li>
+
+             <li><a href="http://www.cs.umd.edu/areas/systems.shtml">Computer systems</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/vision.shtml">Computer vision</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/db.shtml">Database systems</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/hci.shtml">Human-computer interaction</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/pl.shtml">Programming languages</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/scicomp.shtml">Scientific computing</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/software.shtml">Software engineering</a></li>
+             <li><a href="http://www.cs.umd.edu/areas/tcs.shtml">Theoretical computer science</a></li>
+           </ul>
+        </li>
+        <li class="expand"><a href="http://www.cs.umd.edu/areas/">Technical reports</a>
+          <ul>
+            <h5>Technical reports</h5>
+            <li><a href="http://drum.umd.edu/dspace/handle/1903/2225/">Recent tech reports on Drum</a></li>
+            <li><a href="http://www.cs.umd.edu/Library/TRs/">Older tech reports</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+    <li class="expand-down"><a href="http://www.cs.umd.edu/local/">Local home</a>
+      <ul class="sub">
+        <li class="expand"><a class="first" href="http://www.cs.umd.edu/local/">Administrative</a>
+          <ul>
+            <h5>Administrative</h5>
+            <li><a href="http://www.cs.umd.edu/department/annual-reports/">Annual reports</a></li>
+            <li><a href="http://wiki.cs.umd.edu/busoff/">Business and<br style="clear:none"> &nbsp; Administrative Services</a></li>
+            <!--<li><a href="/busoff/index.shtml">Business office</a></li> -->
+            <li><a href="http://www.cs.umd.edu/department/council/">Department council</a></li>
+            <li><a href="http://www.cs.umd.edu/department/edcomm/">Education committee</a></li>
+            <li><a href="http://www.cs.umd.edu/local/faculty/">Faculty docs</a></li>
+            <li><a href="http://hiring.cs.umd.edu/">Hiring database</a></li>
+            <li><a href="http://www.cs.umd.edu/department/RevisedPlanofOrganization2007.pdf">Plan of organization</a></li>
+            <li><a href="http://www.cs.umd.edu/frs/">Research accounts</a></li>
+            <li><a href="http://www.cs.umd.edu/rsvp/">Reservation system</a></li>
+            <li><a href="http://www.cs.umd.edu/Senate/">Senate minutes</a></li>
+            <li><a href="http://www.cs.umd.edu/local/staff/DeptStaffAwardProgram-2006.pdf">Staff awards</a></li>
+            <li><a href="http://www.cs.umd.edu/graddb/facultyforms/parking/">Visitor parking</a></li>
+          </ul>
+        </li>
+
+        <li class="expand"><a href="http://www.cs.umd.edu/local/">Reference</a>
+          <ul>
+            <h5>Reference</h5>
+            <li><a href="http://www.cs.umd.edu/faq/faq.html">Computing FAQ</a></li>
+            <li><a href="http://www.cs.umd.edu/plasmascreens/guidelines.shtml">CSIC screens</a></li>
+            <li><a href="http://www.cs.umd.edu/Library/">Departmental library</a></li>
+            <li><a href="http://www.cs.umd.edu/Resources/phone.html">Telephone commands</a></li>
+            <li><a href="http://www.cs.umd.edu/faq/guides/">User guides</a></li>
+          </ul>
+        </li>
+
+        <li class="expand"><a href="http://www.cs.umd.edu/local/">Web-based tools</a>
+          <ul>
+            <h5>Web-based tools</h5>
+            <li><a href="http://webapps.cs.umd.edu/apt/">APT system</a></li>
+            <li><a href="http://www.cs.umd.edu/webmail/">Email window</a></li>
+            <li><a href="http://exchange.cs.umd.edu/exchange/">Outlook window</a></li>
+            <li><a href="http://www.cs.umd.edu/login/">Ssh window</a></li>
+          </ul>
+        </li>
+
+<!--//
+        <li class="expand"><a href="/site-design/">Web-site information</a>
+          <ul>
+            <h5>Site Information</h5>
+            <li><a href="/site-design/notes.shtml">Design notes</a></li>
+            <li><a href="/site-design/">Site design</a></li>
+            <li><a href="/image-catalog.shtml">Image catalog</a></li>
+            <li><a href="/site-design/templates.shtml">Web-page templates</a></li>
+          </ul>
+        </li>
+//-->
+      </ul>
+    </li>
+
+
+    <li class="expand-down"><a href="http://www.cs.umd.edu/events/">Events</a>
+      <ul class="sub">
+        <li><a class="first" href="http://www.cs.umd.edu/webcal/">Calendar</a></li>
+        <li><a href="http://www.cs.umd.edu/talks/colloquia/">Colloquium series</a></li>
+        <li><a href="http://www.cs.umd.edu/talks/dls/">Distinguished lecture series</a></li>
+        <li><a href="http://www.cs.umd.edu/sls/">Dean's Fellows lecture series</a></li>
+        <li class="expand"><a href="http://www.cs.umd.edu/events/">Other lectures</a>
+          <ul>
+            <h5>Lecture Series</h5>
+            <li><a href="http://www.umiacs.umd.edu/research/CLIP/colloq/">Computational linguistics</a></li>
+            <li><a href="http://www.cs.umd.edu/areas/db/dbchat/">Databases</a></li>
+            <li><a href="http://www.cs.umd.edu/hcil/about/events/seminar-series.shtml">HCIL</a></li>
+            <li><a href="http://www.cs.umd.edu/projects/softchat/">Software chat</a></li>
+            <li><a href="http://www.cs.umd.edu/projects/syschat/">Syschat</a></li>
+            <li><a href="http://www.cs.umd.edu/areas/Theory/CATS/">Theory (CATS)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+    <li class="expand-down"><a class="last" href="http://www.cs.umd.edu/location.shtml">Location</a>
+      <ul class="sub">
+        <li><a class="first" href="http://www.cs.umd.edu/avw/">A.V. Williams building</a></li>
+        <li><a href="http://www.cs.umd.edu/csic/">CS Instructional center</a></li>
+        <li><a href="http://www.cs.umd.edu/department/contacts.shtml">Contact us</a></li>
+        <li><a href="http://www.cs.umd.edu/department/directions/">Directions</a></li>
+        <li><a href="http://www.cs.umd.edu/department/directions/csumd_parking.pdf">Visitor Parking</a></li>
+      </ul>
+    </li>
+
+  </ul>
+
+<!--// Something is broke on the Google page... 
+  <form id="cssearch" method="get" action="http://www.google.com/u/csumd">
+    <input type="text" id="srchfld" name="q" size="15" maxlength="200" />
+    <input type="image" src="/assets/images/icons/double-arrow-button.png" name="sa" value="Search" alt="Search" />
+      <br />
+    <label for="srchfld">Search</label>
+
+    <input type="hidden" name="domains" value="www.cs.umd.edu" />
+    <input type="hidden" name="sitesearch" value="www.cs.umd.edu" />
+  </form>
+-->
+</div>
+  <br class="sansproj">
+
+
+
+<div id="csbreadcrumb">
+<a href="http://www.cs.umd.edu/">CS Home</a>
+
+
+<a href="http://www.cs.umd.edu/Grad">Grad</a>
+  SOP tips
+</div>
+
+<div id="pubnav">
+  <h4>Main menu</h4>
+  <ul>
+    <li><h5>Academic Links</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/class/" alt="Class web pages" title="Class web pages">Class web pages</a></li>
+        <li><a href="http://forum.cs.umd.edu/forumdisplay.php?f=3" alt="Class discussion forums" title="Class discussion forums">Class discussion forums</a></li>
+        <li><a href="http://www.cs.umd.edu/students/student-groups.shtml">Student groups</a></li>
+        <li><a href="http://www.testudo.umd.edu/ScheduleOfClasses.html" alt="University schedule of classes" title="University schedule of classes">University schedule</a></li>
+      </ul>
+    </li>
+    <li><h5>Graduate Studies</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/Grad/catalog.shtml" alt="Prospective graduate students" title="Prospective graduate students">Prospective grad students</a></li>
+        <li><a href="http://www.cs.umd.edu/Grad/" alt="Graduate program" title="Graduate program">Graduate program</a></li>
+      </ul>
+    </li>
+    <li><h5>Undergraduate Studies</h5>
+      <ul>
+        <li><a href="http://undergrad.cs.umd.edu/current-students/about/" alt="Prospective undergraduates" title="Prospective undergraduates">Prospective undergrads</a></li>
+        <li><a href="http://undergrad.cs.umd.edu/" alt="Undergraduate program" title="Undergraduate program">Undergraduate program</a></li>
+        <li><a href="http://www.cs.umd.edu/Honors/" alt="Honors program" title="Honors program">Honors program</a></li>
+        <li><a href="http://undergrad.cs.umd.edu/contact/ugresearch/" alt="Undergraduate research" title="Undergraduate research">Research opportunities</a></li>
+        <li><a href="http://undergrad.cs.umd.edu/contact/scholarship-opportunities/">Scholarship opportunities</a></li>
+        <li><a href="http://myplan.cs.umd.edu/">Graphic advisor</a></li>
+      </ul>
+    </li>
+    <li><h5>Alumni</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/alumni/" alt="Alumni Hall of Fame" title="Alumni Hall of Fame">Alumni hall of fame</a></li>
+<!--//        <li><a href="/alumni/alumni-awards.shtml">Honors & Awards</a></li> //-->
+        <li><a href="http://www.cs.umd.edu/giving/">Giving to the department</a></li>
+<!--//        <li><a href="/keepintouch/">Keep in touch</a></li> //-->
+        <li><a href="http://webapps.cs.umd.edu/gradoff/alumni/">Ph.D. alumni</a></li>
+      </ul>
+    </li>
+    <li><h5>Outreach</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/department/info-for-prospective/partners.shtml" alt="Corporate partners in computing" title="Corporate partners in computing">Corporate partners</a></li>
+<!--        <li><a href="/Passport/" alt="Passport program" title="Passport program">Passport program</a></li> -->
+        <li><a href="http://www.cs.umd.edu/csoutreach/" alt="CS Outreach program" title="CS Outreach program">CS Outreach program</a></li>
+        <li><a href="http://www.cs.umd.edu/Outreach/hsContest.shtml" alt="HS programming contest" title="HS programming contest">Programming contest</a></li>
+      </ul>
+    </li>
+    <li><h5>Equal Opportunity</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/diversity/" alt="Diversity statement" title="Diversity statement">Diversity statement</a></li>
+        <li><a href="http://www.cs.umd.edu/department/info-for-prospective/openings.shtml" alt="Employment opportunities" title="Employment opportunities">Employment opportunities</a></li>
+        <li><a href="http://www.cs.umd.edu/policy/faculty/" alt="Faculty policies &amp; procedures" title="Faculty policies &amp; procedures">Faculty policies</a></li>
+        <li><a href="http://www.cs.umd.edu/policy/" alt="University policies &amp; procedures" title="University policies &amp; procedures">University policies</a></li>
+      </ul>
+    </li>
+    <li style="padding-left:0.5em; background-color:#FFFFF1; border-top:1px dashed #CCCCCC; padding-top:2px;"><img src="sop_files/icon-miniglobe.png"> <span style="font-size:x-small; color:#333333;">- University of Maryland site</span></li>
+    <li style="padding-left:0.5em; background-color:#FFFFF1; padding-top:2px;"><img src="sop_files/icon-extlink.png"> <span style="font-size:x-small; color:#333333;">- External site</span></li>
+  </ul>
+
+</div>
+
+<div id="leftnav">
+  <ul>
+    <li><h5>Quick Links</h5>
+      <ul>
+	<li><a href="http://webapps.cs.umd.edu/gradoff/photos/">Current Students</a></li>
+	<li><a href="http://webapps.cs.umd.edu/gradoff/gradphd/">Graduating PhDs</a></li>
+        <li><a href="https://www.cs.umd.edu/graddb/facultyforms/graAppt.php" target="_blank">Online GRA Appt form</a></li>
+      </ul>
+     </li>
+
+    <li><h5>Current Students</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/Grad/policy-manual.shtml">Policy Manual</a></li>
+        <li><a href="http://www.cs.umd.edu/Grad/tips/choosing-research-advisor.shtml">Choosing your Advisor</a></li>
+        <li><a href="http://www.cs.umd.edu/busoff/benefits/GA_Insurance_Info.pdf">GA Insurance Information</a></li>
+        <li><a href="http://www.cs.umd.edu/Grad/careers/">Looking for Academic Jobs</a></li>
+        <li><a href="http://www.cs.umd.edu/Grad/scholarlypapers/">Scholarly papers</a></li>
+        <li><a href="http://www.cs.umd.edu/Grad/ta.handbook.shtml">TA Handbook</a></li>
+      </ul>
+    </li>
+
+    <li><h5>Prospective Students</h5>
+      <ul>
+        <li><a href="http://www.cs.umd.edu/Grad/catalog.shtml">Graduate catalog</a></li>
+        <li><a href="http://www.cs.umd.edu/users/oleary/gradstudy/gradstudy.html">Survival Guide</a></li>
+        <li><a href="http://www.cs.umd.edu/Grad/sop.shtml">Writing a Statement of Purpose</a></li>
+      </ul>
+    </li>
+
+    <li><h5>UMD Graduate School</h5>
+      <ul>
+        <li><a href="http://www.gradschool.umd.edu/gradcouncil/updates-new/" target="_blank">Policies</a> (Grad School)</li>
+        <li><a href="http://www.gradschool.umd.edu/gss/forms/" target="_blank">Forms</a> (Grad School)</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+
+
+<!-- The body of the document begins here -->
+<div id="main">
+  <h1> Tips on writing an SOP - by Arun Vasan</h1>
+
+<p> Universities in the US appear to believe that the logical end of 
+education is enabling an individual to think on her own. 
+This is why they ask you for a "personal" statement to 
+give an account of experiences which you believe helped 
+you decide to apply, your expectations from graduate school, 
+what you propose to do in school.... Of course, the typical personal 
+statement is not so personal, and is usually edited by half
+a dozen people atleast. </p>
+
+<p>The main idea behind this exercise is to give the admissions 
+committee an idea of what to expect from a prospective
+student apart from her scores, GPA, and letters of recommendation. 
+Who would've thought that actually asking a student to tell what
+he thinks of himself was a good idea ?
+The SOP, though it sounds unparliamentary, is a crucial part of the 
+application process and needs a lot of time and effort.  </p>
+
+<p>I have put a few points down with my tongue firmly in my cheek. 
+These are CS specific, but may apply to other disciplines as well. There 
+are sharp differences of opinion among the graduate student/ professor community 
+as to what makes an SOP tick. I take responsibility for neither the grammar nor 
+the contents of this page. Use these tips at your own risk. </p>
+
+<p>In case you are wondering, NO, I am not jobless. Yeah, I know, my soul just cries
+out to be blessed. Now, now, wipe the tears of gratitude, and prepare for
+the most enlightening sermon you will hear about grad school admissions.</p>
+
+
+<hr>
+<h2>Algorithm S</h2>
+<ul>
+  <li> 0. RTFAF: Read The Fine Application Form. Don't write a one-size-fits-all-univs SOP.</li>
+  <li> 1. State upfront who you are and what you want. One should not 
+have to search using a word processor whether you want an MS or a Ph.D. </li>
+  <li> 2.  Tell what you intend doing with your degree.  Inevitably, 
+this boils down to a suitable permutation of words from the set 
+{creative, career, industry, academia, research, professor, university, 
+lab,startup}. </li>
+  <li> 3. Avoid hot air. Adjectives like thrill, passion, excitement, 
+joy, etc., should be avoided like the plague. Explain what you expect 
+from grad school. Of course, we all want a job, but try putting it down 
+as politically correctly as you can.</li>
+  <li> 4. Avoid quotations. You may have "miles to go before you sleep",
+ "chosen the road less travelled", or 
+"your-favourite-cliche-quote-from-high-school-here", but it ain't a 
+personal statement unless you are quoting yourself, is it ? </li>
+  <li> 5. Use simple English. Resist the temptation to use your new-found vocabulary from the GRE word lists.</li>
+  <li> 6.Describe your experience. Don't say you were introduced to CS 
+as a suckling infant, you started speaking in Python before your mother 
+tongue, yada, yada, yada... No one actually cares for your experience as
+ a kid, so keep it brief. </li>
+  <li> 7. The most important experience you would've had would be your 
+undergrad.  Of course, I mean academic work. As an aside, I firmly 
+believe that the day you really graduate is the day you realise you 
+wasted four years.  Describe your coursework tersely.</li>
+  <li> 8. Explain a select few projects you did in gory detail and why 
+that got you interested in research. This is a point of much debate.  
+Personally, I like explaining things in detail while many people prefer 
+"high level" stuff. The catch with my way is that you could say 
+something blatantly wrong and possibly screw up your chances completely.
+ Again, I feel that if someone  knows what the hell she is talking 
+about, she should be confident enough to sell what she did. I suggest 
+you show your SOP to profs, preferably those who are writing your 
+letters,  to make sure you are not shooting yourself in the foot with 
+amazing accuracy.</li>
+  <li> 9. Articulate why you choose to work in the area you want to work
+ on.  For example, kernel hacking gives you the high, your best buddy is
+ the memory allocator, etc., so you want to work in O/S. Or, you 
+increase your treadmill speed like TCP increases its <b>cwnd</b>, you do
+ a packet sniff to find out protocols used instead of chatting in a 
+messenger, your concept of networking is making computers talk, so you 
+want to work in networks.  In particular, it will be ideal if it was 
+something you did best. I've heard of a case where someone said the 
+thing she did best was cooking. The story goes she baked a cake and sent
+ it to the admissions committee. Harvard, rumour has it, fell hook, 
+line, and sinker for this. The professors in CS@UM most likely don't 
+care for your culinary expertise, in case this gives you ideas. </li>
+  <li> 9.1 You could possibly angle for more than one area. If you can 
+show some prior work, or what you can do, in more than one area, you are
+ good. However, you should avoid things like "I like theory, systems, 
+AI, and NC very much.  Graphics and Software, a little less".</li>
+  <li> 10. Once you've explained why you like some area(s), explain how 
+you will fit in with work being done in *that* univ. Say how you, 
+Prof.Foo, and Prof.Bar can attain the holy grail of networking together.
+ You should appear in awe of them, yet appear indispensable to their 
+work.  Avoid mentioning persons alone, i.e., qualify a professor by the 
+group he leads/is part of. You can rest assured any CS prof will be part
+ of some group with what she thinks is a cool abbreviated name. This way
+ you won't antagonise a rival professor in the same area who actually 
+sits on the committee. </li>
+  <li> 11. Market yourself with concrete statistics.  I won't believe it
+ myself if you claim you are the second coming of Knuth. It is very 
+unlikely that the profs of a dept. will. After all, it is their fate to 
+have seen a billion SOPs before yours and see many more after yours. 
+That said, mention things like "I was ranked in the top 0.123% of the 
+FOO exam conducted by the  BARs." exactly once. </li>
+  <li> 12. Try being humourous without sounding like a clown.  Wit is 
+something which really can't be forced into writing. So it is perfectly 
+fine if you write something  totally serious as long as it is cogent and
+ forceful.  Finally, finish off with a flourish. </li>
+  <li> 13. If (you aren't sick and tired) goto step 0. </li>
+  <li> 14. Stop reading this page this minute and go work on your application. </li>
+</ul>
+<hr>
+<p>I most definitely assert my rights to be identified as the author of this 
+work in accordance with all known, unknown, and yet-to-be-framed copyright 
+laws of this planet. Any resemblance to work produced by a certain Don of 
+the west coast is entirely intended. © Arunchandar Vasan.</p>
+</div>
+<div id="csfooter">
+  
+  <a href="http://www.umd.edu/" alt="University of Maryland" title="University of Maryland" border="0"><img src="sop_files/primarysm.gif" title="University of Maryland" alt="University of Maryland" border="0"></a>
+  <div>
+    <a href="http://www.umd.edu/" alt="University of Maryland" title="University of Maryland">UM Home</a> | 
+    <a href="http://www.cmns.umd.edu/" alt="College of Computer, Mathematical and Natural Sciences" title="College of Computer, Mathematical and Natural Sciences">CMNS</a> |
+    <a href="http://www.umd.edu/directories/" alt="University Directories" title="University Directories">Directories</a> |
+    <a href="https://forum.cs.umd.edu/calendar.php" alt="CS Calendar" title="CS Calendar">Calendar</a> |    
+    <a href="http://www.cs.umd.edu/department/contacts.shtml" alt="Contact us" title="Contact us">Contact</a>
+      <br>
+    Last modified: May 20, 2008
+  </div>
+
+  <br>
+</div>
+
+
+
+</body></html>

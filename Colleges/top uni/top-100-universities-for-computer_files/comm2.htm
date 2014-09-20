@@ -1,0 +1,48 @@
+if(typeof(mbl_jsserv_loaded)=='undefined'){document.write('<scr'+'ipt language="javascript" src="http://track3.mybloglog.com/js/jsserv.php?mblID=2008020404325622"><\/scr'+'ipt>');}var mbl_pub_str='';var mbl_rr_bubble=true; var mbl_rr_rdy=false;function mbl_element(id){if(document.getElementById!=null){return document.getElementById(id);}
+if(document.all!=null){return document.all[id];}
+if(document.layers!=null){return document.layers[id];}
+return null;}
+function mbl2_osover(obj){var id=obj.id;var td1='tdd1'+id;td1=mbl_element(td1);var td2='tdd2'+id;td2=mbl_element(td2);if(td1&&td2){td1.style.backgroundColor='#eeeeee';td2.style.backgroundColor='#eeeeee';}}
+function mbl2_osout(obj){var id=obj.id;var td1='tdd1'+id;td1=mbl_element(td1);var td2='tdd2'+id;td2=mbl_element(td2);if(td1&&td2){td1.style.backgroundColor='#E3E3E3';td2.style.backgroundColor='#E3E3E3';}}
+function gU(i){if(!mbl_rr_bubble){return;}
+if(i==1){top.location.href='http://www.mybloglog.com/buzz/yjoin/?ref_id=2008020404325622&ref=w';}else if(i==2){top.location.href='http://www.mybloglog.com/buzz/community/postgreactivities/';}else if(i==4){top.location.href='http://www.mybloglog.com/buzz/';}else if(i==5){top.location.href='http://www.mybloglog.com/buzz/yjoin/?ref_id=2008020404325622&ref=w';}else{top.location.href='http://www.mybloglog.com/buzz/members/'+i+'/?fs='+'2008020404325622';}}
+function mbl2_imo(w,id,o,no){mbl_rr_rdy=false;var img=mbl_element(id);if(!img){return;}
+if(w=='s'){if(!no){img.style.display='';}
+if(o.id==id){mbl_rr_rdy=true;}}else{if(!no){img.style.display='none';}}}
+function mbl2_ioc(sid,mid,w){if(!mbl_rr_rdy){mbl_rr_bubble=true;return true;}
+mbl_rr_bubble=false;top.location.href='http://www.mybloglog.com/buzz/opt_hide.php?rr_sid='+sid+'&rr_mid='+mid+'&rr_w='+w+'&ref='+escape(top.location.href);}mbl_pub_str += "<style type='text/css'>";
+mbl_pub_str += ".widget_mybloglog { width:125px; }";
+mbl_pub_str += "table#MBL_COMM { line-height:12px; border:1px solid #005A94;width:125px; font-family: Verdana, Arial, Sans-Serif;font-style:normal;font-weight:normal; background-color:#E3E3E3;}";
+mbl_pub_str += "table#MBL_COMM th.mbl_h { font-size:14px;background-color:#005A94;color:#ffffff;font-weight:bold;text-align:left;padding:2px 2px; text-align:left;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_join_img { cursor:pointer;cursor:hand;width:50px;padding:2px 2px;margin:0;background-color:#fff;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_join { cursor:pointer;cursor:hand;text-align:left;color:#005A94;background-color:#fff;font-size:11px;border-bottom:0;padding:2px 2px; margin:0;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_join a { display:block;width:65px;overflow:hidden;font-weight:normal;border:0;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_join a:hover { border:0;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_img { cursor:pointer;cursor:hand;width:50px;padding:2px 2px;margin:0;background-color:#E3E3E3;border-top:1px solid #005A94;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_mem { cursor:pointer;cursor:hand;text-align:left;font-weight:bold;font-size:11px;background-color:#E3E3E3;color:#005A94;border-bottom:0;border-left:0;border-right:0;padding:2px 2px; margin:0;border-top:1px solid #005A94;}";
+mbl_pub_str += "table#MBL_COMM td.mbl_mem a { display:block;width:65px;overflow:hidden;border:0; }";
+mbl_pub_str += "table#MBL_COMM td.mbl_mem a:hover { border:0; }";
+mbl_pub_str += "table#MBL_COMM td.mbl_fo_hidden {cursor:hand;cursor:pointer;text-align:center;font-size:10px;background-color:#005A94;color:#ffffff;padding:2px 2px; }";
+mbl_pub_str += "table#MBL_COMM a { color:#005A94;text-decoration:none;border:0;background:none }";
+mbl_pub_str += "table#MBL_COMM a:hover { color:#005A94;text-decoration:none;border:0; }";
+mbl_pub_str += "table#MBL_COMM a:visited { color:#005A94;text-decoration:none;border:0; }";
+mbl_pub_str += "table#MBL_COMM a:visited:hover { color:#005A94;text-decoration:none;border:0; }";
+mbl_pub_str += "table#MBL_COMM td.mbl_fo_hidden a { color:#ffffff; }";
+mbl_pub_str += "table#MBL_COMM td.mbl_fo_hidden a:hover,table#MBL_COMM td.mbl_fo_hidden a:visited:hover { color:#ffffff;text-decoration:none;border:0; }";
+mbl_pub_str += "table#MBL_COMM img {width:48px;height:48px;border:1px solid #000;z-index:999;padding:0px;float:left;position:relative}";
+mbl_pub_str += "</style>";
+mbl_pub_str += "<table cellspacing='0' cellpadding='3' id='MBL_COMM'>";
+mbl_pub_str += "<tr><th scope='col' colspan='2' class='mbl_h'>Recent Readers</th></tr>";
+mbl_pub_str += "<tr id='tr0'><td class='mbl_join_img' onclick='gU(1);'><img src='http://us.i1.yimg.com/us.yimg.com/i/identity/nopic_48.gif' /></td><td class='mbl_join' onclick='gU(1);'><strong>You!</strong><br><a href='http://www.mybloglog.com/buzz/yjoin/?ref_id=2008020404325622&ref=w' style='width:auto;' target='_top'>Join Our Community</a></td></tr>";
+mbl_pub_str += "<tr id='tr1' onmouseover='mbl2_osover(this);' onmouseout='mbl2_osout(this);'>";
+mbl_pub_str += "<td id='tdd11' class='mbl_img' onclick='gU(\"Cileka\");'><img src='http://a323.yahoofs.com/coreid/49b6d709i1bc8zul2sp1/2_r8S3AmfqfLAZiBozBd/101/tn48.jpg?ciAUSBOB4yVVOW9z' alt='Saikaew' title='Saikaew' /></td>";
+mbl_pub_str += "<td id='tdd21' class='mbl_mem' onclick='gU(\"Cileka\");'><a href='http://www.mybloglog.com/buzz/members/Cileka/?fs=2008020404325622' target='_top'>Saikaew</a></td>";
+mbl_pub_str += "<tr id='tr2' onmouseover='mbl2_osover(this);' onmouseout='mbl2_osout(this);'>";
+mbl_pub_str += "<td id='tdd12' class='mbl_img' onclick='gU(\"mybloglog966890883533e3e5bbf6\");'><img src='http://a323.yahoofs.com/coreid/4cc5e8fei4b2zul3re3/uFR.YTEierS57KCc25X4o24RkqPi/1/tn48.jpg?ciAgZ3NB4gp8Neky' alt='Sara' title='Sara' /></td>";
+mbl_pub_str += "<td id='tdd22' class='mbl_mem' onclick='gU(\"mybloglog966890883533e3e5bbf6\");'><a href='http://www.mybloglog.com/buzz/members/mybloglog966890883533e3e5bbf6/?fs=2008020404325622' target='_top'>Sara</a></td>";
+mbl_pub_str += "</tr>";
+mbl_pub_str += "<tr><td colspan='2' class='mbl_fo_hidden' onclick='gU(2);'><a href='http://www.mybloglog.com/buzz/community/postgreactivities/' target='_top'>View Reader Community</a></td></tr>";
+mbl_pub_str += "<tr><td colspan='2' class='mbl_fo_hidden' onclick='gU(5);'><a href='http://www.mybloglog.com/buzz/yjoin/?ref_id=2008020404325622&ref=w' target='_top'>Join this Community</a></td></tr>";
+mbl_pub_str += "<tr><td colspan='2' class='mbl_fo_hidden' onclick='gU(3);'><a href='http://www.mybloglog.com/' target='_top'>(provided by MyBlogLog)</a></td></tr>";
+mbl_pub_str += "</table>";document.write(mbl_pub_str);
+<!-- pub1.mbl.sp1.yahoo.com compressed/chunked Sun May  1 08:56:57 PDT 2011 -->

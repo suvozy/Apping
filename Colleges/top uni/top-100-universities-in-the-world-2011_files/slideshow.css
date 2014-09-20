@@ -1,0 +1,113 @@
+/* ---------------------------------------------------- */
+/* SLIDESHOW
+/* ---------------------------------------------------- */
+#slideshow {
+	width: 620px;
+	height: 246px;
+	background-color: #921080;
+	font-family: Arial, Helvetica, sans-serif;}
+
+#slideshow ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 1%; /* IE fix */}
+
+#slideshow ul:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;}            
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > SLIDES
+/* ---------------------------------------------------- */
+#slideshow .slides {
+	overflow: hidden;
+	float: left;}
+
+#slideshow .slides li {
+	width: 407px;
+	height: 246px;
+	float: left;
+	padding: 0;
+	margin: 0;}
+
+#slideshow .slides h2 {
+	margin: 170px 0 0 20px;
+	padding: 0;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;}
+
+#slideshow .slides p {
+	color: #fff;
+	background: url(feature-arrow.png) 0 6px no-repeat;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 0 0 0 10px;
+	margin: 6px 0 0 20px;
+	font-weight: normal;}
+
+#slideshow .slides h2 a,
+#slideshow .slides p {
+	color: #fff;
+	text-decoration: none;}
+
+#slideshow .slides h2 a:hover,
+#slideshow .slides p a:hover {
+	text-decoration: underline;
+	background: none;}
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > NAVIGATION
+/* ---------------------------------------------------- */
+#slideshow .slides-nav {
+	float: right;}
+
+.js #slideshow .slides-nav li {
+	width: 193px;
+	height: 54px;
+	padding: 18px 10px 10px;
+	margin: 0;
+	font-size: 16px;
+	line-height: 18px;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.30, rgb(146,16,128)),
+		color-stop(0.50, rgb(161,23,142)),
+		color-stop(0.70, rgb(173,34,154))
+);
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(146,16,128) 48%,
+		rgb(161,23,142) 74%,
+		rgb(173,34,154) 87%
+);
+	list-style-type: none;}
+
+#slideshow .slides-nav li a {
+	padding: 0;
+	color: #fff;
+	text-decoration: none;
+	font-weight: normal;}
+
+.slides-nav-small {
+	font-size: 12px;
+	line-height: 14px;}
+
+#slideshow .slides-nav li a:hover {
+	text-decoration: none;
+	background: none;}
+
+.js #slideshow .slides-nav li.on {
+	background: #820c72;}
+
+.js #slideshow .slides-nav li.on a {
+	position: relative;}
+
+.clear {
+	clear: both;}

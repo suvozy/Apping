@@ -1,0 +1,336 @@
+@charset "UTF-8";
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #c0c0c0;
+	background-color: #000;
+	background-image:url('img/bg.gif');
+	margin:0;
+}
+
+p {
+	margin-top:0em;
+	margin-bottom:0.5em;
+	word-wrap: break-word;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #00aeef;
+}
+
+a:hover {
+	color: #00aeef;
+	border-bottom: 2px solid;
+}
+
+a.movie:hover {
+	border-bottom: none;
+	opacity:0.5;
+}
+
+a.img:hover {
+	border-bottom: none;
+	opacity:0.5;
+}
+
+a.logo:link, a.logo:visited {
+	border-bottom: none;
+	opacity:0.6;
+}
+
+a.logo:hover {
+	border-bottom: none;
+	opacity:1;
+}
+
+
+
+.white {
+	color: #fff;
+}
+
+.green {
+	color: #00aeef;
+}
+
+img {
+	border:0;
+}
+
+h2 {
+	color: #fff;
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 12px;
+	line-height: 16px;
+	color: #fff;
+}
+
+h4 {
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.dark {
+	color: #585858;
+}
+
+.big {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.small {
+	font-size: 11px;
+	line-height: 13px;
+}
+
+#wrapper {
+	width: 860px;
+	margin: 0 auto 0 auto;
+}
+
+#nav {
+//	margin-top: 20px;
+	border-bottom: 2px solid #fff;
+	line-height: 50px;
+	height: 50px;
+}
+
+#nav li, #footer li {
+	font-weight: bold;
+	display:inline;
+	list-style-type:none;
+	margin: 0 10px 0 10px;
+}
+
+#footer-left a:link, #footer-left a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+#footer-left a:hover {
+	color: #00aeef;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.hidden:link, a.hidden:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.hidden:hover {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.off:link, a.off:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.off:hover {
+	color: #00aeef;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+
+a.on:link, a.on:visited {
+	color: #00aeef;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.on:hover {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#nav-left {
+	float:left;
+	width: 720px;
+}
+#nav-right {
+	float:left;
+	width: 140px;
+	text-align:right;
+}
+
+.hr {
+	width: 100%;
+	border-bottom: 2px solid #fff;
+	clear:both;
+	margin: 40px 0 40px 0;
+}
+
+#header {
+	margin-top: 80px;
+	margin-bottom: 45px;
+}
+
+#h2-header {
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+#header-copy {
+	width: 560px;
+}
+
+#badge {
+	position: absolute;
+	margin: 110px 0 0 650px;
+}
+
+#badge-dancing-atoms {
+	position: absolute;
+	margin: 160px 0 0 -30px;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-top: 2px solid #fff;
+	clear:both;
+	margin: 80px 0 40px 0;
+}
+
+#footer-left {
+	float:left;
+	width: 600px;
+}
+
+#footer-right {
+	width: 260px;
+	float:left;
+	margin-top: 20px;
+}
+
+#flyfire {
+	width: 220px;
+	padding: 20px;
+	background: #000;
+	float:left;
+}
+
+.col3-1 {
+	width: 260px;
+	margin-right: 40px;
+	float:left;
+}
+
+.col3-2 {
+	width: 560px;
+	margin-right: 40px;
+	float:left;
+}
+
+.col4-1 {
+	width: 185px;
+	margin-right: 40px;
+	float:left;
+}
+
+.col4-2 {
+	width: 410px;
+	margin-right: 40px;
+	float:left;
+}
+
+.col4-3 {
+	width: 635px;
+	margin-right: 40px;
+	float:left;
+}
+
+.last {
+	margin-right: 0; !important
+}
+
+.vspace-80 {
+	clear:both;
+	width: 100%;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+.vspace-60 {
+	clear:both;
+	width: 100%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.vspace-40 {
+	clear:both;
+	width: 100%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.vspace-20 {
+	clear:both;
+	width: 100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+.vspace-10 {
+	clear:both;
+	width: 100%;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.section-title {
+	margin-bottom: 20px;
+}
+
+img.thumbnail {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.credit li {
+	list-style-type: none;
+}
+
+.graybox {
+	background: #959595;
+	color: #000;
+	padding: 15px;
+	margin-bottom: 40px;
+}
+
+.graybox p {
+	margin-left: 190px;
+}
+
+.graybox img {
+	float:left;
+}
+
+.graybox a:link, .graybox a:visited, .graybox a:hover {
+	color:#000
+}
+
+#fancybox-left:hover, #fancybox-right:hover, #fancybox-close:hover {
+	border-bottom: none;
+
+}
+
+#fancybox img { z-index: 200; }

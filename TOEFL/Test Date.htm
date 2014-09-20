@@ -1,0 +1,1199 @@
+<html><head>   
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	 
+		
+	 	
+	 <title>
+	 	Request a Seat 
+	</title>   
+   <script language="JavaScript" type="text/javascript" src="Test%20Date_files/left_menu.js"></script>
+   <link href="Test%20Date_files/CBSR_IMC.css" rel="stylesheet" type="text/css">
+   <link href="Test%20Date_files/styles.css" rel="stylesheet" type="text/css">
+   
+   
+   	
+    	  
+   <script language="JavaScript" type="text/javascript">
+	function submitform() {
+		document.forms[0].submit();
+	}
+	
+	window.onerror = doNothing;
+	
+	function doNothing() {
+	  return true;
+	}
+	
+	
+	onunload = function() {
+		if (navigator.appVersion.indexOf("MSIE")>(-1)){   
+			if ((window.event.clientX<0) && (window.event.clientY<0)) {		 
+		  	  
+			  	  if (!window.opener) {
+				  	window.location.replace("/TOEFLWeb/logoff.do");
+				  	alert("You have been logged out of the application.");				  
+				  }
+			  
+			}
+		}
+	}
+	
+    </script>
+ </head>
+ 
+<body>
+	<!-- ETS Logo -->
+     
+
+
+
+
+
+<div id="masthead">
+	<!-- suppresses the splash area images based on authorization -->
+	<!-- roles with this resource will not see the images  -->
+	
+		<img src="Test%20Date_files/ets_logo.gif" border="0" height="82"> 
+		<img src="Test%20Date_files/topNav.jpg" border="0" height="84"> 
+	
+
+	<p style="margin-top: 5px;" align="left">
+		<a href="https://toefl-registration.ets.org/TOEFLWeb/logoff.do?">Log Out</a> | 
+		<a onmousedown="window.open('/TOEFLWeb/faq.do','FAQs','scrollbars=yes,resizable=yes,width=800,height=700')" href="#">FAQs</a> | 
+		<a onmousedown="window.open('/TOEFLWeb/help.do','Help','scrollbars=yes,resizable=yes,width=800,height=700')" href="#">Help</a> | 
+		<a href="http://www.ets.org/commun.html" target="_blank">Contact Us</a> | 
+		<a href="http://www.ets.org/toefl/" target="_blank">TOEFL Home Page</a>
+	</p>
+</div>
+      
+    <!-- ETS Logo end-->   
+    
+
+    
+
+	<div id="container">
+     
+		  <div id="maincontent">
+		  		  
+		  <div id="breadcrumbs"></div>
+		  
+			  
+		  
+		  
+		  	<h2>Register for a Test </h2>
+		  
+		  	
+		    	<!-- page level authorization -->
+			  	
+				
+					<!-- Content begin -->
+		    		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="javascript">
+ function selectList(name) {
+    if(name == '1' ) {
+          document.forms[0].action="selectStateOrCityList.do";
+          document.forms[0].allTestCentersInd.value="0";
+          document.forms[0].firstTime.value="true";
+          document.forms[0].submit();
+        }else if(name == '2') {
+          document.forms[0].action="selectCity.do";
+          document.forms[0].allTestCentersInd.value="0";
+          document.forms[0].submit();
+        }else if(name == '3') {
+          document.forms[0].action="submitLocation.do";
+          document.forms[0].allTestCentersInd.value="1";
+          document.forms[0].submit();
+        }else if(name == '4') {
+          document.forms[0].action="submitTestAdmin.do";
+          document.forms[0].submit();
+      } else if(name == '5') {
+          document.forms[0].action="submitTicketInfo.do";
+          document.forms[0].submit();
+      }
+  }
+  
+  function showHideSeatAssign(checkbox) {
+  	if (checkbox.checked) {
+		document.forms[0].action="selectStateOrCityList.do?hasSeatAssignmentNumber=true";
+  	} else {
+		document.forms[0].action="selectStateOrCityList.do?hasSeatAssignmentNumber=false";
+  	}
+
+    document.forms[0].firstTime.value="false";
+    document.forms[0].submit();  	
+  }
+
+  function showHideEndDate(checkbox) {
+	obj = document.getElementById("testEndDateElm");
+  	if (checkbox.checked) {	
+  		obj.style.display="none";
+  	} else {
+  		obj.style.display="";
+  	}
+  }
+    
+   function MM_openBrWindow() {
+	window.open('/TOEFLWeb/advancedreservation/retakeRulesViolationsAdvreservation.do','RetakeRules','scrollbars=yes,resizable=yes,width=900,height=350');
+  }
+  
+  function openWindow(url) {
+  
+ 	 window.open(url,'KoreanReservations','scrollbars=yes,resizable=yes,width=900,height=350');
+  }
+  
+      function MM_availableTestCenters() {
+	window.open('availableTestCenters.do','RetakeRules','scrollbars=yes,resizable=yes,width=600,height=350');
+  }
+  
+</script>
+
+
+<div class="error">
+
+		
+</div>
+<form name="reserveASeatForm" method="post" action="/TOEFLWeb/order/submitTestCenter.do"><input name="org.apache.struts.taglib.html.TOKEN" value="d67d91afd9a13a7f373341052c3a6254" type="hidden">
+
+
+  <p>
+    To register for a test, follow these steps. Be careful not to double-click on a field entry.
+  </p>
+  <!--  New Added this content for TOEFL1.24 -->
+  <p>
+    You will have a maximum of 20 minutes to complete your registration.
+  </p>
+  
+  <h3>1. Choose the location you wish to test in</h3>
+  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+    <tbody><tr valign="top">
+      <td align="right" width="30%">Country/Location:</td>
+      <td align="left" width="70%">
+        <select name="countryCode" size="1" onchange="javascript:selectList('1')"><option value=" ">- Select -</option>
+          <option value="228">Afghanistan</option>
+<option value="231">Albania</option>
+<option value="216">Algeria</option>
+<option value="237">American Samoa</option>
+<option value="232">Andorra</option>
+<option value="235">Argentina</option>
+<option value="236">Armenia</option>
+<option value="241">Australia</option>
+<option value="242">Austria</option>
+<option value="243">Azerbaijan</option>
+<option value="251">Bahamas</option>
+<option value="250">Bahrain</option>
+<option value="248">Bangladesh</option>
+<option value="258">Barbados</option>
+<option value="253">Belarus</option>
+<option value="245">Belgium</option>
+<option value="254">Belize</option>
+<option value="246">Benin</option>
+<option value="255">Bermuda</option>
+<option value="256">Bolivia</option>
+<option value="252">Bosnia and Herzegovina</option>
+<option value="262">Botswana</option>
+<option value="257">Brazil</option>
+<option value="259">Brunei Darussalam</option>
+<option value="249">Bulgaria</option>
+<option value="247">Burkina Faso</option>
+<option value="124">Cambodia</option>
+<option value="198">Cameroon</option>
+<option value="192">Canada</option>
+<option value="191">Central African Republic</option>
+<option value="195">Chile</option>
+<option value="202">Colombia</option>
+<option value="199">Congo, The Democratic Republic</option>
+<option value="205">Costa Rica</option>
+<option value="263">Cote D'Ivoire</option>
+<option value="178">Croatia</option>
+<option value="209">Cyprus</option>
+<option value="210">Czech Republic</option>
+<option value="214">Denmark</option>
+<option value="215">Dominican Republic</option>
+<option value="217">Ecuador</option>
+<option value="218">Egypt</option>
+<option value="58">El Salvador</option>
+<option value="222">Estonia</option>
+<option value="223">Ethiopia</option>
+<option value="156">Faroe Islands</option>
+<option value="225">Fiji</option>
+<option value="224">Finland</option>
+<option value="155">France</option>
+<option value="165">Gambia</option>
+<option value="160">Georgia</option>
+<option value="211">Germany</option>
+<option value="161">Ghana</option>
+<option value="168">Greece</option>
+<option value="170">Greenland</option>
+<option value="164">Guadeloupe</option>
+<option value="173">Guam</option>
+<option value="171">Guatemala</option>
+<option value="163">Guinea</option>
+<option value="179">Haiti</option>
+<option value="177">Honduras</option>
+<option value="175">Hong Kong</option>
+<option value="180">Hungary</option>
+<option value="187">Iceland</option>
+<option value="182" selected="selected">India</option>
+<option value="181">Indonesia</option>
+<option value="185">Iran (Islamic Republic Of)</option>
+<option value="186">Iraq</option>
+<option value="184">Ireland</option>
+<option value="188">Israel</option>
+<option value="189">Italy</option>
+<option value="190">Jamaica</option>
+<option value="120">Japan</option>
+<option value="119">Jordan</option>
+<option value="121">KAZAKHSTAN</option>
+<option value="122">Kenya</option>
+<option value="127">Korea, Republic of</option>
+<option value="271">Kosovo</option>
+<option value="128">Kuwait</option>
+<option value="123">Kyrgyzstan</option>
+<option value="265">Lao People's Democratic Rep</option>
+<option value="139">Latvia</option>
+<option value="130">Lebanon</option>
+<option value="132">Libyan Arab Jamahiriya</option>
+<option value="137">Lithuania</option>
+<option value="138">Luxembourg</option>
+<option value="140">Macau</option>
+<option value="148">Macedonia, Fmr Yugoslav Rep of</option>
+<option value="144">Madagascar</option>
+<option value="87">Malawi</option>
+<option value="88">Malaysia</option>
+<option value="145">Maldives</option>
+<option value="149">Mali</option>
+<option value="150">Malta</option>
+<option value="147">Marshall Islands</option>
+<option value="83">Mauritania</option>
+<option value="86">Mauritius</option>
+<option value="146">Mexico</option>
+<option value="143">Moldova, Republic of</option>
+<option value="142">Monaco</option>
+<option value="152">Mongolia</option>
+<option value="141">Morocco</option>
+<option value="154">Mozambique</option>
+<option value="151">Myanmar</option>
+<option value="99">Nepal</option>
+<option value="97">Netherlands</option>
+<option value="233">Netherlands Antilles</option>
+<option value="101">New Zealand</option>
+<option value="95">Nicaragua</option>
+<option value="94">Nigeria</option>
+<option value="153">Northern Mariana Islands</option>
+<option value="98">Norway</option>
+<option value="102">Oman</option>
+<option value="103">Pakistan</option>
+<option value="266">Palestinian Territory</option>
+<option value="104">Panama</option>
+<option value="109">Papua New Guinea</option>
+<option value="114">Paraguay</option>
+<option value="106">Peru</option>
+<option value="107">Philippines</option>
+<option value="110">Poland</option>
+<option value="113">Portugal</option>
+<option value="111">Puerto Rico</option>
+<option value="116">Qatar</option>
+<option value="117">Reunion</option>
+<option value="118">Romania</option>
+<option value="47">Russian Federation</option>
+<option value="48">Rwanda</option>
+<option value="126">Saint Kitts and Nevis</option>
+<option value="49">Saudi Arabia</option>
+<option value="51">Senegal</option>
+<option value="276">SERBIA</option>
+<option value="57">Sierra Leone</option>
+<option value="52">Singapore</option>
+<option value="64">Slovakia</option>
+<option value="65">Slovenia</option>
+<option value="30">South Africa</option>
+<option value="221">Spain</option>
+<option value="135">Sri Lanka</option>
+<option value="67">Swaziland</option>
+<option value="66">Sweden</option>
+<option value="194">Switzerland</option>
+<option value="69">Syrian Arab Republic</option>
+<option value="11">Taiwan</option>
+<option value="74">Tajikistan</option>
+<option value="12">Tanzania, United Republic of</option>
+<option value="73">Thailand</option>
+<option value="72">Togo</option>
+<option value="80">Tunisia</option>
+<option value="81">Turkey</option>
+<option value="13">Uganda</option>
+<option value="14">Ukraine</option>
+<option value="234">United Arab Emirates</option>
+<option value="159">United Kingdom</option>
+<option value="1">United States</option>
+<option value="16">Uruguay</option>
+<option value="18">Uzbekistan</option>
+<option value="21">Venezuela</option>
+<option value="24">Viet Nam</option>
+<option value="23">Virgin Islands (U.S.)</option>
+<option value="272">West Bank</option>
+<option value="28">Yemen</option>
+<option value="31">Zambia</option>
+<option value="32">Zimbabwe</option></select>
+      </td>
+    </tr>
+   
+      	 
+    
+      <tr valign="top">
+        <td align="right">Region:</td>
+        <td align="left">
+          <select name="cityCode" size="1" onchange="selectList('3')"><option value="">- Select -</option>
+            <option value="2499">Ahmadabad</option>
+<option value="2500">Allahabad</option>
+<option value="2501">Bangalore</option>
+<option value="5299">BELGAUM</option>
+<option value="4817">Bhopal</option>
+<option value="2502" selected="selected">Calcutta</option>
+<option value="2503">Chennai</option>
+<option value="4906">Cochin</option>
+<option value="2495">Coimbatore</option>
+<option value="5087">Dehradun</option>
+<option value="5689">Ernakulam</option>
+<option value="4440">Gurgaon</option>
+<option value="2504">Hyderabad</option>
+<option value="5298">Kolhapur</option>
+<option value="2579">Kuala Lumpur</option>
+<option value="5508">Kurnool</option>
+<option value="5116">Lucknow</option>
+<option value="5222">Ludhiana</option>
+<option value="4907">Madurai</option>
+<option value="5446">Mangalore</option>
+<option value="2505">Mumbai</option>
+<option value="4577">Nashik</option>
+<option value="2506">New Delhi</option>
+<option value="2497">Panjim</option>
+<option value="5583">Patna</option>
+<option value="4818">Pondicherry</option>
+<option value="4333">Pune</option>
+<option value="5088">Ranchi</option>
+<option value="4334">Secunderabad</option>
+<option value="5026">Surat</option>
+<option value="4671">Tirupathi</option>
+<option value="4819">Trichy</option>
+<option value="2507">Trivandrum</option>
+<option value="4518">Vadodara</option>
+<option value="4726">Vallabh Vidyanagar</option>
+<option value="5011">Vijayawada</option>
+<option value="5071">Warangal</option>
+<option value="5512">West Godavari District</option>
+<option value="6843">Mysore</option>
+<option value="7088">Gwalior</option>
+<option value="7341">Nizamabad</option></select>
+        </td>
+      </tr>
+    
+  
+        
+  </tbody></table>
+
+   
+
+  
+
+  
+
+  <input name="allTestCentersInd" value="1" type="hidden">
+  <input name="firstTime" value="true" type="hidden">  
+
+  
+  
+  <h3>2. Select from available test dates</h3>
+  <p>  
+  	
+    If you know your preferred test date, select it in the Start Test 
+Date field below and click "Search". A late registration fee will be 
+applied to any dates that appear in red and are marked with an *. 
+  </p>
+  <p>  
+    If you would like to search for more than one test date, please 
+select a Start and End Test Date. The difference between the Start and 
+End date should not exceed 60 days.
+  </p>
+  
+   <table border="0" cellpadding="2" cellspacing="0" width="100%">
+   	
+   
+    <tbody><tr valign="top">
+      <td align="right" width="40%"><h4>Start Test Date : </h4></td>
+	  
+      <td align="left" width="60%"><select name="startTestAdminNo" size="1"><option value="">- Select -</option>
+          
+            
+             
+			 <option value="1" ''="">
+                July 23, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="2" '="" selected="selected">
+                August 13, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="3" ''="">
+                August 14, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="4" ''="">
+                August 21, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="5" ''="">
+                August 27, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="6" ''="">
+                August 28, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="7" ''="">
+                September 18, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="8" ''="">
+                September 24, 2011
+				  
+                  
+              </option>
+            
+             
+			 <option value="9" ''="">
+                September 25, 2011
+				  
+                  
+              </option></select>
+      </td>
+    </tr>  
+    <tr>  
+    </tr>
+    
+    
+    <tr id="testEndDateElm" style=""> 
+      <td align="right" width="40%"><h4>End Test Date :</h4>
+      </td>
+      <td align="left" width="60%"><select name="endTestAdminNo" size="1"><option value="">- Select -</option>
+          
+            
+              
+	           <option value="1" ''="">
+                July 23, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="2" ''="">
+                August 13, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="3" ''="">
+                August 14, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="4" ''="">
+                August 21, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="5" ''="">
+                August 27, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="6" ''="">
+                August 28, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="7" ''="">
+                September 18, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="8" ''="">
+                September 24, 2011
+				 
+                  
+              </option>
+            
+              
+	           <option value="9" '="" selected="selected">
+                September 25, 2011
+				 
+                  
+              </option></select>
+      </td>
+    </tr>
+    
+    <tr></tr>
+    <tr>
+      <td width="20%">&nbsp;</td>
+      <td width="30%">&nbsp;</td>
+      <td width="20%">&nbsp;</td>
+      <td width="30%">&nbsp;&nbsp;
+         <a href="javascript:selectList('4')"> 
+            <img src="Test%20Date_files/search_button.gif" alt="Search" border="0" height="17" width="71">
+          </a>
+      </td>
+    </tr>
+  </tbody></table>
+  <h3>3. Select a Test Center</h3>
+  <p>  
+    Click on a Test Center to reserve a seat. Your reservation will <strong>not</strong> be complete until <em>after</em> you have made your payment. <strong>ALL  times</strong> shown are local to the test center.
+  </p>
+  <p>Search Results:</p>
+  <table class="DataTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr align="center">
+      <td class="DataHeader" align="left" width="40%"><strong>Test Center</strong></td>
+      <td class="DataHeader" align="left" width="35%"><strong>Address</strong></td>
+      <td class="DataHeader" align="left" width="20%"><strong>Time</strong></td>
+    </tr>
+    
+     
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Saturday, August 13,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=1" class="smallLink">Everonn, Sonarpur&nbsp;&nbsp;
+            (STN12205A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                Karbala More Sonarpur
+                Station Road
+                
+                
+                KOLKOTTA
+                700103
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Sunday, August 14,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=2" class="smallLink">Everonn, Sonarpur&nbsp;&nbsp;
+            (STN12205A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                Karbala More Sonarpur
+                Station Road
+                
+                
+                KOLKOTTA
+                700103
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Sunday, August 21,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=3" class="smallLink">Everonn, Sonarpur&nbsp;&nbsp;
+            (STN12205A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                Karbala More Sonarpur
+                Station Road
+                
+                
+                KOLKOTTA
+                700103
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Saturday, August 27,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=4" class="smallLink">Everonn, Sonarpur&nbsp;&nbsp;
+            (STN12205A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                Karbala More Sonarpur
+                Station Road
+                
+                
+                KOLKOTTA
+                700103
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Sunday, August 28,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=5" class="smallLink">Indexpo Corporation&nbsp;&nbsp;
+            (STN11813A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                "Binary House" - 2, Circus Market Place, 2nd Floor
+                Near "Our Lady Queen Of The Missions" School,
+                (Park Circus 7 point crossing)
+                Tel:- +91-91766 53946
+                CALCUTTA
+                700 017
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Sunday, September 18,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=6" class="smallLink">CALCUTTA 8906, INDIA&nbsp;&nbsp;
+            (APCU-8906)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                EVERONN SYSTEMS INDIA LIMITED
+                FLAT 1/C SUKH SAGAR BLDG,2/5 SARAT BOSE ROAD
+                1ST FLOOR
+                
+                KOLKATA
+                700020
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+          <td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=7" class="smallLink">Everonn, Sonarpur&nbsp;&nbsp;
+            (STN12205A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                Karbala More Sonarpur
+                Station Road
+                
+                
+                KOLKOTTA
+                700103
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+          <td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=8" class="smallLink">Indexpo Corporation&nbsp;&nbsp;
+            (STN11813A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                "Binary House" - 2, Circus Market Place, 2nd Floor
+                Near "Our Lady Queen Of The Missions" School,
+                (Park Circus 7 point crossing)
+                Tel:- +91-91766 53946
+                CALCUTTA
+                700 017
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Saturday, September 24,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=9" class="smallLink">CALCUTTA 8906, INDIA&nbsp;&nbsp;
+            (APCU-8906)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                EVERONN SYSTEMS INDIA LIMITED
+                FLAT 1/C SUKH SAGAR BLDG,2/5 SARAT BOSE ROAD
+                1ST FLOOR
+                
+                KOLKATA
+                700020
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+          <td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=10" class="smallLink">Usha Infocomm&nbsp;&nbsp;
+            (STN12297A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                10A Lake View Road (Ground Floor)
+                Ph 09830011969/ 033-24237686; Off Rashbehari Avenue
+                Near Jugal Sweets Shop 
+                Landmark : Priya Cinema Hall
+                KOLKATA
+                700029
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+          <td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=11" class="smallLink">Everonn, Sonarpur&nbsp;&nbsp;
+            (STN12205A)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                Karbala More Sonarpur
+                Station Road
+                
+                
+                KOLKOTTA
+                700103
+              
+            
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+        <tr align="center">
+          
+            
+             	
+    		    </tr><tr align="center">
+		    	  <td class="DataCell" align="left">
+				  	Sunday, September 25,  2011				  	
+				 </td>
+     			</tr>      
+	      
+          <tr><td class="DataCell" align="left"><a href="https://toefl-registration.ets.org/TOEFLWeb/order/submitTestCenter.do?slotNo=12" class="smallLink">CALCUTTA 8906, INDIA&nbsp;&nbsp;
+            (APCU-8906)</a>
+          </td>
+          <td class="DataCell" align="left">
+            
+              
+                EVERONN SYSTEMS INDIA LIMITED
+                FLAT 1/C SUKH SAGAR BLDG,2/5 SARAT BOSE ROAD
+                1ST FLOOR
+                
+                KOLKATA
+                700020
+              
+            
+          </td>
+          <td class="DataCell" align="left">
+            10:00 AM
+              &nbsp;
+          </td>
+        </tr>
+      
+    
+   </tbody></table>
+  <br>
+  <table border="0" cellpadding="1" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td align="right">
+        <p>
+          
+          <a href="https://toefl-registration.ets.org/TOEFLWeb/order/selectProductTypes.do"> 
+            <img src="Test%20Date_files/Cancel_button.gif" alt="Cancel" border="0" height="17" width="71"> 
+          </a>
+          
+          
+      </p></td>
+    </tr>
+  </tbody></table>
+    
+  
+</form>
+					<!-- Content end -->
+		  		
+			  	
+	      </div>
+
+		  
+		  
+		   	  <div id="leftnav">
+		      	 <!--leftnav begin-->
+			     			 
+				 	
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+leftnavClicks = 1;
+function isNoDupClickForLeftNav() {
+if(leftnavClicks < 2) {
+	leftnavClicks = leftnavClicks + 1;
+	return true;
+}
+
+return false;
+}
+</script>
+
+
+<ul>
+	<li class="first">Candidate Profile
+		<ul>
+			
+			<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/profile&amp;page=/editProfileContact.do&amp;editMode=contactInfoDisplay" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">Update Contact Information</a>
+			</li>
+			
+			
+			
+			<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/profile&amp;page=/editProfileBackground.do" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">Update Identifying Information</a>
+      		</li>
+      			
+      			
+			
+				
+					<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/profile&amp;page=/modifyPassword.do" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">Change Password</a>
+      				</li>
+      			
+      		
+		</ul>
+	</li>
+	<li>Test Registration and Orders
+		<ul>
+	        
+			<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/order&amp;page=/createOrder.do" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">Register/Order</a>
+      		</li>
+              		
+		
+			
+			<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/order&amp;page=/viewPersonOrder.do?etsID=" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">View Order(s)</a>
+      		</li>
+      		
+	  		      		
+		</ul>
+	</li>
+	<li>Scores
+		<ul>
+			
+			<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/reportmanagement&amp;page=/viewScores.do" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">View Scores</a>
+      		</li>
+      		
+		</ul>
+	</li>
+	<li><a href="http://www.ets.org/store.html" target="_blank">Store</a></li>
+	<li><a href="http://www.ets.org/toefl/bulletin.html" target="_blank">Bulletin</a></li>
+	<li><a href="https://toefl-registration.ets.org/TOEFLWeb/order/toModule.do?prefix=/profile&amp;page=/commonHomePage.do" onmouseout="MM_swapImgRestore()" onmouseover='MM_swapImage("hp_ln","","/TOEFLWeb/cbsr/images/menu/hp_blue_.gif",1)' onclick="return isNoDupClickForLeftNav()">My Home Page</a>
+  	</li>
+</ul>
+				 
+				 
+				 
+				 
+		    	 <!--leftnav end-->
+		      </div>		  
+		  
+      	 
+			 <div id="rightside">
+	      	 <!--rightnav begin-->
+				 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p class="smalltext">
+      	<strong>
+		Shubhajit
+		
+		Saha
+    	</strong></p> 
+   
+     <p class="smalltext">
+      60, sadar buxi lane
+     </p>
+ 
+   
+     <p class="smalltext">
+       
+     </p> 
+ 
+    
+     <p class="smalltext">
+      
+     </p>
+      <p class="smalltext">
+       
+      </p>
+      <p class="smalltext">
+    	Howrah,
+	   	
+		
+			West Bengal 
+		
+	    711101 
+      </p>
+     <p class="smalltext">
+	     India 
+	 </p>
+     <p class="smalltext">
+      	bitsits@gmail.com 
+     </p>
+  	 <p class="smalltext">
+		 
+		 
+			 
+		 
+        	(91)
+		 		
+	 	  
+	 	 9038532644 
+	 	 	 
+     </p>
+     
+	     <p class="smalltext">
+	   		ETS ID: 
+	    	6037588 
+	     </p> 
+	 
+	 
+      
+ 
+	
+	     	
+	    	 <!--rightnav end-->
+	     	</div>
+	     
+     </div>
+     <div id="footer">
+     	
+	  	 <p>Please avoid using your browser's Back button when navigating this site.</p>
+	  	 <p>When entering information, do not use diacritical accented characters or double click on any of the buttons or links.</p>
+	  	 <br>
+	  	  
+
+<p><a href="http://www.ets.org/legal/etspriv.html" target="_blank"> 
+Privacy &amp; Security Policy
+</a>|
+<a href="http://www.ets.org/legal/index.html" target="_blank">
+Legal Information
+</a></p>
+
+		  
+
+<!-- Copyrights contents changed to global format include font style and logotext for TOEFL1.24 --> 
+<p style="font-family:arial;font-size:10px;">
+Copyright © 2011 by Educational Testing Service. All rights reserved.
+<br>
+ETS, the ETS logo, LISTENING. LEARNING. LEADING., and TOEFL are registered trademarks <br> of Educational Testing Service (ETS) in the USA and other countries.
+</p>
+
+
+ 	 </div>
+	
+ 	 <script type="text/javascript">
+ 	 	
+ 	 	var topHeight = document.getElementById("leftNav").parentElement.offsetTop;
+ 		var height1 = document.getElementById("leftNav").offsetHeight; 	
+ 		var height2 = document.getElementById("maincontent").offsetHeight;
+ 		var height3 = document.getElementById("rightside").offsetHeight; 	
+		var maxheight = Math.max(height1, height2);
+		var maxheight = Math.max(maxheight, height3);
+		var height = topHeight + maxheight;
+		var top = height.toString() + "px";
+		document.getElementById("footer").style.top = top;		
+ 	 </script>
+  
+ 
+ </body></html>

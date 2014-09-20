@@ -1,0 +1,93 @@
+/* $Revision: 1.18 $ */
+
+body {
+	background: #FFE;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background: #9C9; font-size: 90%;
+}
+.blockquote {
+	margin-left: 1cm; margin-right: 1cm;
+}
+.weblio {
+	background: #9C9; font-size: 150%;
+}
+.weblio-header {
+	margin-left: 5%;
+}
+
+h1 {
+	font-size: 120%; margin: 0; 
+}
+
+h2 {
+	font-size: 110%;
+	font-weight: bolder;
+	background: #363;
+	color: #FFD !important;
+	padding-left: 3px;
+	text-decoration: none;
+}
+
+h3 {
+	color: #363;
+	background: #EFE;
+	padding-left: 3px;
+}
+
+.d2011  { background: #FCC; font-weight: 600; }
+.d2010  { background: #FCC; }
+.light  { background: #FFD; color: #363; }
+.medium { background: #EFE; color: #000; }
+.dark   { background: #363; color: #FFD; }
+.teeny  { font-size: 70%; }
+.boxed  { border: 1px solid black; padding: 5px; background: #FFF; }
+.nowrap { white-space: nowrap; }
+.nomargin { margin: 0; }
+.summary { font-size: 80%; }
+.nunderline {text-decoration: none;}
+.info {color: green; }
+.link2 {color: #080; }
+.date {font-size: 90%; white-space: nowrap; color: green; }
+.news {font-size: 90%; }
+.papers {color: #900; }
+.articles {color: #090; }
+.flash { color: #C00; font-size: 120%; font-weight: 600; }
+
+.language {color: #900; }
+.author {color: #090; }
+.bigger {font-size: 110%; }
+.smaller {font-size: 90%; }
+.hottocauthor {color:#363; font-weight:bold;}
+.abstract {font-family: sans-serif; font-size: 80%; }
+.other {margin: 5px 5px 5px 5px; }
+.metadata {font-size: 80%; font-weight: 100; border: 1px solid gray; margin: 5px; padding: 5px; background: #FFE; }
+.h1toc {padding: 5px; margin: 5px; border: 1px black solid; background: #EEE; }
+.tocsections {font-size: 80%; }
+.tocmenu {font-family: sans-serif; font-size: 80%; margin: 5px; }
+.funny {font-family: Comic Sans MS; }
+.history {font-family: Courier New, fixed-width; font-weight: 600; }
+.minitab {border-left: 1px solid gray; }
+.minitabheader {font-size:120%; margin: 0; }
+.icon {padding-right: 3px; }
+
+.urgent {padding-top: 3px; padding-bottom: 3px; margin-bottom: 3px; width: 75%; background: #FFF; border: 5px solid #000; }
+
+/*
+	FFE = bgcolor
+	FFD = light = color1
+	CC9 = tan = color2
+	663 = dark
+*/
+
+table.event {border: 1px solid #999;}
+td.event {font-size: 80%; border: 1px solid #999; }
+th.event {font-size: 90%; border: 1px solid #333; }
+.CA {background: #FDD; }
+.US {background: #EEF}
+.MX {background: #EFE}
+.EU {background: #FFC}
+.PR {background: #EFF}
+.AP {background: #EFF}

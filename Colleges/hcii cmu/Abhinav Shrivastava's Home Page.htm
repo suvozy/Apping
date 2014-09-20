@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0046)http://www.abhinav-shrivastava.info/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" async="" src="./Abhinav Shrivastava's Home Page_files/ga.js"></script><script src="./Abhinav Shrivastava's Home Page_files/jquery-latest.js"></script>
+<link href="./Abhinav Shrivastava's Home Page_files/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+
+function theRotator() {
+	$('div.rotator ul li').css({opacity: 0.0});
+	$('div.rotator ul li:first').css({opacity: 1.0});
+	setInterval('rotate()',6000);
+	
+}
+
+function rotate() {	
+	var current = ($('div.rotator ul li.show')?  $('div.rotator ul li.show') : $('div.rotator ul li:first'));
+    if ( current.length == 0 ) current = $('div.rotator ul li:first');
+	//Get next image, when it reaches the end, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator ul li:first') :current.next()) : $('div.rotator ul li:first'));
+	//Un-comment the 3 lines below to get the images in random order
+	//var sibs = current.siblings();
+        //var rndNum = Math.floor(Math.random() * sibs.length );
+        //var next = $( sibs[ rndNum ] );
+	//Set the fade in effect for the next image, the show class has higher z-index
+	next.css({opacity: 0.0})
+	.addClass('show')
+	.animate({opacity: 1.0}, 1000);
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000)
+	.removeClass('show');
+};
+
+
+
+$(document).ready(function() {		
+	//Load the slideshow
+	theRotator();
+	$('div.rotator').fadeIn(1000);
+    $('div.rotator ul li').fadeIn(1000); // tweek for IE
+});
+</script>
+<title>Abhinav Shrivastava's Home Page</title>
+<meta name="keywords" content="Abhinav Shrivastava, Personal Profile, Computer Vision, Roboticist, Artificial Intelligence, Computer Graphics, Image Understanding, Object Recognition, Machine Learning, Large-scale Vision, Visual Perception"> 
+<meta name="description" content="A Computer-Vision Hacker, aspiring Roboticist and Master&#39;s student in Artificial Intelligence and Robotics @ RI, CMU."> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25958010-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script></head>
+<body itemscope="" itemtype="http://schema.org/AboutPage">
+
+<!-- Common area to all Pages for Header Starts-->
+<div class="topbar1">
+
+    <div class="fill">
+        <div class="hh1">
+		<p class="hiddenDiv" itemprop="name">Abhinav Shrivastava</p>
+        <a href="http://www.abhinav-shrivastava.info/">Abhinav Shrivastava</a>
+        </div>
+    </div>
+</div>
+
+<div class="topbar">
+	<div class="fill">
+		<div class="container">
+            <ul>
+                <li class="active"><a href="./Abhinav Shrivastava's Home Page_files/Abhinav Shrivastava's Home Page.htm" title="About Me!">Home</a></li>
+                <li><a href="http://www.abhinav-shrivastava.info/projects.html" title="Nocturnal Hobby!">Projects</a></li>
+                <li><a href="http://www.abhinav-shrivastava.info/publications.html" title="Arcane Writings!">Publications</a></li>
+                <li><a href="http://www.abhinav-shrivastava.info/misc.html" title="Activities, Honors &amp; Misc!">Miscellaneous</a></li>
+                <li><a href="http://www.abhinav-shrivastava.info/contact.html" title="How to reach me?">Contact</a></li>
+            </ul>
+   		</div>
+  </div>
+</div>
+<!-- Common area to all Pages for Header Ends-->
+
+
+<div class="main-container">
+<p class="hiddenDiv" itemprop="description">A Computer-Vision Hacker, aspiring Roboticist and Masters student in Artificial Intelligence and Robotics @ RI, CMU.</p>
+<div class="text" style="padding-top:2em;">
+
+<div style="width:200px;float:right;">
+<div class="rotator">
+  <ul>
+    <li class="" style="opacity: 0; ">
+    <a href="javascript:void(0)">
+    <img align="right" itemprop="image" src="./Abhinav Shrivastava's Home Page_files/img1.jpg" height="200" alt="pic1">
+    </a>
+    </li>
+    <li style="opacity: 0; " class="">
+    <a href="javascript:void(0)">
+    <img align="right" src="./Abhinav Shrivastava's Home Page_files/img2.jpg" height="200" alt="pic2">
+    </a>
+    </li>
+    <li style="opacity: 0; " class="">
+    <a href="javascript:void(0)">
+    <img src="./Abhinav Shrivastava's Home Page_files/img3.jpg" height="200" alt="pic3">
+    </a>
+    </li>
+    <li style="opacity: 1; " class="show">
+    <a href="javascript:void(0)">
+    <img src="./Abhinav Shrivastava's Home Page_files/img4.jpg" height="200" alt="pic4">
+    </a>
+    </li>
+        <li style="opacity: 0; ">
+    <a href="javascript:void(0)">
+    <img src="./Abhinav Shrivastava's Home Page_files/img5.jpg" height="200" alt="pic5">
+    </a>
+    </li>
+  </ul>
+</div>
+
+</div>
+
+<div style="width:550px">
+<strong>I</strong> am a second year <a href="http://www.ri.cmu.edu/person.html?person_id=2509" target="_blank">Master</a>'s student in Artificial Intelligence and Robotics at the <a href="http://www.ri.cmu.edu/index.html" target="_blank">Robotics Institute</a>, <a href="http://www.cmu.edu/index.html" target="_blank">Carnegie Mellon University (CMU)</a>. I am working under the supervision of Prof. <a href="http://www.cs.cmu.edu/~efros"> Alexei (Alyosha) Efros</a>, Prof. <a href="http://www.cs.cmu.edu/~hebert" target="_blank">Martial Hebert</a> and Prof. <a href="http://www.cs.cmu.edu/~abhinavg" target="_blank">Abhinav Gupta.</a> My collaborators at CMU include <a href="http://www.saurabhsingh.info/" target="_blank">Saurabh Singh</a> and Dr. <a href="http://www.cs.cmu.edu/~tmalisie/" target="_blank">Tomasz Malisiewicz</a>.
+<br>
+<br>
+<strong>B</strong>efore coming to <a href="http://www.cmu.edu/index.html">CMU</a>, I did Bachelor of Technology (B.Tech.) (undergrad) in Computer Science and Engineering from <a href="http://www.jiit.ac.in/">Jaypee Institute of Information Technology (JIIT)</a>, India. My B.Tech. thesis was on<em> A Hypermedia-development Tool for Movie-based Comic-strip Rendering</em>, under the supervision of Prof. <a href="http://www.jiit.ac.in/faculty.php?id=1086025156&dep=cse">Sanjay Goel</a>. Many other projects that I enjoyed working on during my undergrad can be found under <a href="http://www.abhinav-shrivastava.info/projects.html">Projects</a>.
+<br><br>
+(e-mail: ashrivas<div class="hiddenDiv">....</div>@<div class="hiddenDiv">....</div>cs<div class="hiddenDiv">....</div>.<div class="hiddenDiv">....</div>cmu<div class="hiddenDiv">....</div>.<div class="hiddenDiv">....</div>edu<div class="hiddenDiv">....</div>)
+</div>
+
+
+
+<div class="hhh">Research Interests</div>
+<p>
+<strong>C</strong>urrently, I am working on Image Understanding, Object Recognition and Computer Graphics, and large-scale Machine Learning techniques applied to such problems. 
+</p>
+<p><strong>I</strong> enjoy working on problems relating to Artificial Intelligence; more specifically pertaining to Computer Vision, applied Machine Learning, Robotics and their intersection with Computer Graphics.
+I want to equip robots with visual perception abilities which can enable them to understand, percieve and respond to their surroundings in a better way. Philosophizing  intelligence attributed to vision also (deeply) interests me!
+</p>
+
+<div class="hhh">Recent Work</div>
+<table style="position:relative">
+<tbody><tr>
+<td>
+<a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/" target="_blank"><img src="./Abhinav Shrivastava's Home Page_files/thumbnail.png" height="75"></a>
+<a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/" target="_blank"><img src="./Abhinav Shrivastava's Home Page_files/trevi.gif" height="75"></a>
+</td>
+<td style="padding-left:2em;">
+<a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/" target="_blank"><strong>Data-driven Visual Similarity for Cross-domain Image Matching</strong></a><br>
+<a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/" target="_blank"><img src="./Abhinav Shrivastava's Home Page_files/iconweb.png" width="20" alt="pdf" vspace="5"></a>
+<a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/abhinav-sa11.pdf" target="_blank"><img src="./Abhinav Shrivastava's Home Page_files/iconpdf.png" width="20" alt="pdf" vspace="5"></a>
+<a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/index.html#videos" target="_blank"><img src="./Abhinav Shrivastava's Home Page_files/iconvideo.png" width="20" alt="pdf" vspace="5"></a>
+</td>
+</tr></tbody></table>
+
+
+</div>
+
+<br>
+<!-- Common area to all Pages for Footer Starts-->
+<p align="center" style="font-size:0.8em;margin-top:10px solid #000;"> © 2011 Abhinav Shrivastava. All Rights Reserved.</p>
+<!-- Common area to all Pages for Footer Ends-->
+
+</div>
+
+
+</body></html>

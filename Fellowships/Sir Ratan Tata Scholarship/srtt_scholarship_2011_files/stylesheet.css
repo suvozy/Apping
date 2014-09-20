@@ -1,0 +1,21 @@
+.ms12grey {  font-family: "MS Sans Serif"; font-size: 12px; color: 454545; text-decoration: none}
+.ms12black { font-family: "MS Sans Serif"; font-size: 12px; color: #000000; text-decoration: none }
+.ms12redlink { font-family: "MS Sans Serif"; font-size: 12px; color: D21E07; text-decoration: none }
+.arial12orange {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: D15D10; text-decoration: none}
+.ms12orange {  font-family: "MS Sans Serif"; font-size: 12px; color: #0667A5; text-decoration: none}
+.georgia20black {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; font-weight: normal; color: #000000; text-decoration: none}
+.arial12grey {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: 454545; text-decoration: none}
+.heading { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; text-decoration: none }
+.subhead { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; text-decoration: none ; font-weight: bold}
+.linktxt { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #0667A5; text-decoration: none }
+.path {  font-family: "MS Sans Serif"; font-size: 12px; color: 0667A5; text-decoration: none}
+.searchbox {  border: #CCCCCC; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.navbgbox {  background-image: url(images/navbar/bg_box.jpg); background-repeat: repeat-y; clip:   rect(   )}
+.linkcopy {  font-family: Arial, Helvetica, sans-serif; color: 0667A5; text-decoration: none; font-size: 12px}
+.subnav { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF; text-decoration: none }
+a:hover {  text-decoration: underline}
+td {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #454545; text-decoration: none}
+a {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; color: #0667A5}
+.copyright {  font-family: "MS Sans Serif"; font-size: 10px; color: #333333; text-decoration: none}
+.copyrightlink { font-family: "MS Sans Serif"; font-size: 10px; color: #d21e07; text-decoration: none }
+h1 {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 12px; color: #7D7D7D; font-weight: normal; text-decoration: none; line-height: 18px}

@@ -1,0 +1,22 @@
+/* Main content */
+br {clear:both}
+
+#umdlogo {display:none; visibility:hidden;}
+#cslogo {display:none; visibility:hidden;}
+
+#csbreadcrumb {display:none; visibility:hidden;}
+
+#main {}
+
+#csfooter {display:none; visibility:hidden;}
+
+/* Drop-down menu*/
+#topnav-menu {display:none; visibility:hidden;}
+
+/* IE menu */
+#topalt-menu {display:none; visibility:hidden;}
+
+/* Side navigation bar */
+#leftnav {display:none; visibility:hidden;}
+#pubnav, #pubalt {display:none; visibility:hidden;}
+

@@ -1,0 +1,30 @@
+/**
+ * Rollover edit links to show/hide tabs link
+ *
+ * Lifted and modified from zen's block-editing.css
+ * Copyright © 2008 Zen copyright holders
+ * 
+ * This is not complete, as the javascript sets CSS properties too.
+ */
+
+  div.toggle-tabs
+  {
+    position: absolute;
+    left: 0;
+    top: -1em;
+    z-index: 40;
+    border: 1px solid #eee;
+    padding: 0 2px;
+    font-size: 9px;
+    color: #aaa;
+    background-color: #fff;
+    display: none;
+  }
+
+  .toggle-tabs-trigger {
+    position: relative;
+    min-height: 5px;
+  }
+  .toggle-tabs-trigger:hover .toggle-tabs {
+    display: block;
+  }

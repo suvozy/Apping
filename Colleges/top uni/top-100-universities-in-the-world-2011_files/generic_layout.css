@@ -1,0 +1,105 @@
+/* $Id: threecol_25_50_25_stacked.css,v 1.1.2.1 2008/12/16 21:27:58 merlinofchaos Exp $ */
+
+.left-wrapper {
+	float: left;
+	width: 640px;}
+
+.right-wrapper {
+	float: right;}
+
+.panel-3col-stacked { 
+/*  overflow: hidden;  */}
+
+.panel-seo {
+	display: none;}
+		
+#page-manager-edit .panel-seo{
+	display: block;}
+
+.panel-3col-stacked .panel-seo,
+.panel-3col-stacked .panel-intro,
+.panel-3col-stacked .panel-body { 
+	width: 620px;
+	margin-bottom: 20px;}
+
+.panel-secondary-feature-container {
+	float: left;}
+
+*html .panel-3col-stacked .panel-left-secondary-feature {
+	width: 280px;
+	overflow: hidden;
+	margin-right: 10px;}
+
+*:first-child+html .panel-3col-stacked .panel-left-secondary-feature {
+	float: none;}
+
+.panel-3col-stacked .panel-left-secondary-feature {
+	float: left;
+	width: 280px;
+	background: #efefea;
+	padding: 0 10px 20px;
+	margin: 0 20px 0 0;}
+
+.panel-3col-stacked .panel-left {
+	float: left;
+	width: 300px;
+	margin-bottom: 20px;}
+
+*html .panel-3col-stacked .panel-middle-secondary-feature {
+	width: 280px;
+	overflow: hidden;}
+
+.panel-3col-stacked .panel-middle-secondary-feature {
+	float: left;
+	width: 280px;
+	background: #efefea;
+	padding: 0 10px 20px;
+	margin: 0;}
+
+.panel-3col-stacked .panel-middle { 
+	float: left; 
+	width: 300px;
+	margin: 0 20px 20px 20px;}
+	
+*html .panel-3col-stacked .panel-middle {
+	margin-right: 0;}
+
+.panel-3col-stacked .panel-right { 
+	float: right;
+	width: 300px;
+	margin-bottom: 20px;}
+
+.panel-3col-stacked .panel-right 2 {
+	width: 300px;
+	margin-bottom: 20px;}
+
+.panel-hp-ad-container {
+	margin-bottom: 1px;
+	clear: left;
+	width: 300px;}
+
+*html .panel-3col-stacked .panel-hp-ad { 
+	width: 240px;
+	overflow: hidden;}
+	
+.panel-3col-stacked .panel-hp-ad { 
+	width: 240px;
+	clear: right;
+	padding: 19px 30px 29px;
+	background: #dfdfdf; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#dfdfdf'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#dfdfdf)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8,  #dfdfdf); /* for firefox 3.6+ */}
+
+*html .panel-3col-stacked .panel-hp-ad {
+	padding: 17px 29px 29px;}
+
+.field-field-profile-logo {
+	clear: right;}
+
+.panel-3col-stacked .panel-separator {
+	margin: 0 0 1em 0;}
+
+.bottom-shadow {
+	clear: left;
+	margin-bottom: 18px;}

@@ -1,0 +1,98 @@
+#1 	Carnegie Mellon University 5 *
+#1 	Massachusetts Institute of Technology 5
+#1 	University of California--Berkeley 5
+#5 	University of Illinois--Urbana-Champaign 4.6
+#7 	University of Washington 4.5
+#10 	Georgia Institute of Technology 4.3
+#13 	University of Michigan--Ann Arbor 4.1
+#14 	University of Maryland--College Park 4 *
+#28 	New York University 3.4
+#28 	University of California--Irvine 3.4 *
+#39 	University of Colorado--Boulder 3.2 *
+#53 	Indiana University--Bloomington 2.9
+
+#1 Human-Computer Interaction Institute (HCII), Carnegie Mellon University
+	http://www.hcii.cmu.edu/
+	Deadline: December 1
+	GRE: Institution Code 2074, Department Code 0402
+	TOEFL: Institution Code 4256, Department Code 78
+
+
+#1 Media Lab, Massachusetts Institute of Technology 
+	https://www.media.mit.edu/
+	Deadline: December 15
+	IELTS: Institution code 3514, Department code 99 
+	Minimum required IELTS score: 7.
+
+
+#1 Berkeley Institute of Design, University of California, Berkeley
+	http://bid.berkeley.edu/
+	Deadline: December 16
+	GRE: Institution nal Code 4833, Department Code 0402
+	TOEFL: Institution Code 4833
+
+
+#5 Graphics, Visualization, and HCI, University of Illinois at Urbana-Champaign
+	http://cs.illinois.edu/research/areas/graphics
+	Deadline: December 15
+	TOEFL: Institution Code 1836, Department Code 78
+
+
+#7 Human Computer Interaction, University of Washington
+	DUB Group - Design : Use : Build http://dub.washington.edu/
+		Human Centered Design & Engineering 
+		Information School
+		Computer Science and Engineering
+		DXARTS Digital Arts
+		IxD (Interaction Design) in Art / Division of Design
+		Biomedical and Health Informatics
+	Deadline: December 15
+	GRE/TOEFL: Institution code 4854
+	GPA 3.0/4.0, GRE Verbal 85%, Quantitative: 91%, Analytic Writing: 64%, TOEFL 100
+
+	Human Centered Design & Engineering, University of Washington
+	http://www.hcde.washington.edu/
+	Deadline: December 21
+	GRE/TOEFL: Institution code 4854, Departmental code 5199
+
+
+#10 School of Interactive Computing, Georgia Institute of Technology
+	http://www.ic.gatech.edu/
+	Deadline: December 15
+
+
+#13 Human-Computer Interaction (HCIL), University of Maryland at College Park
+	http://www.cs.umd.edu/hcil/
+	Deadline: December 15
+	GRE/TOEFL: Institution code 5814
+
+
+#14 School of Information, University of Michigan at Ann Arbor
+	Interactive Systems, University of Michigan at Ann Arbor
+	http://www.eecs.umich.edu/eecs/research/area.html?r_id=19
+	GRE/TOEFL: Institution code 1839	
+	GPA 3.5/4.0, GRE 1300 (verbal plus quantitative) and 4.5 (analytical writing), TOEFL 85
+
+
+#28 Human Computer Interaction, University of California at Irvine 
+	http://hci.ics.uci.edu/HCC_and_IS_at_UCIrvine/Welcome.html
+	http://luci.ics.uci.edu/
+	Deadline: January 15
+	GRE/TOEFL: Institution code 4859
+
+
+#39 University of Colorado
+	http://www.cs.colorado.edu/research/
+	Deadline: January 2
+	GRE/TOEFL: Institute Code 4841, Department Code 0402 
+	GPA 3.0, GRE 560 verbal and 775 quantitative, TOEFL 78
+
+
+#53 School of Informatics and Computing, Indiana University
+	http://www.soic.indiana.edu/research/index.shtml
+
+
+--------------------------------------------------------------------------------------------
+Contact:
+Raj Reddy <rr@cmu.edu>
+

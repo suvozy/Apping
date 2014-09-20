@@ -1,0 +1,89 @@
+body {
+	background-color:#85a9b9 !important; 
+}
+div#LeftChannel {
+	background-color:#FFFFFF;
+	border-left:1px solid #000; 
+	border-right:1px solid #FFFFFF;
+}
+
+p, div, h1, h2, h3, h4, h5, h6, table, td, tr, body, a, img, ins, ul, li, form{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 100%;
+	color: #fff; 
+}
+
+div#header {
+	width: 940px;
+	height: 50px;
+	padding: 9px 20px 0px 20px;
+	position: relative;
+}
+
+div#LeftChannel {
+    border-left:1px solid #;
+}
+
+div#RightChannel {
+	float: right;
+	width: 330px;
+	background: url(../img/RightContentBG.jpg) right top repeat-y;
+	border-top: #FFF 1px solid;
+	padding: 20px 19px 10px 10px;
+}
+
+div#footer {
+	clear: both;
+	width: 960px;
+	height: 58px;
+	border-top: #FFF 1px solid;
+	padding-left: 20px;
+    
+    background-image: url('../img/bckground.png');}
+
+div#top_nav ul li.links a:hover, div#top_nav ul li.links a:active {
+	color:#000; 
+	background-color:#fff; 
+	border-bottom:#fff 1px solid;
+}
+
+a.trigger {
+	color:#000; 
+	background-color:#fff; 
+	border-bottom:#fff 1px solid;
+}
+
+/* ABOUT PAGE */
+
+p.photoCaption a, p.giveText a{
+	color:#01ffff; 
+}
+
+p.photoCaption a:hover, p.giveText a:hover{
+	color:#fff; 
+}
+
+/* ADMISSIONS PAGE */
+
+p.finAid a {
+	color: #01ffff; 
+}
+
+p.finAid a:hover {
+	color: #fff; 
+}
+
+p.ListingsRight a{
+	color:#01ffff; 
+}
+
+p.ListingsRight a:hover{
+	color:#fff; 
+}
+.hoverClass{ color:#b1180a !important; }

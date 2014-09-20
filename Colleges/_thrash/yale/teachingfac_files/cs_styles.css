@@ -1,0 +1,65 @@
+/* Victor Velt <victor.velt@yale.edu>, WDD                      */
+/* ------------------------------------------------------------ */
+a:link { color: #3300CC; text-decoration: none}
+a:visited { color: #3300CC; text-decoration: none}
+a:hover {  color: #FF6600; text-decoration: underline}
+a:active {  color: #FF0000}
+/* ------------------------------------------------------------ */
+h2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 17px; font-weight: bold; color: #003399}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+	top: 10pt;
+	clip: rect();
+	position: relative;
+	visibility: visible;
+}
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+	top: 223.5pt;
+	clip: rect();
+	position: relative;
+	left: 534px;
+	width: 293px;
+	height: 181px;
+
+
+
+}
+/* ------------------------------------------------------------ */
+p {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #333333}
+td {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px}
+ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; list-style-type: square; line-height: 16px; margin-top: -0.25em}
+ol {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; margin-top: -0.25em}
+blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 14px; margin-top: -10px}
+/* ------------------------------------------------------------ */
+.p_indent {  text-indent: 40px}
+.superscript {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #0033FF; line-height: 10px; vertical-align: super}
+.scan_info {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666666}
+.breadcrumb {  font-family: Arial, Helvetica, sans-serif; font-size: 10px}
+.body_sm {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666666}
+.section_headlink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 20px; font-weight: bold}
+.section_sublink { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px}
+/* ------------------------------------------------------------ */
+ol {  margin-bottom: .2em}
+ul {  margin-bottom: .2em}
+/* ------------------------------------------------------------ */
+#menu p {  background-color: #FFDDBB; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #003399; line-height: 13px; width: 230px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; border-style: none; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+#menu ul {  list-style-image: url(../images/menutic.gif); list-style-type: square; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666666; clip:  rect( ); line-height: 14px}
+#menu a:link {  color: #003399; text-decoration: underline}
+#menu a:visited {  color: #003399}
+#menu a:active {  color: #FF0000}
+.menulight {  background-color: #FFFFCC}
+/* ------------------------------------------------------------ */
+#footer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #003366}
+#footer a:link { color: #0000CC; text-decoration: none}
+#footer a:visited { color: #0000CC; text-decoration: none}
+#footer a:hover {  color: #FFCC00; text-decoration: underline}
+#footer a:active {  color: #FF0000}
+/* ------------------------------------------------------------ */
+.caption {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #666699}

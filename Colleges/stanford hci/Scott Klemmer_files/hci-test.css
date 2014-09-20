@@ -1,0 +1,502 @@
+@font-face {
+	font-family: 'NeutraTextSC';
+	src: url('/font/neutratext-lightsc-webfont.eot');
+	src: local('NeutraText-LightSC'), url('/font/neutratext-lightsc-webfont.svg#webfontYUu2or1p') format('svg');
+	src: local('NeutraText-LightSC'), url('/font/neutratext-lightsc-webfont.ttf') format('truetype');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'NeutraTextSC';
+	src: url('/font/neutratext-demisc-webfont.eot');
+	src: local('NeutraText-DemiSC'), url('/font/neutratext-demisc-webfont.svg#webfontIreKTfx7') format('svg');
+	src: local('NeutraText-DemiSC'), url('/font/neutratext-demisc-webfont.ttf') format('truetype');
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #52081c;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: 	#890819;
+}
+
+a.titleLink{
+	color: #000;
+	text-transform: lowercase;
+}
+
+a.titleLink:hover{
+	color: 	#990000;
+}
+
+body,table {
+	margin: 0;
+	padding: 0;
+	font-size: 0.95em;
+	font-family: Calibri, "Gill Sans", "Gill Sans MT", "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+hr {
+	margin-top: 13px;
+	margin-bottom: 13px;
+      color: #eee;
+      background-color: #eee;
+      height: 1px;
+	border-style:none;
+}
+
+table {
+	border-collapse:collapse;
+	vertical-align: top;
+}
+
+/**********/
+/* Header */
+/**********/
+
+.header-included {
+	height: 26px;
+ 	background-color: #990000;
+	border-bottom: 1px solid #666;
+}
+.header-included-trial {
+	height: 26px;
+        width:1096px;
+ 	background-color: #990000;
+	border-bottom: 1px solid #666;
+}
+
+.bigHeader {
+ 	height: 38px;
+}
+
+#headerSearchBox {
+	float:right;
+	margin-top: 8px;
+	margin-right:10px;
+}
+
+#logo{
+	position: absolute;
+	top: 5px;
+	left: 18px;
+}        
+
+#navSearchForm {
+	display: inline;
+}
+
+#navSearchForm input{
+	height: 15px;
+	position: relative;
+	top:  5px;
+	border: 1px solid white
+}
+
+.headerLink {
+	color: white;
+}
+
+#shadow {
+	height: 7px;
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	z-index: 0;
+	background-image: url("/images/bottomshadow.png");
+}
+#aligncorrect {
+        position: absolute;
+        top: 0px;
+        right: 22px;
+}
+#aligncorrect-trial {
+        position: absolute;
+        top: 0px;
+        left: 75%;
+}
+#aligncorrect-speaker {
+        position: absolute;
+        top: 0px;
+        left: 90%;
+}
+#aligncorrect-mainpage {
+        position: absolute;
+        top: 7px;
+        right: 22px;
+}
+.linkalignright {
+        padding-left: 1px;
+	padding-right: 12px;
+        font-size: 20px;
+        position: absolute;
+        top: 4px;
+        right: 100%;
+        }
+.linkalignright-mainpage {
+        padding-left: 1px;
+	padding-right: 12px;
+        font-size: 20px;
+        position: absolute;
+        top: 3px;
+        right: 100%;
+}
+.formalignright {
+        float: right;
+	}
+.formalignright-trial {
+        float: left;
+        }
+.linkpadding {
+	padding-left: 5px;
+	padding-right: 5px;
+        font-size: 20px;
+	}
+
+/***************/
+/* Major Areas */
+/***************/
+
+#centered-page {
+	max-width:1096px;
+	margin:0 auto;
+}
+
+#left {
+	position:absolute;
+	top: 40px;
+	width:34%;
+}
+
+#leftContent {
+	margin-left: 15px;;
+	padding-right:13px;
+	border-right: 1px solid #eee;
+}
+
+#right {
+	float:right;
+	width: 66%;
+}
+
+#news {
+        float:right;
+        width:201px; 
+        margin-right:8px;
+        margin-left:14px;
+        padding-left:10px;
+        border-left: 1px solid #eee;
+		margin-top:8px;
+}
+
+#rightContent {
+	padding-left:13px;
+	padding-right:13px;
+	max-width:60em;
+	margin-top:8px;
+}
+
+#overview, #main {
+ padding: 10px 19px 0px;
+}
+
+
+/************************/
+/* Section Head Styling */
+/************************/
+
+.sectionAdditional {
+	font-family: NeutraTextSC;
+	font-weight: 200;
+	color: #333;
+  white-space:nowrap;
+}
+
+a.sectionAdditional:hover{
+	color: 	#990000;
+}
+
+.sectionTitle {
+	font-family: NeutraTextSC;
+	font-weight: 500;
+	font-size: 1.5em;
+	padding-right: 12px;
+	margin-bottom: 3px;
+}
+.sectionTitle-larger {
+        font-family: NeutraTextSC;
+	font-weight: 500;
+	font-size: 1.7em;
+	padding-right: 12px;
+	margin-bottom: 3px;
+}
+.subsectionTitle {
+	font-family: NeutraTextSC;
+	font-size: 11.7pt;
+	font-weight: 500;
+	margin-top:13px;
+	padding-top:3.98px;
+	padding-bottom: 2px;
+	text-transform: lowercase;
+}
+.pagetitle {
+      font-family: Verdana, Arial, Helvetica, sans-serif; 
+      font-size: 20px; 
+      color: #880000; 
+      text-align="center"; 
+}
+
+/****************/
+/* Body Styling: Font And Margin*/
+/****************/
+
+.question {
+margin-top: 10px;
+font-size: 120%;
+font-weight:bold;
+}
+
+.questionSection {
+	color: #333;
+	margin-top:15px;
+	font-family: NeutraTextSC;
+}
+
+
+/****************/
+/* Body Styling: Font Only*/
+/****************/
+
+.fancySC {
+	font-family: NeutraTextSC;
+}
+
+.title {
+ font-weight: bold;
+ font-size:109.65%;
+}
+
+.author {
+	font-size: 95.4%;
+}
+
+.description {
+	font-size: 0.85em;
+	font-style:italic;
+	color: #555;
+}
+
+.right-info {
+	font-size:0.89em;
+}
+
+dt {
+	font-weight:bold;
+}
+
+.past {
+  display: none;
+}
+
+.side-font {
+        padding-bottom: 10px;
+        font-size:95%;
+        position: relative;
+}
+.main-details {
+        margin: 0;
+	padding: 0;
+        padding-left: 10px;
+	font-size: 0.95em;
+	font-family: Calibri, "Gill Sans", "Gill Sans MT", "Lucida Grande", Lucida, Verdana, sans-serif;
+        text-shadow: 0 0 1px #c61a1a;
+        color:#52081c;
+        text-transform: capitalize;
+}
+.text-degrees {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+table.update {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: none;
+}
+
+.details {
+        font-size:0.9em;
+}
+
+/****************************/
+/* Body Styling: Margin Only*/
+/****************************/
+
+h2 {
+	margin-top:0;
+}
+
+li, dd, .course {
+	margin-bottom:3px;
+}
+
+td {
+	padding-bottom: 9.5px;
+	padding-right: 10px;
+}
+
+.icon {
+	padding-top: 5px;
+}
+
+.chunk {
+	margin-bottom:9.5px;
+}
+ul #NoBullets{
+        list-style-type: none;
+}
+#NoSpacing{
+        margin-bottom: 0px;
+}
+
+/***************************/
+/***Main Page-SpeakerText***/
+/***************************/
+#speakertext_sample {
+        position: absolute;
+        top: 200%;
+        left: 10%;
+}
+/***********************/
+/***Main Page-Twitter***/
+/***********************/
+#twitter_update_list {
+	font-size:0.89em;
+	list-style: none;
+	}
+#twitter_update_list li {
+	padding-bottom: 7px;
+	margin-bottom: 9px;
+	width:130%;
+        position: relative;
+	left:-40px;
+}
+#twitter_update_list span{
+	text-decoration: none;
+        padding-left: none;
+	}
+#twitter_update_list span a{
+        text-decoration:none;
+        color: #52081c;
+        font-size: 95%;
+}
+#twitter_update_list a {
+	color:  #6f7276;
+	}
+#twitter_update_list a[style="font-size: 85%;"] {
+        font-size: 1em !important;
+        }
+        
+/*****************************/
+/***hci.stanford.edu/people***/
+/*****************************/
+.person_container
+{
+        float: left;
+	padding: 10px;
+	width: 150px;
+	height: 250px;
+}
+
+.break
+{
+        clear:both;
+}
+
+.faculty_container
+{
+	float: left;
+        padding: 10px;
+	width: 40%;
+}
+
+.faculty_image
+{
+	height: 170px;
+	float: left;
+	padding: 10px;
+}
+	
+.affiliate_container
+{
+	float: left;
+	padding: 10px;
+}
+
+.affiliate_image
+{
+	height: 190px;
+	float: left;
+	padding: 10px;
+}
+
+.subheading
+{
+        font-size: medium;
+        margin-left: 10px;
+}
+
+.person_image
+{
+	height: 160px;
+}
+
+.section
+{
+	clear:both;
+}
+.heading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 1px 3px;
+	color: #333333;
+	background-color: #DDDDDD;
+}
+.heading a {
+	text-decoration: none;
+	color: #000000;
+}
+/*********************/
+/***Seminars: CS547***/
+/*********************/
+#main-information {
+    float: left;
+}
+
+#right-information {
+	float:right;
+}
+
+.video_container {
+	float: left;
+	padding-top: 20px;
+}
+      
+      .video
+      {
+      width: 200px;
+      height: 136px;
+      }
+      .subheading
+      {
+      	font-size: 0.95em;
+        font-weight: 200;
+	margin-left: 10px;
+      }
+      .section
+      {
+	clear:both;
+      }

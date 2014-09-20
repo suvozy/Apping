@@ -1,0 +1,71 @@
+
+
+#wur_contentTabbedNav {
+    border-bottom:2px solid #921081;
+}
+#wur_contentTabbedNav li {
+    /*width:80px;*/
+    float:left;
+    font-weight:bold;
+    margin-bottom: 20px;
+    margin-right: 42px; /* space between years */
+    padding-left:4px;
+    padding-right: 4px;
+    color: #ffffff;
+    background-color: #921081;
+}
+#wur_contentTabbedNav li a:link, 
+#wur_contentTabbedNav li a:visited {
+    color: #ffffff;
+    font-size:15px;
+}
+#wur_contentTabbedNav li a.active {
+    text-decoration:underline;
+    font-size:150%;
+}
+
+.wur_rank_year {
+    font-size: 300%;
+    font-weight:bold;    
+    color:#cbcbcb;
+    padding:0;
+    margin:0;
+    margin-bottom:-52px;
+}
+
+.wur_rank_overall {
+    font-weight:bold;
+    text-align:center;
+    line-height:10px;
+}
+.wur_rank_overall div:first-child {
+    padding-bottom:12px;
+}
+.wur_rank_overall div:last-child {
+    font-size: 200%;
+    font-weight:bold;
+}
+
+div.wur_rank_subjects { }
+.wur_rank_subjects table {
+    width:98%;
+    margin-top:26px;
+}
+.wur_rank_subjects table tr td:first-child {
+    width:50%;
+    text-align:right;
+}
+.wur_rank_subjects table tr td:last-child {
+    font-weight:bold;
+}
+.wur_rank_subjects table tr td:last-child span {
+    font-size:100% !important;
+}
+.wur_rank_subjects table tr.rankingSubjectOdd td {
+    background-color:#FFF1FF;
+}
+.wur_rank_subjects table tr.rankingSubjectEven td {
+    background-color:#FFF5FF;
+}
+
+

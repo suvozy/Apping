@@ -1,0 +1,121 @@
+/* The following element styles are not in this file
+ *   <file>: <elements>
+ *
+ *   menu-topnav.css: #topnav-menu, #topalt-menu
+ *
+ *   menu-sidenav.css: #leftnav, #pubnav, #pubalt
+*/
+
+/* Main content */
+body {padding:0em; margin:0em 1em 0em 0em; max-width:80em; min-width:50em; color:#000000; font-size:medium; font-family:sans-serif, serif; border-right:1px solid #FFCC66; background-color:#FFFFF1;}
+br {clear:both}
+hr {color:#FFCC66; border:1px solid #FFCC66; clear:both;}
+
+#umdlogo {position:absolute; top:0.3em; left:0.5em;}
+#umdlogo img {margin:0em; width:4.56em; padding:0em; vertical-align:top; float:left; z-index:3;}
+#umdlogo:hover {background:#F6F6F6 url('/assets/images/gradients/solid-red-px.png') repeat-x bottom left;}
+
+#topnav {margin:0em; padding:1em 0.5em 0.5em 5.5em}
+#cslogo img {vertical-align:top; width:32.75em; padding:0.2em 0.5em 0em 0.5em; margin:0.8em 0em 0.5em 0em;}
+#cslogo:hover {background:#F6F6F6 url('/assets/images/gradients/solid-red-px.png') repeat-x bottom left;}
+
+#csbreadcrumb {width:auto; height:auto; font-size:small; font-weight:bold; margin:0.3em 0em 0em 0em; padding:0.2em 3em 0.2em 4em; clear:both; border-bottom:1px solid #FFCC66;}
+#csbreadcrumb a {padding-right:1em; background: transparent url('/assets/images/icons/arrow-blue.gif') no-repeat center right; text-decoration:none}
+#csbreadcrumb a:hover {text-decoration:underline;}
+
+#main {width:auto; min-height:35em; text-align:left; margin:0em 0em 0em 11.5em; padding:0.5em; border-left:1px solid #FFCC33; background-color:#FFFFFF; font-family:serif;}
+#main h1 {font-size:large; margin:0em 0em 1em 0em; font-weight:normal; background:transparent url('/assets/images/gradients/solid-red-px.png') repeat-x bottom left; font-family:sans-serif, serif;}
+#main h1:first-line {font-size:large;}
+#main h1 br {clear:none}
+
+#main h2 {font-size:medium; margin:0em 0em 1em 0em; font-weight:normal; border-bottom:1px solid #CCCCCC; font-family:sans-serif}
+#main h2:first-line {font-size:larger}
+
+#main h3 {font-size:100%; margin:0em 0em 1em 0em; font-weight:bold;}
+#main small {color:#666666; margin-left:1em; font-size:smaller}
+
+#main td.label {text-align:right; padding-right:5px; color:#999999; vertical-align:top}
+
+#csfooter {clear:both; color:#999999; margin:0em; padding:0.5em 0em 1em 12em; text-align:left; vertical-align:top; border-top:1px solid #FFCC66;}
+#csfooter img {position:relative; top:auto; left:auto; margin-right:1em; float:left; width:11.56em;}
+#csfooter div {position:relative; top:0px; left:auto; float:left; font-size:smaller;}
+#csfooter a {color:#990000; text-decoration:none;}
+#csfooter a:hover {text-decoration:underline;}
+
+#cssearch label {display:block; position:absolute; top:auto; left:auto; color:#990000; font-weight:bold;}
+
+#main .border {margin:1em 0em; padding:0.5em; border:thin solid #333333; clear:both;}
+
+.rblock {display:block; float:right; width:40%; padding:0em; margin:0em 0em 0em 0.5em; border-left:1px solid #990000; min-height:300px; text-align:center; vertical-align:middle; font-size:medium; border-bottom:1px solid #990000; background-color:#FFFFFF; font-family:sans-serif, serif;}
+.rblock .bar {margin:0em; padding:0.2em 1em 0.2em 1em; background:#000000 url('/assets/images/gradients/gradient-red-down.png') repeat-x top left; font-weight:bold; color:#FCFCFC; text-align:left; font-size:small}
+.rblock .btext {float:left; color:#333333; font-size:x-small}
+
+.rblock .content {list-style:none; padding:0em; margin:0.5em; font-size:small; text-align:left;}
+.rblock .content li {font-weight:bold; margin:0em; padding:0em; color:#333333;}
+.rblock .content ul {list-style:none; margin:0em; padding:0em; }
+.rblock .content ul li {font-weight:normal; padding:0.2em 0.2em 0.2em 0.7em; margin:0.1em 0em 0.1em 0em; color:#000000; border-bottom:1px dotted #999999;}
+.rblock .content ul .bg {cursor:pointer;}
+.rblock .content ul .bg:hover, .rblock .content ul .bg-hover {cursor:pointer; background:transparent url('/assets/images/icons/arrow-yellow-left.png') no-repeat center left;}
+
+.rblock .content ul .bg-active {cursor:pointer; background:transparent url('/assets/images/icons/arrow-gray-left.png') no-repeat center left;}
+.rblock .content ul .bg-active:hover, .rblock .content ul .bg-active-hover {cursor:pointer; background:transparent url('/assets/images/icons/arrow-yellow-left.png') no-repeat center left;}
+
+/* .rblock .content ul .bg {cursor:pointer; background:transparent url('/assets/images/icons/arrow-round-right-red.png') no-repeat bottom right; padding:0.3em 0.4em 0.4em 0.3em;} */
+.rblock .content ul li:first-letter {font-size:larger; font-weight:bold; color:#666666}
+
+.rblock .content .link {text-align:right}
+.rblock .content .link a {color:#990000; text-decoration:none}
+.rblock .content .link a:hover {color:#000000; text-decoration:underline}
+
+/* .pdf {background:transparent url('/assets/images/icons/pdficon_small.gif') no-repeat left top; padding-left:34px; margin-top:1em;} */
+
+#mHighlight, #mEvents, #mSpotlight, #mMedia, .mOther {padding:0em;}
+#mHighlight span, #mEvents span, #mSpotlight span, #mMedia span, .mOther span {padding:0.5em; display:block;}
+#mHighlight img, #mEvents img, #mSpotlight img, #mMedia img, .mOther img {margin:0em 0em 1em 1em; border:1px solid #666666;}
+#mHighlight img.none, #mEvents img.none, #mSpotlight img.none, #mMedia img.none, .mOther img.none {border:0px solid #666666;}
+
+
+#mHighlight blockquote, #mEvents blockquote, #mSpotlight blockquote, #mMedia blockquote, .mOther blockquote {margin:0.5em; padding:0.5em;}
+#mHighlight .hide, #mEvents .hide, #mSpotlight .hide, #mMedia .hide, .mOther .hide {display:none; visibility:hidden;}
+
+#mHighlight pre, #mEvents pre, #mSpotlight pre, #mMedia pre, .mOther pre {font-size:medium;}
+
+/* Search class for drop down */
+#cssearch {font-size:smaller; padding:0em; margin:0em 0.5em 0em 0em; float:right;}
+
+/* Main site map */
+#site-map {list-style:none; padding:0.5em; margin:0em; font-family:sans-serif, serif;}
+#site-map li {text-align:left; padding:0em; margin:0em 0em 1em 0em; font-weight:normal;}
+#site-map a {display:block; color:#000000; text-decoration:none; font-size:larger; border-bottom:1px solid #990000}
+
+#site-map .sub {list-style:none; margin:0.5em 0em 0em 0em; padding:0em;}
+#site-map .sub li {padding:0em; margin:0.5em 0em 0em 0em; font-weight:normal}
+#site-map .sub a {text-decoration:none; background:none; color:#000066; font-size:smaller; display:inline; font-weight:bold; border:none;}
+#site-map .sub a:hover, #main .sub a:active {text-decoration:underline;}
+
+
+#site-map .sub ul {list-style:none; margin:0.5em 0em 0em 1em; padding:0em;}
+#site-map .sub ul li {padding:0em; margin:0.1em 0em 0.1em 0em; font-weight:normal}
+#site-map .sub ul a {text-decoration:none; color:#990000; font-size:smaller; display:inline; font-weight:normal;}
+#site-map .sub ul a:hover, #main .sub ul a:active { color:#990000; text-decoration:underline}
+
+#site-map h5 {margin:0em; padding:0em; font-weight:bold; display:none; visibility:hidden;}
+#site-map small {padding-left:1em; color:#000000}
+
+#main a.bios {display:block; float:left; width:15em; text-decoration:none;}
+#main a.bios em {display:block;}
+
+/**
+ * Add images to anchor tags using selectors
+ * Written w/out :not() selector since not supported in IE & Opera.
+ */
+
+#main a[href $=".pdf"] {background:transparent url('/assets/images/icons/icon-pdflink.png') no-repeat top right; overflow:visible; padding-right:16px;}
+#main a[href ^="http"] {background:transparent url('/assets/images/icons/icon-extlink.png') no-repeat top right; overflow:visible; padding-right:16px;}
+#main a[href *="umd.edu"] {background:transparent url('/assets/images/icons/icon-miniglobe.png') no-repeat top right; overflow:visible; padding-right:16px;}
+#main a[href *="cs.umd.edu"] {background:none; padding-right:0em;}
+#main a[href ^="ftp"] {background:transparent url('/assets/images/icons/icon-extlink.png') no-repeat top right; overflow:visible; padding-right:16px;}
+
+/** Other **/
+.red {color:#CC0000}
+.indent {margin-left:5em;}

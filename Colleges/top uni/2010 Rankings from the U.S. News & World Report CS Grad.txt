@@ -1,0 +1,158 @@
+2010 Rankings from the U.S. News & World Report CS PhD programs
+
+#1 	Carnegie Mellon University 5
+#1 	Massachusetts Institute of Technology 5
+#1 	Stanford University 5
+#1 	University of California--Berkeley 5
+#5 	Cornell University 4.6
+#5 	University of Illinois--Urbana-Champaign 4.6
+#7 	University of Washington 4.5
+#8 	Princeton University 4.4
+#8 	University of Texas--Austin 4.4
+#10 	Georgia Institute of Technology 4.3
+#11 	California Institute of Technology 4.2
+#11 	University of Wisconsin--Madison 4.2
+#13 	University of Michigan--Ann Arbor 4.1
+#14 	University of California--Los Angeles 4
+#14 	University of California--San Diego 4
+#14 	University of Maryland--College Park 4
+#17 	Columbia University 3.9
+#17 	Harvard University 3.9
+#17 	University of Pennsylvania 3.9
+#20 	Brown University 3.7
+#20 	Purdue University--West Lafayette 3.7
+#20 	Rice University 3.7
+#20 	University of Massachusetts--Amherst 3.7
+#20 	University of North Carolina--Chapel Hill NC	3.7
+#20 	University of Southern California 3.7
+#20 	Yale University 3.7
+#27 	Duke University 3.6
+#28 	Johns Hopkins University 3.4
+#28 	New York University 3.4
+#28 	Ohio State University 3.4
+#28 	Pennsylvania State University--University Park 3.4
+#28 	Rutgers, the State University of New Jersey--New Brunswick 3.4
+#28 	University of California--Irvine 3.4
+#28 	University of Virginia 3.4
+#35 	Northwestern University 3.3
+#35 	University of California--Santa Barbara 3.3
+#35 	University of Chicago 3.3
+#35 	University of Minnesota--Twin Cities 3.3
+#39 	University of California--Davis 3.2
+#39 	University of Colorado--Boulder 3.2
+#39 	University of Florida 3.2
+#39 	University of Utah 3.2
+#39 	Washington University in St. Louis 3.2
+#44 	Dartmouth College 3.1
+#44 	Stony Brook University--SUNY 3.1
+#44 	Virginia Tech 3.1
+#47 	Boston University 3
+#47 	North Carolina State University 3
+#47 	Rensselaer Polytechnic Institute 3
+#47 	Texas A&M University--College Station 3
+#47 	University of Arizona 3
+#47 	University of Rochester 3
+#53 	Arizona State University 2.9
+#53 	Indiana University--Bloomington 2.9
+#53 	University of California--Riverside 2.9
+#53 	University of California--Santa Cruz 2.9
+#53 	University of Pittsburgh 2.9
+#58 	Michigan State University 2.8
+#58 	University of Illinois--Chicago 2.8
+#58 	Vanderbilt University 2.8
+#61 	Northeastern University 2.7
+#61 	University at Buffalo--SUNY 2.7
+#63 	Case Western Reserve University 2.6
+#63 	George Mason University 2.6
+#63 	Iowa State University 2.6
+#63 	Oregon State University 2.6
+#63 	Syracuse University 2.6
+#63 	University of Iowa 2.6
+#63 	University of Notre Dame 2.6
+#63 	University of Oregon 2.6
+#63 	University of Tennessee--Knoxville 2.6
+#72 	Brandeis University 2.5
+#72 	Naval Postgraduate School 2.5
+#72 	Polytechnic Institute of New York University 2.5
+#72 	Tufts University 2.5
+#72 	University of Connecticut 2.5
+#72 	University of Delaware 2.5
+#72 	University of Maryland--Baltimore County 2.5
+#79 	Clemson University 2.4
+#79 	College of William and Mary 2.4
+#79 	Colorado State University 2.4
+#79 	CUNY Graduate School and University Center 2.4
+#79 	Florida State University 2.4
+#79 	George Washington University 2.4
+#79 	Oregon Health and Science University 2.4
+#79 	University of Kansas 2.4
+#79 	University of Nebraska--Lincoln 2.4
+#79 	University of New Mexico 2.4
+#79 	University of Texas--Dallas 2.4
+#79 	Washington State University 2.4
+#91 	Auburn University 2.3
+#91 	Brigham Young University 2.3
+#91 	New Jersey Institute of Technology 2.3
+#91 	University at Albany--SUNY 2.3
+#91 	University of Central Florida 2.3
+#91 	University of Georgia 2.3
+#91 	University of Kentucky 2.3
+#91 	Worcester Polytechnic Institute 2.3
+#99 	Drexel University 2.2
+#99 	Georgia State University 2.2
+#99 	Kansas State University 2.2
+#99 	Lehigh University 2.2
+#99 	Louisiana State University--Baton Rouge 2.2
+#99 	Stevens Institute of Technology 2.2
+#99 	University of Cincinnati 2.2
+#99 	University of North Carolina--Charlotte 2.2
+#99 	University of South Carolina 2.2
+#99 	University of South Florida 2.2
+#99 	University of Texas--Arlington 2.2
+#110 	Binghamton University--SUNY 2.1
+#110 	Colorado School of Mines 2.1
+#110 	Illinois Institute of Technology 2.1
+#110 	Southern Methodist University 2.1
+#110 	Temple University 2.1
+#110 	University of Houston 2.1
+#110 	University of Missouri 2.1
+#110 	University of Oklahoma 2.1
+#110 	University of Wisconsin--Milwaukee 2.1
+#110 	Wayne State University 2.1
+#110 	West Virginia University 2.1
+#121 	Claremont Graduate University 2
+#121 	Mississippi State University 2
+#121 	Missouri University of Science & Technology 2
+#121 	New Mexico State University 2
+#121 	Texas Tech University 2
+#121 	Wright State University 2
+Rank Not Published 	Colorado Technical University N/A 
+Rank Not Published 	DePaul University N/A 
+Rank Not Published 	Florida Atlantic University 	N/A 
+Rank Not Published 	Florida Institute of Technology N/A 
+Rank Not Published 	Florida International University N/A 
+Rank Not Published 	Kent State University N/A 
+Rank Not Published 	Michigan Technological University N/A 
+Rank Not Published 	New Mexico Institute of Mining and Technology N/A 
+Rank Not Published 	North Dakota State University N/A 
+Rank Not Published 	Nova Southeastern University N/A 
+Rank Not Published 	Oakland University N/A 
+Rank Not Published 	Oklahoma State University N/A 
+Rank Not Published 	Old Dominion University N/A 
+Rank Not Published 	Tulane University N/A 
+Rank Not Published 	University of Alabama N/A 
+Rank Not Published 	University of Alabama--Birmingham N/A 
+Rank Not Published 	University of Alabama--Huntsville N/A 
+Rank Not Published 	University of Arkansas--Fayetteville N/A 
+Rank Not Published 	University of Hawaii--Manoa N/A 
+Rank Not Published 	University of Idaho N/A 
+Rank Not Published 	University of Louisiana--Lafayette N/A 
+Rank Not Published 	University of Louisville N/A 
+Rank Not Published 	University of Maine N/A 
+Rank Not Published 	University of Massachusetts--Lowell N/A 
+Rank Not Published 	University of Memphis N/A 
+Rank Not Published 	University of Mississippi N/A 
+Rank Not Published 	University of Missouri--Kansas City N/A 
+Rank Not Published 	University of North Texas N/A 
+Rank Not Published 	University of Southern Mississippi N/A 
+Rank Not Published 	University of Tulsa N/A 

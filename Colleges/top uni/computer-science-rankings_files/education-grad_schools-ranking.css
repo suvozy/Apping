@@ -1,0 +1,468 @@
+/* Cluetip */
+#cluetip-close img {
+border:0;
+}
+#cluetip-title {
+overflow:hidden;
+}
+#cluetip-title #cluetip-close {
+float:right;
+position:relative;
+}
+#cluetip-extra {
+display:none;
+}
+.cluetip-rounded #cluetip-title,
+.cluetip-rounded #cluetip-inner {
+zoom:1;
+}
+.cluetip-usn,
+.cluetip-default {
+background-color:#f9f9f9;
+font-size:1.3em;
+}
+.cluetip-usn #cluetip-outer,
+.cluetip-default #cluetip-outer {
+background-color:#f9f9f9;
+margin:0;
+position:relative;
+}
+.cluetip-usn h3#cluetip-title,
+.cluetip-default h3#cluetip-title {
+font-weight:normal;
+margin:0 0 5px;
+padding:8px 10px 4px;
+}
+.cluetip-usn #cluetip-inner,
+.cluetip-default #cluetip-inner {
+padding:10px;
+}
+.cluetip-usn #cluetip-outer {
+background-image:url(/static/images/ah/logo-small.png);
+background-position:10px 10px;
+background-repeat:no-repeat;
+}
+.cluetip-usn h3#cluetip-title {
+padding:28px 10px 4px;
+}
+a.collapsible-controller {
+background-image:url(/static/images/ah/collapsible-minus.gif);
+background-position:0 50%;
+background-repeat:no-repeat;
+cursor:pointer;
+display:block;
+margin-bottom:10px;
+padding-left:20px;
+}
+a.collapsed {
+background-image:url(/static/images/ah/collapsible-plus.gif);
+margin-bottom:15px;
+}
+.fg-menu .label {
+font-size:1.3em;
+}
+.fg-menu .current {
+display:none;
+}
+.fg-menu .current-js {
+background-image:url(/static/images/ah/input-background-button.png);
+background-position: 100% 0;
+background-repeat:no-repeat;
+border:1px solid #ddd;
+display:inline-block;
+font-size:1.3em;
+height:23px;
+text-align:left;
+text-indent:5px;
+width:180px;
+}
+.fg-menu ul {
+display:inline;
+}
+.fg-menu ul li {
+display:inline;
+list-style-type:none;
+}
+.fg-menu-container {
+background:#fff;
+border:1px solid #444;
+font-size:1.3em;
+position:relative;
+top:23px;
+z-index:1;
+}
+.fg-menu-container a {
+color:#222;
+display:block;
+text-indent:5px;
+}
+.fg-menu-container a:hover {
+background:#444;
+color:#fff;
+text-decoration:none;
+}
+.rankings-score {
+background-image:url(/static/images/ah/score-box-white-bg-education.gif);
+background-position:left top;
+background-repeat:no-repeat;
+border-bottom:none;
+display:inline-block;
+padding-left:8px; 
+}
+.rankings-score span {
+background-image:url(/static/images/ah/score-box-white-bg-education.gif);
+background-position:right top;
+background-repeat: no-repeat;
+color:#fff;
+display:block;
+float:left;
+font-size:1.5em;
+font-weight:bold;
+height:28px;
+line-height:1;
+padding:8px 8px 0 0;
+text-align:center;
+}
+.rankings-score-rnp span {
+background-image:url(/static/images/ah/score-box-rnp-on-transparent.gif);
+background-position:right top;
+background-repeat: no-repeat;
+display:block;
+float:left;
+height:36px;
+text-indent:-999em;
+width:84px;
+}
+.rankings-score-unranked span {
+background-image:url(/static/images/ah/score-box-unranked-on-transparent.gif);
+background-position:right top;
+background-repeat: no-repeat;
+display:block;
+float:left;
+height:36px;
+text-indent:-999em;
+width:84px;
+}
+/* when there's no description */
+h1 {
+margin-bottom:10px;
+}
+
+/* when there's a description */
+.list-description {
+background-image:url(/static/images/ah/yellow-box-620.png);
+background-position:0 100%;
+float:left;
+margin-bottom:10px;
+padding-bottom:15px;
+width:620px;
+}
+.list-description h1 {
+background-image:url(/static/images/ah/yellow-box-620.png);
+color:#ec311e;
+padding:15px 15px 10px;
+}
+.list-description .ranked-in {
+color:#777;
+font-size:1.1em;
+line-height:1;
+}
+.list-description h3 {
+border-top:none;
+font-weight:bold;
+}
+.list-description p,
+.list-description h3 {
+padding-left:15px;
+padding-right:15px;
+}
+.list-description a.collapsible-controller {
+background-position:15px 50%;
+padding-left:35px;
+}
+.list-description p.more {
+background-position:15px .55em;
+padding-left:25px;
+}
+
+/* methodology link */
+.methodology a {
+color:#777;
+}
+
+/* tabular data view */
+table.ranking-data {
+clear:both;
+}
+table.ranking-data a.school-name {
+font-size:1.2em;
+}
+table.ranking-data input.saveschool{
+margin-left: auto;
+margin-right: auto;
+margin-top:15px;
+display: block;
+}
+table.ranking-data .rankings-score,
+table.ranking-data .rankings-score-rnp,
+table.ranking-data .rankings-score-unranked {
+float:none;
+margin-right:0;
+}
+.ie table.ranking-data .rankings-score span {
+float:none;
+}
+th,
+td {
+background-color:#f0f0f0;
+border:1px solid #fff;
+font-size:1.2em;
+padding:5px;
+vertical-align:top;
+}
+/* center the rank column */
+table.ranking-data th.column-first,
+table.ranking-data td.column-first {
+text-align:center;
+}
+table.ranking-data th.column-first a {
+padding-right:0;
+}
+th {
+color:#666;
+font-weight:bold;
+}
+th.column-selected {
+background-color:#ddd;
+}
+th.locked {
+background-color:#F0F0F0;
+padding-left:3px;
+}
+th a {
+background-position:100% 100%;
+background-repeat:no-repeat;
+display:block;
+padding-right:10px;
+}
+th.locked a {
+color:#666;
+background-image:url(/static/images/lock.png);
+background-position:0 1px;
+background-repeat:no-repeat;
+padding:0 0 0 15px;
+}
+/*th.column-selected a.sort-desc {
+background-image:url(http://dummyimage.com/16x16%26text=v);
+}
+th.column-selected a.sort-asc {
+background-image:url(http://dummyimage.com/16x16%26text=^);
+}*/
+tr.row-odd td {
+background-color:#f8f8f8;
+}
+td.lockeddata {
+vertical-align:middle;
+}
+td.lockeddata a.lockeddataicon {
+background-color:transparent;
+background-image:url(/static/images/ah/compass-icon-sm.png);
+background-position:center center;
+background-repeat:no-repeat;
+display:block;
+height:31px;
+margin:0 auto;
+text-indent:-999em;
+width:41px;
+}
+
+/* specialty rankings separated tables */
+.has-disclaimer-head th.disclaimer-head-1,
+.has-disclaimer-head th.disclaimer-head-2 {
+background-color:#ddd;
+font-size:1.4em;
+}
+.has-disclaimer-head th.disclaimer-head-1 {
+border-right:10px solid #fff;
+}
+.has-disclaimer-head .break-after {
+border-right:10px solid #fff;
+}
+
+/* further styling of rankings-score */
+.rankings-score,
+.rankings-score-rnp,
+.rankings-score-unranked {
+float:left;
+margin-right:10px;
+}
+
+/* a.school-name styles */
+a.school-name {
+font-size:1.7em;
+font-weight:bold;
+}
+.mini-list a.school-name {
+font-size:1.2em;
+font-weight:normal;
+}
+.list-description .mini-list a.school-name {
+font-size:1.7em;
+font-weight:bold;
+}
+
+h2 {
+border-top:3px double #ddd;
+margin-top:10px;
+padding-top:10px;
+}
+h2.first {
+border-top:none;
+margin-top:0;
+padding-top:0;
+}
+
+.article p.location {
+color:#777;
+font-size:1em;
+line-height:1;
+}
+
+/* widget container next to .list-description on layout-wide pages */
+.article .aside-top {
+float:left;
+margin-left:15px;
+width:336px;
+}
+.article .aside-top dl.widget {
+background-image: url(/static/images/ah/gray-box-336.png);
+}
+.article .aside-top dl.widget dt {
+background-image: url(/static/images/ah/gray-box-336.png);
+}
+.article .aside-top .knowledge-centers .text-image-left {
+margin-bottom:10px;
+}
+.article .aside-top .knowledge-centers .subwidget-last {
+margin-bottom:0;
+}
+
+/* pagination */
+.article p#pagination {
+margin-top:15px;
+}
+h1 span,
+h2 span,
+h3 span {
+font-size:70%;
+white-space:nowrap;
+}
+
+.article ul.tabs li {
+margin:0;
+margin-right:5px;
+}
+
+.article .article-content {
+float:left;
+width:445px;
+}
+.article .article-content .layout-2-column {
+width:215px;
+}
+
+body.layout-wide .article-content {
+width:795px;
+}
+body.layout-wide .article {
+width:100%;
+}
+
+a.rankings-category {
+float:left;
+font-weight:bold;
+margin:10px 0 0 10px;
+white-space:nowrap;
+}
+
+.article p.disclaimer {
+color:#777;
+font-size:1.1em;
+}
+
+/* facebook like */
+#share-facebook {
+padding-top:10px;
+position:absolute;
+right:0;
+}
+#share-facebook p {
+float:right;
+font-weight:bold;
+padding:5px;
+}
+#share-facebook iframe {
+float:right;
+}
+/* specialty fg-menu */
+.specialty {
+padding-left:15px;
+padding-right:15px;
+}
+.specialty .current-js {
+width:380px; /* wide enough for "Clinical Nurse Specialist: Psychiatric / Mental Health" */
+}
+
+/* kaplan sponsored scores and dialog */
+.kaplan-dialog {
+background:#fff;
+border:1px solid #ddd;
+margin:auto;
+padding:10px;
+-moz-box-shadow:0 5px 20px rgba(0,0,0,.5);
+-webkit-box-shadow:0 5px 20px rgba(0,0,0,.5);
+box-shadow:0 5px 20px rgba(0,0,0,.5);
+}
+.kaplan-dialog .ui-dialog-title {
+background-image:url(/static/images/ah/kaplan-test-prep.gif);
+background-repeat:no-repeat;
+display:block;
+text-indent:-999em;
+}
+.kaplan-dialog .ui-icon {
+display:inline; /* undo foobar style-bleed */
+float:right;
+position:relative;
+text-indent:0; /* undo foobar style-bleed */
+top:-16px;
+}
+.kaplan-dialog p {
+font-size:1.3em;
+margin-bottom:10px;
+}
+.kaplan-dialog label {
+color:#444;
+font-size:1.3em;
+font-weight:bold;
+margin-bottom:5px;
+}
+.kaplan-dialog input {
+margin-bottom:5px;
+width:223px;
+}
+.kaplan-dialog input.ui-state-error {
+border-color:#ec151d;
+}
+.kaplan-dialog p.validateTips {
+color: #ec151d;
+font-size:1em;
+}
+.kaplan-dialog button {
+background-image:url(/static/images/ah/sign-up-now.png);
+background-repeat:no-repeat;
+border:none;
+height:30px;
+padding:0;
+text-indent:-999em;
+width:124px;
+}

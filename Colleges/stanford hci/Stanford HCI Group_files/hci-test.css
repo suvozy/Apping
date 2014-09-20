@@ -1,0 +1,254 @@
+@font-face {
+	font-family: 'NeutraTextSC';
+	src: url('/font/neutratext-lightsc-webfont.eot');
+	src: local('NeutraText-LightSC'), url('/font/neutratext-lightsc-webfont.svg#webfontYUu2or1p') format('svg');
+	src: local('NeutraText-LightSC'), url('/font/neutratext-lightsc-webfont.ttf') format('truetype');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'NeutraTextSC';
+	src: url('/font/neutratext-demisc-webfont.eot');
+	src: local('NeutraText-DemiSC'), url('/font/neutratext-demisc-webfont.svg#webfontIreKTfx7') format('svg');
+	src: local('NeutraText-DemiSC'), url('/font/neutratext-demisc-webfont.ttf') format('truetype');
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #52081c;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: 	#890819;
+}
+
+a.titleLink{
+	color: #000;
+}
+
+a.titleLink:hover{
+	color: 	#990000;
+}
+
+body,table {
+	margin: 0;
+	padding: 0;
+	font-size: 0.95em;
+	font-family: Calibri, "Gill Sans", "Gill Sans MT", "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+hr {
+	margin-top: 13px;
+	margin-bottom: 13px;
+      color: #eee;
+      background-color: #eee;
+      height: 1px;
+	border-style:none;
+}
+
+table {
+	border-collapse:collapse;
+	vertical-align: top;
+}
+
+/**********/
+/* Header */
+/**********/
+
+.header-included {
+	height: 26px;
+ 	background-color: 	#990000;
+	border-bottom: 1px solid #666;
+}
+
+.bigHeader {
+ 	height: 38px;
+}
+
+#headerSearchBox {
+	float:right;
+	margin-top: 8px;
+	margin-right:10px;
+}
+
+#logo{
+	position: absolute;
+	top: 5px;
+	left: 18px;
+}        
+
+#navSearchForm {
+	display: inline;
+}
+
+#navSearchForm input{
+	height: 15px;
+	position: relative;
+	top:  0px;
+	border: 1px solid white
+}
+
+.headerLink {
+	color: white;
+}
+
+#shadow {
+	height: 7px;
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	z-index: 0;
+	background-image: url("/images/bottomshadow.png");
+}
+
+/***************/
+/* Major Areas */
+/***************/
+
+#centered-page {
+	max-width:1096px;
+	margin:0 auto;
+}
+
+#left {
+	position:absolute;
+	top: 40px;
+	width:34%;
+}
+
+#leftContent {
+	margin-left: 15px;;
+	padding-right:13px;
+	border-right: 1px solid #eee;
+}
+
+#right {
+	float:right;
+	width: 66%;
+	margin-top:2px;
+}
+
+#news {
+float:right;
+width:171px; 
+margin-right:8px;
+margin-left:14px;
+padding-left:10px;
+border-left: 1px solid #eee;
+}
+
+#rightContent {
+	padding-left:13px;
+	padding-right:13px;
+	max-width:60em;
+}
+
+#overview, #main {
+ padding: 10px 19px 0px;
+}
+
+/************************/
+/* Section Head Styling */
+/************************/
+
+.sectionAdditional {
+	font-family: NeutraTextSC;
+	font-weight: 200;
+	color: #333;
+  white-space:nowrap;
+}
+
+a.sectionAdditional:hover{
+	color: 	#990000;
+}
+
+.sectionTitle {
+	font-family: NeutraTextSC;
+	font-weight: 500;
+	font-size: 1.5em;
+	padding-right: 12px;
+	margin-bottom: 3px;
+}
+
+.subsectionTitle {
+	font-family: NeutraTextSC;
+	font-size: 11.65pt;
+	font-weight: 500;
+	margin-top:13.5px;
+	padding-bottom: 2px;
+	text-transform: lowercase;
+}
+
+
+/****************/
+/* Body Styling: Font And Margin*/
+/****************/
+
+.question {
+margin-top: 10px;
+font-size: 120%;
+font-weight:bold;
+}
+
+.questionSection {
+color: #333;
+margin-top:15px;
+}
+
+/****************/
+/* Body Styling: Font Only*/
+/****************/
+
+.fancySC {
+	font-family: NeutraTextSC;
+}
+
+.title {
+ font-weight: bold;
+ font-size:109.65%;
+}
+
+.author {
+	font-size: 95.4%;
+}
+
+.description {
+	font-size: 0.85em;
+	font-style:italic;
+	color: #555;
+}
+
+.right-info {
+	font-size:0.89em;
+}
+
+dt {
+	font-weight:bold;
+}
+
+.past {
+  display: none;
+}
+
+/****************************/
+/* Body Styling: Margin Only*/
+/****************************/
+
+li, dd, .course {
+	margin-bottom:3px;
+}
+
+td {
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.icon {
+	padding-top: 5px;
+}
+
+.chunk {
+	margin-bottom:9.5px;
+}
+

@@ -1,0 +1,44 @@
+dd.grad-search-widget form input.text{
+    width:306px;
+    margin-bottom: 10px;
+}
+dd.grad-search-widget form select{
+    width:100%;
+    margin-bottom: 10px;
+}
+dd.grad-search-widget form .cmf-skinned-select{
+    margin-bottom: 10px;
+}
+dd.grad-search-widget form select.specialty{
+    margin-right: 10px;
+    width: 270px;
+}
+dd.grad-search-widget form select.disabled{
+    color: #CCCCCC;
+}
+dd.grad-search-widget form input.go_button{
+    width:auto;
+    float: right;
+    position: relative;
+    top:1px;
+    right:5px;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+dd.grad-search-widget form label{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+dd.grad-search-widget form label span{
+    color: #666666;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+dd.grad-search-widget form label.disabled{
+	color: #999999;
+}
+dd.grad-search-widget form input.disabled{
+	background-color: #FFFFFF;
+	color: #CCCCCC;
+}

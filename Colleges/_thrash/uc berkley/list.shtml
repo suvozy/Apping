@@ -1,0 +1,1606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<link rel="shortcut icon" href="http://www.eecs.berkeley.edu/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="verify-v1" content="JGaSHUCkIAbgSRQ5nzWiKM4P8Vl1dtfBeLFXc8w2SO4=">
+<meta name="google-site-verification" content="bzRPpkNkzyctlxDyqPXvqaCom3-9L7qM7XlU4W7ZyG0">
+<link href="list_files/eecsHome.css" rel="stylesheet" type="text/css">
+<style type="text/css" media="all">@import "/Includes/eecsPage.css";</style>
+
+
+<title>CS Faculty List | EECS at UC Berkeley</title>
+</head>
+
+<body>
+
+<a name="top"> </a>
+
+<table width="100%" align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+
+  <!--DWLayoutTable-->
+<!-- EECS Logo Row  -->
+<tbody><tr>
+    <td valign="top" width="132" align="left" bgcolor="#002061">
+      <a href="http://www.eecs.berkeley.edu/">
+      <img src="list_files/eecslogo.gif" alt="Electrical Engineering
+      and Computer Sciences" width="120" border="0" height="50"></a>
+    </td>
+<!-- End EECS Logo Row  -->
+
+
+<!-- Elect Eng and Comp Sci Row  -->
+  <td class="mastbackground" colspan="5">
+   <table width="100%" bgcolor="002061">
+     <tbody><tr>
+      <td class="mastbackground" id="title" colspan="2">
+   <h2 id="eecs"><a href="http://www.eecs.berkeley.edu/">Electrical Engineering and Computer Sciences</a>
+   </h2>
+</td>
+</tr>
+<!-- End Elect Eng and Comp Sci Row  -->
+
+<tr>
+
+<!-- Col of Eng  -->
+<td class="mastbackground" id="coetitle" width="30%">
+   <h2 id="coe">
+   <a href="http://coe.berkeley.edu/">
+   COLLEGE OF ENGINEERING
+   </a>
+   </h2>
+</td>
+<!-- End Col of Eng -->
+
+<!-- UC Berkeley -->
+<td class="mastbackground" id="ucbtitle" width="50%">
+   <h2>
+   <a href="http://www.berkeley.edu/">
+   <span id="berk">
+   UC Berkeley
+   </span>
+   </a>
+   </h2>
+</td>
+<!-- End UC Berkeley -->
+
+<!-- Login Row  -->
+<td class="mastbackground" id="logintitle">
+  <p class="login">
+  <a title="EECS Faculty, Students, Staff, and Researchers can Login Here" href="http://www.eecs.berkeley.edu/deptinfo/login.html?returnto=http://www.eecs.berkeley.edu/Faculty/Lists/CS/list.shtml">&nbsp;&nbsp;Login&nbsp;&nbsp;</a>   </p>
+</td>
+<!-- End Login Row  -->
+
+</tr>
+   </tbody></table>
+  </td>
+</tr>
+
+<tr>
+   <td colspan="6" class="maststripe" height="9">
+   </td>
+</tr>
+
+
+
+<!-- Side Nav and Content Row -->
+
+  <tr class="sidecolor">
+  <!-- Left Side (intradepartmental) Nav -->
+
+    <td colspan="2" valign="top">
+       <table class="leftsidebar-image" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tbody><tr>
+          <td valign="top" width="132">
+	    <table border="0">
+	      <tbody><tr>
+	      <td colspan="2">
+              <img src="list_files/cory_soda.jpg" alt="Cory-Soda Hall Logo" width="132" height="72">
+	      </td>
+	      </tr>
+
+	      <tr>
+	      <td class="EEbackground" align="center">
+	      <p class="sidebarEE">
+	      <a href="http://www.eecs.berkeley.edu/EE/">EE</a>
+	      </p>
+	      </td>
+              <td class="CSbackground" align="center">
+              <p class="sidebarCS">
+              <a href="http://www.cs.berkeley.edu/">CS</a>
+              </p>
+              </td>
+	      </tr>
+	    </tbody></table>
+
+           <!-- eecs website search box -->
+           <form class="sidesearch" method="GET" action="https://www.eecs.berkeley.edu/directory/eecssearch.php">
+	   <div align="center">
+	<input name="searchterm" size="15" type="TEXT"><br>
+	<input name="searchtype" value="people" type="RADIO"><span class="searchtypes">People</span><input name="searchtype" value="website" checked="checked" type="RADIO"><span class="searchtypes">Website</span>
+	<br>
+	<input value="Search" class="search" type="submit">
+	   </div>
+           </form>
+	       <!-- end eecs website search box -->
+	  </td>
+
+        </tr>
+        <!--DWLayoutTable-->
+        <tr>
+	  <td class="divline">
+	  <div id="sideline">
+	  <hr>
+	  </div>
+	  </td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">
+	  <p class="sidenavhead">
+	    Information&nbsp;for:
+	    </p>
+	    <p class="sidenavtext">
+	    <a href="http://www.eecs.berkeley.edu/Resguide/stud.shtml">Students</a><br>
+	    <a href="http://www.eecs.berkeley.edu/Resguide/acad.shtml">Faculty</a><br>
+	    <a href="http://www.eecs.berkeley.edu/department/staffinfo.shtml">Staff</a>
+	    </p>
+
+	    <p class="sidenavhead">
+	    Support&nbsp;Services:
+	    </p>
+	    <p class="sidenavtext">
+	    <a href="http://www.eecs.berkeley.edu/Resguide/admin.shtml">Administrative</a><br>
+	    <a href="http://www.erso.berkeley.edu/">Research</a><br>
+	    <a href="http://iris.eecs.berkeley.edu/">Computing</a><br>
+	    <a href="http://www.eecs.berkeley.edu/department/emergency/">Emergency/Safety</a><br>
+	    <a href="http://www.eecs.berkeley.edu/deptinfo">My EECS Info</a>
+	    </p>
+	  </td>
+        </tr>
+        <!--DWLayoutTable-->
+      </tbody></table>
+    </td>
+  <!-- End Left Side (intradepartmental) Nav -->
+
+  <!-- Blank column to add white space between left nav and content -->
+    <td>
+    &nbsp;&nbsp;&nbsp;
+    </td>
+  <!-- End blank column -->
+
+  <!-- Content Data -->
+    <td valign="top" width="100%">
+      <table width="100%" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+	    <!-- HEIGHT=470 tag removed below -->
+            <td valign="top" align="left">
+                <div id="content">
+
+
+
+<h1>CS Faculty List</h1>
+
+<p>Please add .berkeley.edu to any incomplete email address.</p>
+<p align="center">
+	<a href="#A">A</a>&nbsp;
+	<a href="#B">B</a>&nbsp;
+	<a href="#C">C</a>&nbsp;
+	<a href="#D">D</a>&nbsp;
+	<a href="#E">E</a>&nbsp;
+	<a href="#F">F</a>&nbsp;
+	<a href="#G">G</a>&nbsp;
+	<a href="#H">H</a>&nbsp;
+	<a href="#I">I</a>&nbsp;
+	<a href="#J">J</a>&nbsp;
+	<a href="#K">K</a>&nbsp;
+	<a href="#L">L</a>&nbsp;
+	<a href="#M">M</a>&nbsp;
+	<a href="#N">N</a>&nbsp;
+	<a href="#O">O</a>&nbsp;
+	<a href="#P">P</a>&nbsp;
+	<a href="#Q">Q</a>&nbsp;
+	<a href="#R">R</a>&nbsp;
+	<a href="#S">S</a>&nbsp;
+	<a href="#T">T</a>&nbsp;
+	<a href="#U">U</a>&nbsp;
+	<a href="#V">V</a>&nbsp;
+	<a href="#W">W</a>&nbsp;
+	<a href="#X">X</a>&nbsp;
+	<a href="#Y">Y</a>&nbsp;
+	<a href="#Z">Z</a>&nbsp;
+</p>
+<p align="center"><a href="http://www.eecs.berkeley.edu/Faculty/Lists/CS/emeritus.shtml">Faculty Emeriti</a></p>
+<table width="100%" border="0" cellpadding="4">
+<tbody><tr>
+<td colspan="4">
+<a name="A"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/abbeel.html">Pieter Abbeel</a></strong><br>
+Assistant Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/abbeel.jpg" alt="photo of Pieter Abbeel" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+746 Sutardja Dai Hall, (510) 642-7034; pabbeel@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SP/">Signal Processing (SP)</a>; Machine Learning<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 188. <a href="http://www.eecs.berkeley.edu/Courses/Data/215.html">Introduction to Artificial Intelligence</a>, MW 5:30-7:00P, 50 Birge<br>&nbsp;&nbsp;&nbsp;&nbsp;EE 20N. <a href="http://www.eecs.berkeley.edu/Courses/Data/59.html">Structure and Interpretation of Systems and Signals</a>, TuTh 1230-2P, 10 Evans<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/agrawala.html">Maneesh Agrawala</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/agrawala.jpg" alt="photo of Maneesh Agrawala" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+635 Soda Hall, 643-8220; maneesh@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a><br>
+<strong>Office Hours:</strong> W 2:30-4pm, F 5-6pm, 615 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-10. <a href="http://www.eecs.berkeley.edu/Courses/Data/256.html">Visualization</a>, MW 1:00-2:30P, 405 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/asanovic.html">Krste Asanović</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/asanovic.jpg" alt="photo of Krste Asanović" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+579 Soda Hall, 510-642-6506; krste@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ARC/">Computer Architecture &amp; Engineering (ARC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/INC/">Integrated Circuits (INC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/DES/">Design of Electronic Systems (DES)</a><br>
+<strong>Office Hours:</strong> M 1-2 (email to confirm), 579 Soda<br>
+<strong>Assistants:</strong> Tammy Johnson, 565 Soda, 643-4816, tamille@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 152. <a href="http://www.eecs.berkeley.edu/Courses/Data/205.html">Computer Architecture &amp; Engineering</a>, MW 9:30-11:00A, 320 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="B"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/bajcsy.html">Ruzena Bajcsy</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/bajcsy.jpg" alt="photo of Ruzena Bajcsy" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+719 Sutardja Dai Hall, 510-642-9423; bajcsy@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>, Computer vision; Bridging information technology to humanities and social sciences; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a><br>
+<strong>Office Hours:</strong> M W 9-10, 665 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/barsky.html">Brian A. Barsky</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/barsky.jpg" alt="photo of Brian A. Barsky" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+785 Soda Hall, 510-642-9838; barsky@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>;
+ computer-aided geometric design &amp; modeling visualization in 
+scientific computing, computer-aided cornea modeling and visualization<br>
+<strong>Office Hours:</strong> Tu/Th 5-6, 785 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 39P. <a href="http://www.eecs.berkeley.edu/Courses/Data/865.html">Photographing History in the Making</a>, TU 12:00-2:00P, 380 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 301. <a href="http://www.eecs.berkeley.edu/Courses/Data/126.html">Teaching Techniques</a>, TU 4:00-6:00P, 405 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/bartlett.html">Peter Bartlett</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/bartlett.jpg" alt="photo of Peter Bartlett" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+723 Sutardja Dai Hall, 510-642-7780; bartlett@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>, machine learning, statistical learning theory; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a><br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/bodik.html">Ras Bodik</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/bodik.jpg" alt="photo of Ras Bodik" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+581 Soda Hall, 510-642-2488; bodik@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>, Synthesis of programs, web browser, language design, mobile computing.<br>
+<strong>Office Hours:</strong> MW 4-5, 567 Soda<br>
+<strong>Assistants:</strong> Tammy Johnson, 565 Soda, 643-4816, tamille@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 264. <a href="http://www.eecs.berkeley.edu/Courses/Data/30.html">Implementation of Programming Languages</a>, TT 11:00-12:30P, 405 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 297. <a href="http://www.eecs.berkeley.edu/Courses/Data/83.html">Field Studies in CS</a>, UNSCHED<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-22. <a href="http://www.eecs.berkeley.edu/Courses/Data/343.html">Programming Systems</a>, UNSCHED<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/brewer.html">Eric Brewer</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/brewer.jpg" alt="photo of Eric Brewer" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+417 Sutardja Dai Hall, 510-642-8143; brewer@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ENE/">Energy (ENE)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; Developing regions; Programming languages<br>
+<strong>Office Hours:</strong> M 2:30-3:30, Th 1-2, 623 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-35. <a href="http://www.eecs.berkeley.edu/Courses/Data/679.html">Cellphones as a Computing Platform</a>, T T 9:30-11:00A, 405 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="C"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/canny.html">John F. Canny</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/canny.jpg" alt="photo of John F. Canny" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+637 Soda Hall, 510-642-9955; jfc@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a><br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-1. <a href="http://www.eecs.berkeley.edu/Courses/Data/868.html">Human-Centered Design</a>, MW 10:30-12:00P, 310 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/clancy.html">Michael J. Clancy</a></strong><br>
+Senior Lecturer SOE<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/clancy.jpg" alt="photo of Michael J. Clancy" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+779 Soda Hall, 510-642-7017; clancy@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/EDUC/">Education (EDUC)</a>, Computer science education; Programming languages and environments; <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a><br>
+<strong>Office Hours:</strong> Tu 3:15-7pm and by appointment, 779 Soda<br>
+<strong>Assistants:</strong> Lily zhang, 387 Soda, 642-1042, lilyz@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 61BL. <a href="http://www.eecs.berkeley.edu/Courses/Data/187.html">Data Structures</a>, W 5:00-6:00P, 105 Stanley<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 61BL-12. <a href="http://www.eecs.berkeley.edu/Courses/Data/187.html">Data Structures</a>, T T 11:00-2:00P, 275 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-40. <a href="http://www.eecs.berkeley.edu/Courses/Data/717.html">The UC-WISE Project</a>, TU 3:00-5:00P, 373 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/colella.html">Phillip Colella</a></strong><br>
+Professor in Residence<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+MS50A-1148 Lawrence Berkeley National Laboratory, 486-5412; pcolella@lbl.gov<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/culler.html">David E. Culler</a></strong><br>
+Professor, Associate Chair<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/culler.jpg" alt="photo of David E. Culler" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+389 Soda Hall, 510-642-8736; culler@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ARC/">Computer Architecture &amp; Engineering (ARC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/ENE/">Energy (ENE)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; Parallel architecture; High-performance networks; Workstation clusters<br>
+<strong>Office Hours:</strong> Tu 3-5, W 8-9, F 2-3, 389 Soda<br>
+<strong>Assistants:</strong> Amber Gregory, 385 Soda, 510-642-7699, amber@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS H196A. <a href="http://www.eecs.berkeley.edu/Courses/Data/663.html">Senior Honors Thesis</a><br>&nbsp;&nbsp;&nbsp;&nbsp;CS H196B. <a href="http://www.eecs.berkeley.edu/Courses/Data/663.html">Senior Honors Thesis</a><br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-49. <a href="http://www.eecs.berkeley.edu/Courses/Data/869.html">EECS Pre-Dissertation Studio</a>, W 2:00-3:00P, 438 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 602. Independent Study for Doctoral Students<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="D"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/darrell.html">Trevor Darrell</a></strong><br>
+Adjunct Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/darrell.jpg" alt="photo of Trevor Darrell" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+413 Soda Hall; trevor@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; Computer Vision<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-43. <a href="http://www.eecs.berkeley.edu/Courses/Data/778.html">Visual Object and Activity Recognition</a>, F 10:00-12:00P, Sutardja Dai<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/demmel.html">James Demmel</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/demmel.jpg" alt="photo of James Demmel" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+564 Soda Hall, 510-643-5386; demmel@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ARC/">Computer Architecture &amp; Engineering (ARC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SCI/">Scientific Computing (SCI)</a>; Numerical analysis; Linear algebra<br>
+<strong>Office Hours:</strong> M 9-10, T 1-2, W 10-11, 737 Soda<br>
+<strong>Assistants:</strong> Tammy Johnson, 565 Soda, 643-4816, tamille@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 70. <a href="http://www.eecs.berkeley.edu/Courses/Data/204.html">Discrete Math &amp; Probability</a>, MWF 10:00-11:00A, 10 Evans<br>&nbsp;&nbsp;&nbsp;&nbsp;CS C267. <a href="http://www.eecs.berkeley.edu/Courses/Data/33.html">Applications of Parallel Computing</a>, TuTh, 250 Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-6. <a href="http://www.eecs.berkeley.edu/Courses/Data/353.html">Matrix Computations and Scientific Computing</a>, W 11:00-12:30P, 380 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="E"></a><a name="F"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/fox.html">Armando Fox</a></strong><br>
+Adjunct Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/fox.jpg" alt="photo of Armando Fox" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+481A Soda Hall, 510-642-6820; fox@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a><br>
+<strong>Office Hours:</strong> Mondays 1-2pm, 449 Soda<br>
+<strong>Assistants:</strong> Kattt Atchley, 465 Soda, 510-643-3499, radlab-admin@eecs &amp; atchley@eecs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/franklin.html">Michael Franklin</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/franklin.jpg" alt="photo of Michael Franklin" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall, 510-642-1662; franklin@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/DBMS/">Database Management Systems (DBMS)</a>, Distributed Systems; Mobile and pervasive computing; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>, RadLab; AMPLab<br>
+<strong>Office Hours:</strong> T and W 10-11am or by appt., 449 Soda<br>
+<strong>Assistants:</strong> Kattt Atchley, 465 Soda, 510-643-3499, radlab-admin@eecs &amp; atchley@eecs; Sean McMahon, 510-643-0264, radlab-admin@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 186. <a href="http://www.eecs.berkeley.edu/Courses/Data/21.html">Introduction to Databases</a>, TT 3:30-5:00P, 50 Birge<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="G"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/garcia.html">Dan Garcia</a></strong><br>
+Lecturer SOE<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/garcia.jpg" alt="photo of Dan Garcia" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+777 Soda Hall, 510-517-4041; ddgarcia@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/EDUC/">Education (EDUC)</a>; Computational Game Theory; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a><br>
+<strong>Assistants:</strong> Lily zhang, 387 Soda, 642-1042, lilyz@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;Self-paced
+ CS ( 3S, 9A, 9B, 9C, 9D, 9E, 9F, 9G, 9H, 47A, 47A-2, 47B, 47B-2, 47C, 
+47C-2), 200A Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 10. <a href="http://www.eecs.berkeley.edu/Courses/Data/855.html">The Beauty and Joy of Computing</a>, M W 3:00-4:00P, 277 Cory<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 98-1. <a href="http://www.eecs.berkeley.edu/Courses/Data/484.html">Macintosh Student Developers for OS X</a>, TU 4:00-6:00P, 200 Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 98-2. <a href="http://www.eecs.berkeley.edu/Courses/Data/485.html">GamesCrafters</a>, MWF 11:00-12:00P, 606 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 98-3. <a href="http://www.eecs.berkeley.edu/Courses/Data/486.html">UC Berkeley Undergraduate Graphics Group (UCBUGG)</a>, TU 6:00-8:00P, 200 Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 194-8. <a href="http://www.eecs.berkeley.edu/Courses/Data/495.html">Advanced Digital Animation</a>, MW 1:00-3:00P, 606 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 198-1. <a href="http://www.eecs.berkeley.edu/Courses/Data/484.html">Macintosh Student Developers for OS X</a>, TU 4:00-6:00P, 200 Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 198-2. <a href="http://www.eecs.berkeley.edu/Courses/Data/485.html">GamesCrafters</a>, MWF 11:00-12:00P, 606 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 198-3. <a href="http://www.eecs.berkeley.edu/Courses/Data/486.html">UC Berkeley Undergraduate Graphics Group (UCBUGG)</a>, TU 6:00-8:00P, 200 Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CNM190. <a href="http://www.eecs.berkeley.edu/Courses/Data/495.html">Advanced Digital Animation</a><br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/goldberg.html">Ken Goldberg</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/goldberg.jpg" alt="photo of Ken Goldberg" width="80" border="0" height="98">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+4189 Etcheverry Hall, 510-643-9565; goldberg@berkeley.edu<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>, Networked robots; Robotics for automated manufacturing; Design of parts and devices for automation; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; Art and technology<br>
+<strong>Office Hours:</strong> see homepage, 4189 Etcheverry<br>
+<strong>Assistants:</strong> Tom Parsons, 558 Cory, 510-643-0664, tparsons@erso<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/griffiths.html">Thomas Griffiths</a></strong><br>
+Below the Line, Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+3210 Tolman Hall, 642-7134; tom_griffiths@berkeley.edu<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="H"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/hartmann.html">Björn Hartmann</a></strong><br>
+Assistant Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/hartmann.jpg" alt="photo of Björn Hartmann" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+629 Soda Hall, 415 868 5720; bjoern@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a><br>
+<strong>Office Hours:</strong> Wed, 3-4pm, 629 Soda; by appointment, 629 Soda<br>
+<strong>Assistants:</strong> Angie Abbatecola, 784 Soda, (510) 643-6413, angie@cs; Lily zhang, 387 Soda, 642-1042, lilyz@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 160. <a href="http://www.eecs.berkeley.edu/Courses/Data/206.html">User Interfaces</a>, MW 1:00-2:30P, 306 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-68. <a href="http://www.eecs.berkeley.edu/Courses/Data/894.html">Crowdsourcing Seminar</a>, M 3:30-5:00P, 380 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-52. <a href="http://www.eecs.berkeley.edu/Courses/Data/894.html">Crowdsourcing Seminar</a>, M 3:30-5:00P, 380 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/harvey.html">Brian K. Harvey</a></strong><br>
+Lecturer SOE<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/harvey.jpg" alt="photo of Brian K. Harvey" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+781 Soda Hall, 510-642-8311; bh@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/EDUC/">Education (EDUC)</a><br>
+<strong>Office Hours:</strong> W 10-11:30, Th 4:10-5, 781 Soda<br>
+<strong>Assistants:</strong> Jenny Jones, 339 Soda, 642-9044, jennyj@cs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 61A. <a href="http://www.eecs.berkeley.edu/Courses/Data/185.html">Structure and Interpretation of Computer Programs</a>, M W F 2:00-3:00P, 1 Pimentel<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/hearst.html">Marti Hearst</a></strong><br>
+Below the Line, Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/hearst.jpg" alt="photo of Marti Hearst" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+212 South Hall, 510-642-8016; hearst@ischool<br>
+<strong>Research Interests:</strong> information retrieval, user interfaces, computational linguistics<br>
+<strong>Office Hours:</strong> M 1:10-2:10, W 1:10-2:10, 212 South<br>
+<strong>Assistants:</strong> Barbara Goto, 510-643-2614, bgoto@sims<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/hellerstein.html">Joseph M. Hellerstein</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/hellerstein.jpg" alt="photo of Joseph M. Hellerstein" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+789 Soda Hall, 510-643-4011; <br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/DBMS/">Database Management Systems (DBMS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a><br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/hilfinger.html">Paul N. Hilfinger</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/hilfinger.jpg" alt="photo of Paul N. Hilfinger" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+787 Soda Hall, 510-642-8401; hilfingr@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SCI/">Scientific Computing (SCI)</a>; Software engineering; Parallel programming techniques<br>
+<strong>Office Hours:</strong> M 2-3, Th 2-3, 787 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 98-13. <a href="http://www.eecs.berkeley.edu/Courses/Data/701.html">Programming for Blood</a>, W 4:00P-8:00P, 273 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 164. <a href="http://www.eecs.berkeley.edu/Courses/Data/208.html">Programming Languages and Compilers</a>, MWF 11:00-12:00P, 105 North Gate<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 198-13. <a href="http://www.eecs.berkeley.edu/Courses/Data/701.html">Programming for Blood</a>, W 4:00P-8:00P, 273 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="I"></a><a name="J"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/jordan.html">Michael Jordan</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/jordan.jpg" alt="photo of Michael Jordan" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall; 427 Evans Hall; jordan@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SP/">Signal Processing (SP)</a>; Statistical Machine Learning<br>
+<strong>Office Hours:</strong> Tues. 2:00 -3:00pm, 429 Evans<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-3. <a href="http://www.eecs.berkeley.edu/Courses/Data/267.html">Theoretical Statistics</a>, TT 11:00-12:30P, 155 Donner<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/joseph.html">Anthony D. Joseph</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/joseph.jpg" alt="photo of Anthony D. Joseph" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall, 510-643-7212; adj@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>;
+ Computer and Network Security; Distributed systems; Mobile computing; 
+Wireless networking; Software engineering, and operating systems<br>
+<strong>Office Hours:</strong> By appointment only: send email to arrange<br>
+<strong>Assistants:</strong> Kattt Atchley, 465 Soda, 510-643-3499, radlab-admin@eecs &amp; atchley@eecs; Sean McMahon, 510-643-0264, radlab-admin@eecs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="K"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/karp.html">Richard M. Karp</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/karp.jpg" alt="photo of Richard M. Karp" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+621 Soda Hall, 510-642-5799; karp@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a><br>
+<strong>Office Hours:</strong> M 1:30-2:30, 621 Soda<br>
+<strong>Assistants:</strong> Michelle Tran, 695 Soda, 642-9467, smithsec@eecs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/katz.html">Randy H. Katz</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/katz.jpg" alt="photo of Randy H. Katz" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall, 510-642-8778; randy@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ARC/">Computer Architecture &amp; Engineering (ARC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; Distributed and networked systems design and implementation<br>
+<strong>Office Hours:</strong> M 1-2pm, W 3-4pm, 449 Soda<br>
+<strong>Assistants:</strong> Kattt Atchley, 465 Soda, 510-643-3499, radlab-admin@eecs &amp; atchley@eecs; Sean McMahon, 510-643-0264, radlab-admin@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 39K. <a href="http://www.eecs.berkeley.edu/Courses/Data/130.html">Information Technology Goes to War</a>, W 4:00-6:00P, 310 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 61C. <a href="http://www.eecs.berkeley.edu/Courses/Data/188.html">Great Ideas of Computer Architecture (Formerly Machine Structure)</a>, TT 2:00-3:30P, 2050 VLSB<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/klein.html">Daniel Klein</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/klein.jpg" alt="photo of Daniel Klein" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+724 Sutardja Dai Hall, 510-643-0805; klein@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; Natural Language Processing, Computational Linguistics, Machine Learning<br>
+<strong>Office Hours:</strong> Thursday 3:30-4:30pm, 730 Sutardja Dai; Tuesday 3:30-4:30pm, 730 Sutardja Dai<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 194-13. <a href="http://www.eecs.berkeley.edu/Courses/Data/848.html">Large-Scale Decision Making in Complex Environments</a>, TT 2:00-3:30P, 306 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 288. <a href="http://www.eecs.berkeley.edu/Courses/Data/48.html">Artificial Intelligence Approach to Natural Language Processing</a>, TT 12:30-2:00P, 405 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-58. <a href="http://www.eecs.berkeley.edu/Courses/Data/848.html">Large-Scale Decision Making in Complex Environments</a>, TT 2:00-3:30P, 306 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/kubiatowicz.html">John D. Kubiatowicz</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/kubiatowicz.jpg" alt="photo of John D. Kubiatowicz" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+673 Soda Hall, 510-643-6817; kubitron@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; Computer architecture; Quantum computer design; Internet-scale storage systems; Peer-to-peer networking<br>
+<strong>Office Hours:</strong> M/W 2:30-3:30, 673 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 252. <a href="http://www.eecs.berkeley.edu/Courses/Data/25.html">Grad Computer Architecture</a>, M W 2:30-4:00P, 320 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="L"></a><a name="M"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/malik.html">Jitendra Malik</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/malik.jpg" alt="photo of Jitendra Malik" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+722 Sutardja Dai Hall, 510-642-7597; malik@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SP/">Signal Processing (SP)</a>; <br>
+<strong>Office Hours:</strong> M 11-12, Th 11-12, 722 Sutardja Dai<br>
+<strong>Assistants:</strong> Angie Abbatecola, 784 Soda, (510) 643-6413, angie@cs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/mossel.html">Elchanan Mossel</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/mossel.jpg" alt="photo of Elchanan Mossel" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+423 Evans Hall; mossel@stat<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a><br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="N"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/necula.html">George Necula</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/necula.jpg" alt="photo of George Necula" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+783 Soda Hall, 510-643-1481; necula@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; software engineering, security, program analysis<br>
+<strong>Office Hours:</strong> Wed 1:30-2:30, 783 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 169. <a href="http://www.eecs.berkeley.edu/Courses/Data/209.html">Software Engineering</a>, MW 2:30-4:00P, 306 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="O"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/obrien.html">James O'Brien</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/obrien.jpg" alt="photo of James O'Brien" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+633 Soda Hall, 510-642-0865; job@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SCI/">Scientific Computing (SCI)</a>;
+ Computer animation, physical simulation, surface modeling, human 
+perception of motion, computational geometry, image processing, 
+scientific computing<br>
+<strong>Office Hours:</strong> F 2-4, 633 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="P"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/pachter.html">Lior Pachter</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+1081 Evans Hall, 510-642-2028; lpachter@math<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a><br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/papadimitriou.html">Christos Papadimitriou</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/papadimitriou.jpg" alt="photo of Christos Papadimitriou" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+689 Soda Hall, 510-642-1559; christos@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/DBMS/">Database Management Systems (DBMS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a><br>
+<strong>Office Hours:</strong> We Th 5-6, 689 Soda<br>
+<strong>Assistants:</strong> Michelle Tran, 695 Soda, 642-9467, smithsec@eecs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/patterson.html">David A. Patterson</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/patterson.jpg" alt="photo of David A. Patterson" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall, 642-6587; pattrsn@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ARC/">Computer Architecture &amp; Engineering (ARC)</a>, Computer Architecture and Systems: Parallel Computing performance, correctness, productivity; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a><br>
+<strong>Office Hours:</strong> Wed., 1:30-2:30pm, 449 Soda<br>
+<strong>Assistants:</strong> Roxana Infante, 563 Soda, 643-1455, parlab-admin@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 61C. <a href="http://www.eecs.berkeley.edu/Courses/Data/188.html">Great Ideas of Computer Architecture (Formerly Machine Structure)</a>, TT 2:00-3:30P, 2050 VLSB<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/paxson.html">Vern Paxson</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/paxson.jpg" alt="photo of Vern Paxson" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+737 Soda Hall, 3-4209; vern@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a><br>
+<strong>Office Hours:</strong> Monday 1:30-2:30PM, 737 Soda; By appointment, 630 ICSI<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 161. <a href="http://www.eecs.berkeley.edu/Courses/Data/499.html">Computer Security</a>, TT 11:00-12:30P, 277 Cory<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="Q"></a><a name="R"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/ravir.html">Ravi Ramamoorthi</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+627 Soda Hall, 510-643-5186; ravir@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SCI/">Scientific Computing (SCI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SP/">Signal Processing (SP)</a>; Computer Vision<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/rao.html">Satish Rao</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/rao.jpg" alt="photo of Satish Rao" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+681 Soda Hall, 510-642-4328; satishr@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a><br>
+<strong>Office Hours:</strong> M 11-12, 679 Soda<br>
+<strong>Assistants:</strong> Michelle Tran, 695 Soda, 642-9467, smithsec@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 170. <a href="http://www.eecs.berkeley.edu/Courses/Data/210.html">Introduction to CS Theory</a>, TT 9:30-11:00A, 4 Le Conte<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 270. <a href="http://www.eecs.berkeley.edu/Courses/Data/35.html">Combinatorial Algorithms and Data Structures</a>, T T 2:00-3:30P, 310 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/russell.html">Stuart J. Russell</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/russell.jpg" alt="photo of Stuart J. Russell" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+748 Sutardja Dai Hall, 510-642-4964; russell@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/AI/">Artificial Intelligence (AI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/CIR/">Control, Intelligent Systems, and Robotics (CIR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; machine learning; real-time decision-making; algorithms; probabilistic reasoning; computational biology<br>
+<strong>Office Hours:</strong> Wednesdays 1-3pm, 389 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-67. <a href="http://www.eecs.berkeley.edu/Courses/Data/892.html">Sequential decisions: planning and reinforcement learning</a>, W 10:00-12:00P, 405 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="S"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/ksen.html">Koushik Sen</a></strong><br>
+Assistant Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/ksen.jpg" alt="photo of Koushik Sen" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+581 Soda Hall, 510-642-2420; ksen@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>,
+ Software Engineering, Programming Languages, and Formal Methods: 
+Software Testing, Verification, Model Checking, Runtime Monitoring, 
+Performance Evaluation, and Computational Logic.; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a><br>
+<strong>Assistants:</strong> Tammy Johnson, 565 Soda, 643-4816, tamille@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 172. <a href="http://www.eecs.berkeley.edu/Courses/Data/211.html">Computers and Complexity</a>, MW 1:00-2:30P (W in 320), 310 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/sequin.html">Carlo H. Séquin</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/sequin.jpg" alt="photo of Carlo H. Séquin" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+639 Soda Hall, 510-642-5103; sequin@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/HCI/">Human-Computer Interaction (HCI)</a>; Art, mathematics, and geometrical sculpture; CAD tools, geometric modeling<br>
+<strong>Office Hours:</strong> see homepage for currently valid time slots, 639 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 184. <a href="http://www.eecs.berkeley.edu/Courses/Data/214.html">Foundations of Computer Graphics</a>, M W 9:30-11:00A, 306 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html">Scott Shenker</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/shenker.jpg" alt="photo of Scott Shenker" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall, 510-643-3043; shenker@icsi<br>
+<strong>Research Interests:</strong> Internet Architecture, 
+Software-Defined Networks, Datacenter Infrastructure, Large-Scale 
+Distributed Systems, Game Theory and Economics; <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a><br>
+<strong>Office Hours:</strong> Wednesdays, 5:45-6:45, 449 Soda<br>
+<strong>Assistants:</strong> Kattt Atchley, 465 Soda, 510-643-3499, radlab-admin@eecs &amp; atchley@eecs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/shewchuk.html">Jonathan Shewchuk</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/shewchuk.jpg" alt="photo of Jonathan Shewchuk" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+625 Soda Hall, 510-642-3936; jrs@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/GR/">Graphics (GR)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SCI/">Scientific Computing (SCI)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a><br>
+<strong>Office Hours:</strong> Mondays 2-3 pm, 625 Soda; Thursdays 5-6 pm, 625 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/sinclair.html">Alistair Sinclair</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/sinclair.jpg" alt="photo of Alistair Sinclair" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+677 Soda Hall, 510-643-8144; sinclair@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a>; Randomized algorithms; applied probability; statistical physics<br>
+<strong>Office Hours:</strong> M 1:30-2:30, Tu 12:45-1:45, 677 Soda<br>
+<strong>Assistants:</strong> Michelle Tran, 695 Soda, 642-9467, smithsec@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-2. <a href="http://www.eecs.berkeley.edu/Courses/Data/334.html">Theory Seminar</a>, M 4:00-5:30P, 438 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/song.html">Dawn Song</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/song.jpg" alt="photo of Dawn Song" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+675 Soda Hall, 510-642-8282; dawnsong@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a><br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 261. <a href="http://www.eecs.berkeley.edu/Courses/Data/28.html">Security in Computer Systems</a>, W 1:00-4:00P, 310 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 294-65. <a href="http://www.eecs.berkeley.edu/Courses/Data/888.html">Privacy Technologies: From Theory to Practice</a>, M 4:00-6:00P, 320 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/yssong.html">Yun S. Song</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/yssong.jpg" alt="photo of Yun S. Song" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+683 Soda Hall, 510-642-2211; 321 Evans Hall, 510-642-2351; yss@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a>; Applied Probability<br>
+<strong>Office Hours:</strong> TuTh 3:30-4, 321 Evans; F 1-2, 683 Soda<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 194-1. <a href="http://www.eecs.berkeley.edu/Courses/Data/862.html">Algorithms for Computational Biology</a>, TT 2:00-3:30P, 9 Evans<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/stoica.html">Ion Stoica</a></strong><br>
+Associate Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/stoica.jpg" alt="photo of Ion Stoica" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+465 Soda Hall, 510-643-4007; istoica@eecs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>;
+ Networking and distributed computer systems, Quality of Service (Q of 
+S) and resources management, modeling and performance analysis<br>
+<strong>Office Hours:</strong> Tues. 2-3pm, Thurs. 2-3pm, 449 Soda<br>
+<strong>Assistants:</strong> Kattt Atchley, 465 Soda, 510-643-3499, radlab-admin@eecs &amp; atchley@eecs; Sean McMahon, 510-643-0264, radlab-admin@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 162. <a href="http://www.eecs.berkeley.edu/Courses/Data/207.html">Operating Systems and System Programming</a>, MW 4:00-5:30P, 2060 VLSB<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/sturmfels.html">Bernd Sturmfels</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/sturmfels.jpg" alt="photo of Bernd Sturmfels" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+925 Evans Hall, 510-642-4687; bernd@math<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a><br>
+<strong>Office Hours:</strong> T 9:45-11am, F 10:30-11:30am, 925 Evans<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="T"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/tygar.html">Doug Tygar</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/tygar.gif" alt="photo of Doug Tygar" width="76" border="0" height="113">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+739 Soda Hall, 510-643-7855; doug.tygar@gmail.com<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/OSNT/">Operating Systems &amp; Networking (OSNT)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; electronic commerce, computer security, cryptography, privacy<br>
+<strong>Office Hours:</strong> by appointment, 531 Soda<br>
+<strong>Assistants:</strong> Barbara Goto, 510-643-2614, bgoto@sims<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="U"></a><a name="V"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/vazirani.html">Umesh Vazirani</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/vazirani.jpg" alt="photo of Umesh Vazirani" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+671 Soda Hall, 510-642-0572; vazirani@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/THY/">Theory (THY)</a>, Complexity theory<br>
+<strong>Assistants:</strong> Jenna Shafer, 695 Soda, 642-9467, jennasha@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 170. <a href="http://www.eecs.berkeley.edu/Courses/Data/210.html">Introduction to CS Theory</a>, TT 9:30-11:00A, 4 Le Conte<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 270. <a href="http://www.eecs.berkeley.edu/Courses/Data/35.html">Combinatorial Algorithms and Data Structures</a>, T T 2:00-3:30P, 310 Soda<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-14. <a href="http://www.eecs.berkeley.edu/Courses/Data/330.html">TGIF</a>, F 3:30-5:00P, 373 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="W"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/wagner.html">David Wagner</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/wagner.jpg" alt="photo of David Wagner" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+733 Soda Hall, 510-642-2758; daw@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/SEC/">Security (SEC)</a><br>
+<strong>Office Hours:</strong> by appointment, 733 Soda<br>
+<strong>Assistants:</strong> Angie Abbatecola, 784 Soda, (510) 643-6413, angie@cs<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/wawrzynek.html">John Wawrzynek</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/wawrzynek.jpg" alt="photo of John Wawrzynek" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+631 Soda Hall, 510-643-9434; johnw@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/ARC/">Computer Architecture &amp; Engineering (ARC)</a><br>
+<strong>Office Hours:</strong> M 4:00-5:30 and by appointment, 631 Soda<br>
+<strong>Assistants:</strong> Rakhi Cook, 510-643-4013, rakhic@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS 150. <a href="http://www.eecs.berkeley.edu/Courses/Data/57.html">Components and Design Techniques for Digital Systems</a>, T T 2:00-3:30P, F 2:00-3:00P, 405 Soda<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="X"></a><a name="Y"></a><hr>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td colspan="2" valign="top" align="left">
+<strong><a href="http://www.eecs.berkeley.edu/Faculty/Homepages/yelick.html">Katherine A. Yelick</a></strong><br>
+Professor<br>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+<img src="list_files/yelick.jpg" alt="photo of Katherine A. Yelick" width="80" border="0" height="112">
+&nbsp;&nbsp;&nbsp;</td>
+<td valign="top" align="left">
+50A Lawrence Berkeley National Laboratory, 510-495-2431; yelick@cs<br>
+<strong>Research Interests:</strong> <a href="http://www.eecs.berkeley.edu/Research/Areas/BIO/">Biosystems &amp; Computational Biology (BIO)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/PS/">Programming Systems (PS)</a>; <a href="http://www.eecs.berkeley.edu/Research/Areas/SCI/">Scientific Computing (SCI)</a>; parallel programming techniques<br>
+<strong>Assistants:</strong> Tammy Johnson, 565 Soda, 643-4816, tamille@eecs<br>
+<strong>Teaching Schedule (Spring 2011):</strong> <br>&nbsp;&nbsp;&nbsp;&nbsp;CS C267. <a href="http://www.eecs.berkeley.edu/Courses/Data/33.html">Applications of Parallel Computing</a>, TuTh, 250 Sutardja Dai<br>&nbsp;&nbsp;&nbsp;&nbsp;CS 298-18. <a href="http://www.eecs.berkeley.edu/Courses/Data/333.html">Titanium</a>, UNSCHED<br>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<a name="Z"></a><hr>
+</td>
+</tr>
+</tbody></table>
+
+<h5>This campus directory is the property of the University of 
+California, Berkeley. To protect the privacy of individuals listed 
+herein, in accordance with the State of California Information Practices
+ Act, this directory may not be used, rented, distributed, or sold for 
+commercial purposes.</h5>
+<p>Send requests for updates to <a href="mailto:eecsfac-updates@eecs">eecsfac-updates@eecs</a>, or <a href="http://www.eecs.berkeley.edu/deptinfo">Login</a> to make changes yourself.</p>
+
+<!--Page maintained by: acg database (auto-generated)-->
+
+    </div>
+    </td>
+
+<!-- Blank column to add white space to right side of content -->
+    <td>
+      &nbsp;&nbsp;&nbsp;
+    </td>
+<!-- End blank column -->
+  </tr>
+  </tbody></table>
+
+  <!-- End Content Data -->
+    </td>
+  </tr>
+<!-- End Side Nav and Content Row -->
+
+<!-- Footer Row -->
+  <tr>
+    <td colspan="4">
+    <div id="footer">
+<br>
+<hr>
+<table align="center" cellpadding="5">
+  <tbody><tr>
+    <td>
+      <a href="http://www.eecs.berkeley.edu/">Home</a>
+    </td>
+    <td>
+      |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.eecs.berkeley.edu/Includes/copyright.shtml">©
+      UC Berkeley EECS</a>
+    </td>
+    <td>
+      |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      May 12, 2011 13:32    </td>
+    <td>
+      |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.eecs.berkeley.edu/help">Contact Webteam</a>
+    </td>
+  </tr>
+</tbody></table>
+</div>
+
+
+  </td>
+  </tr>
+<!-- End Footer Row -->
+
+</tbody></table>
+
+
+
+</body></html>

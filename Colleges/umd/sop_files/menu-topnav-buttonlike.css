@@ -1,0 +1,57 @@
+/* Drop-down menu
+ * 
+ * #topnav - default css... uses :hover on non-anchor tags
+ * #topalt - IE pre 7... does not recognize :hover, so changes class
+ */
+
+#topnav-menu, #topalt-menu {list-style:none; padding:0em; margin:0.5em 0em 0em 8em; font-size:smaller; font-family:sans-serif, serif;}
+
+#topnav-menu .expand-down, #topalt-menu .expand-down {background: #000000 url('/assets/images/gradients/gradient-lightred-down.png') repeat-x top left; border-color:#990000;}
+#topnav-menu .expand a, #topalt-menu .expand a {display:none;}
+#topnav-menu .expand li a, #topalt-menu .expand li a {display:block;}
+
+#topnav-menu h5, #topalt-menu h5 {font-size:small; font-weight:bold; margin:0em; padding:0em 0em 0em 0.75em; background:#666666 url('/assets/images/gradients/gradient-orange-down.png') repeat-x top left;}
+#topnav-menu h5.unnest, #topalt-menu h5.unnest {border-top:none}
+
+#topnav-menu li, #topalt-menu li {float:left; text-align:left; padding:0em; margin:0em; border-bottom:1px solid #FFCC66; background-color:#FFFFFF; white-space:nowrap} /* Add width here if needed for older browsers */
+
+#topnav-menu a, #topalt-menu a {display:block; padding:0.05em 0.5em 0.05em 0.5em; text-decoration:none; font-weight:bold; border-left:1px solid #FFCC66; border-top:2px solid #FFCC66; color:#FFFFFF}
+#topnav-menu a:first-letter, #topalt-menu a:first-letter {font-variant:small-caps}
+#topnav-menu li.last a, #topnav-menu a.last, #topalt-menu li.last a, #topalt-menu li a.last {border-right:1px solid #FFCC66}
+#topnav-menu a:hover, #topalt-menu a:hover {color:#000000;}
+#topnav-menu a:active, #topalt-menu a:active {color:#000000;}
+
+#topnav-menu ul.sub, #topalt-menu ul.sub {width:17.1em; z-index:4; list-style:none; position:absolute; top:auto; left:auto; padding:0em 0em 0.1em 0em; margin:0em; display:none; background-color:#000000; border-width:1px; border-color:#CCCCCC #CCCCCC #CCCCCC #FFCC99; border-style:solid}
+
+#topnav-menu .expand-down:hover, #topalt-menu li.over {background:#666666 url('/assets/images/gradients/gradient-orange-down.png') repeat-x top left;}
+#topnav-menu .expand-down:hover a, #topalt-menu li.over a {color:#000000}
+
+#topnav-menu .expand-down:hover ul.sub, #topalt-menu li.over ul.sub {display:block}
+#topnav-menu .expand-down:hover ul.sub li, #topalt-menu li.over ul.sub li {display:block}
+
+#topnav-menu ul.sub li, #topalt-menu ul.sub li {width:17em; clear:both; background:none; background-color:#990000; padding:0em; border:none; white-space:normal}
+
+#topnav-menu .expand-down:hover ul.sub a, #topalt-menu li.over ul.sub a {padding:0.15em 0em 0.15em 0.5em; margin:0em 0em 0em 0.5em; color:#000000; text-decoration:none; font-size:small; border:none; background-color:#FFFFFF;}
+#topnav-menu .expand-down:hover ul.sub a:hover, #topalt-menu li.over ul.sub a:hover {text-decoration:underline; color:#000000; border:none;}
+#topnav-menu .expand-down:hover ul.sub a:active, #topalt-menu li.over ul.sub a:active {color:#000000; border:none;}
+
+#topnav-menu ul.sub ul, #topalt-menu ul.sub ul {list-style:none; margin:0em; padding:0em; border:none;}
+
+#topnav-menu ul.sub ul li, #topalt-menu ul.sub ul li {padding:0px; margin:0px; border:none;}
+
+#topnav-menu small, #topalt-menu small {display:inline; padding-left:0.15em; color:#000000;}
+
+/**
+ * Add images to anchor tags using selectors
+ * Written with :not() selector to prevent this from going crazy in the menu
+ *
+ * :not() is not supported by IE or Opera
+ * :after is not supported by IE
+ *
+ * This may get redone to match the other style sheets if I redo the list formatting
+ */
+
+#topnav-menu .expand-down:hover ul.sub a[href $='.pdf']:after, #topalt-menu .expand-down:hover ul.sub a[href $='.pdf']:after {content: url('/assets/images/icons/icon-pdflink.png'); padding-left:0.2em;}
+#topnav-menu .expand-down:hover ul.sub a[href ^=http]:not([href *="cs.umd.edu"]):after, #topalt-menu .expand-down:hover ul.sub a[href ^=http]:not([href *="cs.umd.edu"]):after {content: url('/assets/images/icons/icon-miniglobe.png'); padding-left:0.2em;}
+#topnav-menu .expand-down:hover ul.sub a[href ^=http]:not([href *="umd.edu"]):after, #topalt-menu .expand-down:hover ul.sub a[href ^=http]:not([href *="umd.edu"]):after {content: url('/assets/images/icons/icon-extlink.png'); padding-left:0.2em;}
+

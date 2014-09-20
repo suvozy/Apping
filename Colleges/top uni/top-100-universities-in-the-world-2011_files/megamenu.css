@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* --------- Top Nav Items --------- */
+.megamenu2 {
+    margin: 0 auto;
+    list-style: none;
+    display: none;}
+
+.megamenu2 li img {
+    float: left;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;}
+
+.megamenu2 li.clear-fix {
+    float: none;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;}
+
+.megamenu2 li div.mm-item-content {
+    background-color: #ffe9fc;
+    padding: 0;
+    position: absolute;
+    border: 5px solid #c019a9;
+    z-index: 9;}
+
+.mm-content-base {
+    position: relative;
+    z-index: 11;
+    padding: 10px;}
+	
+.mm-js-shadow {
+    background-color: #555;
+    position: absolute;
+    z-index: 10;}
+/* --------- Top Nav Items end --------- */
+
+/* --------- Dropdown Content --------- */
+.mm-content-base {
+    width: 565px;
+    font-weight: normal;}
+
+.mm-links h3,
+.mm-features h3 {
+	font-style: italic;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 0 4px;
+	padding: 0;}
+
+ul.megamenu2 div.mm-links {
+    float: left;
+    width: 320px;
+    margin-right: 5px;
+    text-align: left;}
+
+#mm-dropdown {
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);}
+
+#mm-dropdown .mm-links p {
+	line-height: 16px;
+	margin: 0 0 8px;
+	padding: 0;}
+
+#mm-dropdown .mm-links p a {
+	background: none;
+	font-size: 12px;
+	color: #921080;
+	padding: 0;}
+
+#mm-dropdown .mm-features p a:hover,
+#mm-dropdown .mm-links p a:hover {
+	padding: 2px 4px;
+	color: #fff;
+	background: #c019a9;}
+
+#mm-dropdown .mm-links ul li {
+	width: 300px;
+	text-align: left;}
+
+#mm-dropdown .mm-links ul li a {
+	color: #921080;
+	background: none;
+	font-size: 12px;
+	text-decoration: underline;
+	padding: 0;}
+
+#mm-dropdown .mm-links ul li a:hover {
+	color: #fff;
+	background: #c019a9;
+	padding: 2px 4px;}
+
+#mm-dropdown .mm-features {
+    float: right;
+    width: 220px;
+    padding-left: 15px;
+    margin: 0;
+    border-left: 1px solid #b7c6ce !important;
+    text-align: left !important;
+    border: 0 dotted blue;
+    margin-bottom: 10px;}
+
+#mm-dropdown .mm-features p {
+	line-height: 16px;
+	margin: 0 0 8px;
+	padding: 0;}
+
+#mm-dropdown .mm-features p a {
+	background: none;
+	font-size: 12px;
+	color: #921080;
+	padding: 0;}
+
+#mm-dropdown .mm-features .white {
+    background: #fff;
+    padding: 5px 8px;
+    width: 200px;
+    margin: 8px 6px 0 0;
+    border: 1px solid #b7c6ce;}
+    
+#mm-dropdown .mm-features .title {
+    font-style: italic;
+    font-weight: bold;}
+/* --------- Dropdown Content end --------- */

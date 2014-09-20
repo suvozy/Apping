@@ -1,0 +1,1193 @@
+/* make space for foobar */
+#footer {
+/* line-height: 12px; */
+margin-bottom:30px;
+}
+
+#foobar .ui-helper-clearfix:after {
+    display: none !important;
+}
+#foobar{
+    background-image: url(/static/images/foobar/foobar.png);
+    bottom:0;
+    height:24px;
+    padding:2px 10px 10px 0;
+    position:fixed;
+    width:962px;
+    font-size: 12px;
+    z-index:99999;
+}
+#foobar li {
+    font-size: 1em;
+    margin-right: 0;
+    
+}
+#foobar a {
+    text-decoration: none;
+}
+#foobar #greeting{
+    float:left;
+    padding:10px;
+    color:#999999;
+}
+#foobar #greeting .highlight-blue{
+    color: #6F9DD8;
+}
+#foobar #greeting a{
+    color: #0072B2;
+}
+#foobar #foobar-close {
+    background: url(/static/images/foobar/close-button-small.png) no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    width: 15px;
+}
+/*tab links - and some style correction for jquery ui*/
+    #foobar #main li{
+        padding:0;
+        margin-right:20px;
+        float:left;
+    }
+    #foobar #main li a{
+        display:block;
+        font-size: 1.1em;
+        color:#F8F8F8;
+        height:24px;
+        margin-left: 24px;
+        padding-left:8px;
+        padding-top:3px;
+        padding-right:10px;
+        text-decoration:none;
+        background:url("/static/images/foobar/maintab-right.png") no-repeat right bottom;
+    }
+    #foobar #main li.ui-tabs-selected a{
+        background:url("/static/images/foobar/maintab-highlighted-right.png") no-repeat right bottom;
+        color:#666666;
+    }
+    /*my profile*/
+        #foobar #main li#myprofile-button a{
+        }
+        #foobar #main li#myprofile-button{
+            background:url("/static/images/foobar/myprofile.png") no-repeat left bottom;
+        }
+        #foobar #main li#myprofile-button.ui-tabs-selected{
+            background:url("/static/images/foobar/myprofile-highlighted.png") no-repeat left bottom;
+        }
+    /*}*/
+    /*my schools*/
+        #foobar #main li#myschools-button a{
+            padding-right:10px;
+        }
+        #foobar #main li#myschools-button{
+            background:url("/static/images/foobar/myschools.png") no-repeat left bottom;
+        }
+        #foobar #main li#myschools-button.ui-tabs-selected{
+            background:url("/static/images/foobar/myschools-highlighted.png") no-repeat left bottom;
+        }
+    /*}*/
+    /*my tools*/
+        #foobar #main li#mytools-button{
+            background:url("/static/images/foobar/mytools.png") no-repeat left bottom;
+        }
+        #foobar #main li#mytools-button.ui-tabs-selected{
+            background:url("/static/images/foobar/mytools-highlighted.png") no-repeat left bottom;
+        }
+    /*}*/
+    /*my fit*/
+        #foobar #main li#myfit-button{
+            background:url("/static/images/foobar/myfit.png") no-repeat left bottom;
+        }
+        #foobar #main li#myfit-button.ui-tabs-selected{
+            background:url("/static/images/foobar/myfit.png") no-repeat left bottom;
+        }
+    /*}*/
+    #foobar #main li#userlogin-button{
+        background:url("/static/images/foobar/userlogin.png") no-repeat left bottom;
+    }
+    #foobar ul#main{
+        float:left;
+        margin: 2px 0 0 25px;
+        width:auto;
+    }
+    #foobar li a{
+        padding:0;
+    }
+    #foobar .ui-tabs-hide{
+        display: none;
+    }
+    #foobar .primarytab div.content-left{
+        
+    }
+    #foobar .primarytab ul.subnav{
+        width:225px;
+        margin: 0 20px 0 0;
+        height: 100%;
+        border-right: 1px solid #DDDDDD;
+    }
+    #foobar .primarytab ul.subnav li{
+        display: block;
+        position: relative;
+        left:1px;
+        /*jquery ui has an important on border-bottom*/
+        border-bottom: 1px solid #DDDDDD !important;
+    }
+    #foobar .primarytab ul.subnav li.ui-tabs-selected{
+        background:url("/static/images/foobar/subnavhightlight.gif") no-repeat left top;
+        border:1px solid #CCCCCC !important;
+    }
+    #foobar .primarytab ul.subnav li a{
+        padding: 7px 20px;
+        text-decoration: none;
+        font-size: 1.2em;
+        display: block;
+        width: 178px;
+        white-space: normal;
+        color: #0072B2;
+    }
+/*}*/
+
+/*main layout*/
+    #foobar .primarytab{
+        position: absolute;
+        bottom:28px;
+        left:0;
+        line-height: 1.2em;
+        width: 972px;
+        color: #666666;
+        padding: 0;
+        background:url(/static/images/foobar/menu-top.png) no-repeat scroll left top transparent;
+    }
+    #foobar .primarytab div.tabcontent{
+        padding: 0 20px 0 18px;
+        background: url("/static/images/foobar/menu-bottom.png") no-repeat bottom left transparent;
+        height:420px;
+    }
+    #foobar h4{
+        font-size:2.5em;
+        height:40px;
+        line-height: 36px;
+        margin:30px 35px 0;
+        padding-left:34px;
+        color: #f8f8f8;
+    }
+    #foobar h4 span{
+        font-size:0.6em;
+        padding-left:15px;
+    }
+    #foobar .primarytab .closebutton{
+        position: absolute;
+        right:6px;
+        top:12px;
+        cursor: pointer;
+    }
+    #foobar #myprofile h4{
+        background:url(/static/images/foobar/myprofile-icon.png) no-repeat scroll 0 8px transparent;
+    }
+    #foobar #myschools h4{
+        background: url(/static/images/foobar/myschools-icon.png) no-repeat scroll 0 8px transparent;
+        padding-left: 45px;
+    }
+    #foobar #mytools h4{
+        background: url(/static/images/foobar/mytools-icon-large.png) no-repeat scroll 0 8px transparent;
+        padding-left: 45px;
+    }
+    #foobar .bboardsponsor{
+        float:right;
+    }
+    #foobar .secondarytab{
+        /*old style
+        float:right;*/
+        padding:15px 0;
+        width:685px;
+        height:390px;
+        position:absolute;
+        top:70px;
+        left:260px;
+    }
+    #foobar .secondarytab span.column1{
+        float:left;
+        margin-right:4%;
+        width:55%
+    }
+    #foobar .secondarytab span.column2{
+        float:left;
+        width:40%;
+    }
+/*}*/
+
+#foobar form label{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;   
+}
+
+#foobar label.block{
+    display: block;
+    margin-bottom:10px;
+    margin-top: 15px;
+}
+#foobar form fieldset{
+    margin-bottom: 15px;
+}
+#foobar form fieldset div span {
+    float: left;
+    margin-right: 20px;
+    width: 140px;
+}
+#foobar form fieldset div span.last {
+    margin-right: 0px;
+}
+#foobar label.top{
+    margin-top: 0;
+}
+#foobar table label{
+    float: right;
+}
+#foobar table label.inline{
+    float: none;
+}
+#foobar table span.testscore{
+    font-size: 1em;
+}
+#foobar table td{
+    padding-bottom:25px;
+    vertical-align: top;
+}
+#foobar table td.last{
+    padding-bottom:0;
+}
+#foobar .template{
+    display:none;
+}
+
+/*input styles */
+    #foobar input{
+        width:100%;
+        margin-right:10px;
+    }
+    #foobar table input{
+        width: 220px;
+    }
+    #foobar input.date{
+        width: 120px;
+    }
+    #foobar input.month{
+        width:40px;
+    }
+    #foobar input.day{
+        margin-left: 10px;
+        width:40px;
+    }
+    #foobar input.year{
+        width:60px;
+        margin-left:10px;
+    }
+    #foobar input.radio{
+        margin-right: 5px;
+        width:auto;
+    }
+    #foobar input.inlineradio{
+        margin-left: 20px;
+    }
+    #foobar input.inlineradiofirst{
+        margin-left: 0px;
+    }
+    #foobar select{
+        display:block;
+        margin-bottom:5px;
+        width:220px;
+    }
+    #foobar table select{
+        width:220px;
+    }
+    #foobar .cmf-skinned-select{
+        margin-bottom: 5px;
+    }
+/*}*/
+
+#foobar div.checkbox label{
+    margin-bottom:10px;
+    display:block;
+    padding-left: 18px;
+}
+#foobar div.checkbox label span{
+    font-size: 0.8em;
+    margin-left:5px;
+}
+#foobar div.checkbox input{
+    margin-right:5px;
+    float:left;
+    width:auto;
+}
+#foobar input.testscore{
+    width: 65px;
+    margin-right:20px;
+}
+#foobar td.testscores div{
+    float:left;
+    margin-right:20px;
+    width:80px;
+}
+#foobar td.testscores input{
+    width: 100%;
+}
+#foobar td.testscores a{
+    float:left;
+    clear:left;
+}
+#foobar td.testscores p{
+    margin-bottom:10px;
+    font-size: 0.8em;
+}
+#foobar .overridedisplay{
+    display:block !important;
+}
+#foobar .cmf-skinned-text{
+    font-size: 15px;
+}
+#foobar .ui-slider{
+    width: 90%;
+    margin-bottom: 1em;
+    margin-left: 0;
+}
+#foobar .ui-slider-label{
+    font-size: 0.8em;
+    position: static;
+}
+#foobar .ui-slider-label-show {
+    display: inline;
+}
+
+/*tab specific overrides*/
+    #foobar #myprofile div.tabcontent{
+        height:300px;
+    }
+    #foobar #myprofile ul.subnav{
+        display: none;
+    }
+    #foobar #myprofile #aboutme{
+        left:35px;
+        height:270px;
+        width:900px;
+    }
+    #foobar #myprofile #aboutme iframe{
+        border: medium none;
+        height: 275px;
+        overflow: hidden;
+        width: 630px;
+    }
+    #foobar #myprofile #aboutme div.scout{
+        background-color: #FDFDF2;
+        border: 1px solid #DDDDDD;
+        height: 258px;
+        left: 645px;
+        padding: 15px;
+        position: absolute;
+        top: 0;
+        width: 240px;
+    }
+    #foobar #myprofile #aboutme div.scout h5 {
+        background: url(/static/images/ah/college-scout.png) no-repeat scroll 175px 0px transparent;
+        font-size: 2em;
+        height: 45px;
+    }
+    #foobar #myprofile #aboutme div.scout img {
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    #foobar #schoolprefs span.column1{
+        width: auto;
+    }
+    #foobar #schoolprefs span.column1 label{
+        margin-right: 30px;
+    }
+    #foobar #schoolprefs span.column1 table td{
+        vertical-align: middle;
+    }
+    #foobar #schoolprefs span.column2{
+        width: 30%;
+        float: right;
+    }
+    #foobar #academics{
+        overflow-y:scroll;
+    }
+    #foobar #myschools.primarytab ul.subnav {
+        margin-bottom:15px;
+        max-height: 310px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        height:auto;
+        position: relative;
+        left:-47px;
+        width:265px;
+    }
+    #foobar #myschools.primarytab ul.subnav li.ui-tabs-selected div.link{
+        background: url("/static/images/foobar/subnavhightlight.gif") no-repeat scroll left top transparent;
+        border: 1px solid #CCCCCC !important;
+    }
+    #foobar #myschools.primarytab ul.subnav li div.link{
+        border-bottom: 1px solid #DDDDDD !important;
+    }
+    #foobar #myschools.primarytab ul.subnav li div.inactive a {
+        color: #666;
+    }
+    #foobar #myschools.primarytab ul.subnav li{
+        border:none !important;
+    }
+    #foobar #myschools.primarytab ul.subnav li.ui-tabs-selected {
+        background: none;
+        border: none !important;
+    }
+    #foobar #myschools.primarytab ul.subnav li a{
+        padding: 7px 0 7px 45px;
+        width:166px;
+    }
+    #foobar #myschools.primarytab ul.subnav li a.loadingtab{
+        padding-left:62px;
+    }
+    #foobar #myschools.primarytab #myschools-loading img{
+        position: absolute;
+        top: 175px;
+        left: 280px;
+    }
+    #foobar #myschools.primarytab ul.subnav li div.link{
+        left: 47px;
+        position: relative;
+        width: 218px;
+    }
+    #foobar #myschools.primarytab ul.subnav li div.ctrlpanel{
+        background: none repeat scroll 0 0 white;
+        border: 1px solid #CCCCCC;
+        padding: 5px;
+        position: absolute;
+        top: 0;
+        left:2px;
+        display: none;
+    }
+    #foobar #myschools.primarytab ul.subnav li div.ctrlpanel img{
+        float: left;
+        cursor: pointer;
+    }
+    /*reordering is a little glitchy in IE7, will have to revisit at some point but we're disabling for now*/
+    .ie7 #foobar #myschools.primarytab ul.subnav li div.ctrlpanel img.reorder{
+        display: none;
+    }
+    .ie7 #foobar #myschools.primarytab ul.subnav li div.ctrlpanel{
+        left: 18px;
+    }
+    #foobar #myschools .extra a{
+        padding: 7px 15px;
+    }
+    #foobar #myschools div.addnew{
+        padding: 10px 10px 10px 15px;
+        width: 225px;
+    }
+    #foobar #myschools div.addnew input{
+        width:135px;
+        background-image: url("/static/images/ah/input-background.gif");
+        background-position: left top;
+        background-repeat: repeat-x;
+        border: 1px solid #DDDDDD;
+        font-size: 1.3em;
+        height: 22px;
+        padding-left: 5px;
+        padding-top: 3px;
+    }
+    #foobar #myschools div.addnew img{
+        position: relative;
+        top:3px;
+        cursor: pointer;
+    }
+    #foobar #myschools a.compare{
+        margin-left:20px;
+    }
+    #foobar #myschools ul.subnav li input{
+        left: 20px;
+        top: 10px;
+        position: absolute;
+        width: auto;
+    }
+    #foobar #myschools .college_name{
+        font-size: 1.6em;
+        margin-bottom:15px;
+        color: #666;
+    }
+    #foobar #myschools .secondarytab .jHtmlArea iframe{
+        background-color: white;
+        background-image: url(/static/images/ah/input-background.gif);
+        background-repeat: repeat-x;
+        border: 1px solid #DDDDDD;
+        width: 380px !important;
+        height: 300px !important;
+    }
+    #foobar #myschools .secondarytab .jHtmlArea .ToolBar{
+        background: url(/static/images/foobar/jhtmlarea-toolbar-background.png) repeat-x;
+        width: 380px !important;
+        height:23px;
+        border:1px solid #CCCCCC;
+    }
+    #foobar #myschools .secondarytab .jHtmlArea .ToolBar ul{
+        border:none;
+    }
+    #foobar #myschools .secondarytab .savingnotification,
+    #foobar #myschools .secondarytab .savednotification{
+        display: none;
+        position: absolute;
+        left:0;
+        top: 390px;
+    }
+    #foobar #myschools .secondarytab .savingnotification img,
+    #foobar #myschools .secondarytab .savednotification img{
+        height: 12px;
+    }
+    #foobar #myschools .myschools-empty {
+    background-color:#f9f9f9;
+    border:1px solid #ddd;
+    display: none;
+    left: 265px;
+    margin-right:10px;
+    position: absolute;
+    text-align:center;
+    top: 88px;
+    }
+    #foobar #myschools .myschools-empty ul {
+    display:inline-block;
+    margin:0 auto;
+    padding:15px 15px 15px 15px;
+    text-align:left;
+    }
+    #foobar #myschools .myschools-empty .myschools-empty-image {
+    background-image:url(/static/images/foobar/myschools-list.png);
+    background-repeat:no-repeat;
+    display:block !important;
+    float:left;
+    height:125px;
+    width:138px;
+    margin-right:20px !important;
+    }
+    #foobar #myschools .myschools-empty .myschools-empty-message {
+    float:left;
+    display:block !important;
+    width:480px;
+    }
+    #foobar #myschools .myschools-empty ul .myschools-empty-message ul {
+    border:none;
+    display:block;
+    margin-bottom:15px;
+    padding:0;
+    }
+    #foobar #myschools .myschools-empty p {
+    color:#444;
+    line-height:1.5;
+    margin-bottom:5px;
+    }
+    #foobar #myschools .myschools-empty .emphasized {
+    font-size:1.3em;
+    font-weight:bold;
+    }
+    #foobar #mytools div.tabcontent{
+        height:135px;
+    }
+    #foobar #mytools ul.subnav{
+        display: none;
+    }
+    #foobar #mytools .mytools-content{
+        position: absolute;
+        top:90px;
+        left:26px;
+    }
+    #foobar #mytools .mytools-content li{
+/*         display: inline-block; */
+        display:none;
+        float: left;
+    }
+    #foobar #mytools .mytools-content li a{
+        color: #0072B2;
+        display: block;
+        font-size: 0.9em;
+        padding-top: 65px;
+        text-align: center;
+        width: 92px;
+    }
+    #foobar #mytools .mytools-content.best-colleges .best-colleges,
+    #foobar #mytools .mytools-content.top-business-schools .top-business-schools,
+    #foobar #mytools .mytools-content.top-law-schools .top-law-schools,
+    #foobar #mytools .mytools-content.best-graduate-schools .best-graduate-schools{
+        display:inline-block;
+    }
+    #foobar #mytools .mytools-content #findingtherightschool{
+        background: url(/static/images/foobar/mytools-icon-findingtherightschool.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #collegetours{
+        background: url(/static/images/foobar/mytools-icon-collegetours.png) no-repeat center 0;  
+    }
+    #foobar #mytools .mytools-content #collegetimeline{
+        background: url(/static/images/foobar/mytools-icon-collegetimeline.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #applying{
+        background: url(/static/images/foobar/mytools-icon-applying.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #paying{
+        background: url(/static/images/foobar/mytools-icon-paying.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #collegetestprep{
+        background: url(/static/images/foobar/mytools-icon-sat.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #knewtonverbal{
+        background: url(/static/images/foobar/mytools-icon-verbal.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #knewtonmath{
+        background: url(/static/images/foobar/mytools-icon-math.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #knewtonreading{
+        background: url(/static/images/foobar/mytools-icon-reading.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #essay{
+        background: url(/static/images/foobar/mytools-icon-essay.png) no-repeat center 0;
+    }
+    #foobar #mytools .mytools-content #applyingbusiness{
+        background: url(/static/images/foobar/mytools-icon-applying.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #payingbusiness{
+        background: url(/static/images/foobar/mytools-icon-paying.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #businesstestprep{
+        background: url(/static/images/foobar/mytools-icon-gmat.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #jobs{
+        background: url(/static/images/foobar/mytools-icon-jobs.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #knewtonquantitative{
+        background: url(/static/images/foobar/mytools-icon-math.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #knewtonreasoning{
+        background: url(/static/images/foobar/mytools-icon-reasoning.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #knewtonreading{
+        background: url(/static/images/foobar/mytools-icon-reading.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #knewtonsentence{
+        background: url(/static/images/foobar/mytools-icon-sentencecorrection.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #applyinglaw{
+        background: url(/static/images/foobar/mytools-icon-applying.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #payinglaw{
+        background: url(/static/images/foobar/mytools-icon-paying.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #lsat{
+        background: url(/static/images/foobar/mytools-icon-lsat.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #applyinggrad{
+        background: url(/static/images/foobar/mytools-icon-applying.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #payinggrad{
+        background: url(/static/images/foobar/mytools-icon-paying.png) no-repeat center 0;
+	}
+    #foobar #mytools .mytools-content #gre{
+        background: url(/static/images/foobar/mytools-icon-gre.png) no-repeat center 0;
+	}
+/*}*/
+
+#foobaroverlay,
+.loginoverlay{
+    background: none repeat scroll 0 0 white;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: none;
+}
+/*put this guy on top of the foobar*/
+.loginoverlay{
+    z-index:999999;
+}
+
+.loginoverlay{
+    display: block;
+}
+
+div.foobariframe{
+    position: fixed;
+    top: 35px;
+    left:25%;
+    z-index:999999;
+}
+div.foobariframe iframe{
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+#foobar #myschools .column2 h5 {
+font-size: 1.3em;
+margin-bottom: 6px;
+color:#333;
+line-height: 18px;
+}
+#foobar #myschools .column2 .rankings-score {
+float: left;
+margin-right: 5px;
+margin-bottom: 15px;
+}
+#foobar #myschools .column2 .rankings-category {
+font-weight: bold;
+color: black;
+}
+#foobar #myschools .column2 dl {
+clear: left;
+padding-bottom: 6px;
+}
+#foobar #myschools .column2 dl dt,
+#foobar #myschools .column2 dl dd {
+display: inline
+}
+#foobar #myschools .column2 dl dt {
+font-weight: bold;
+color: #666;
+}
+#foobar #myschools .column2 .ranklabel{
+    float: left;
+    position: relative;
+    top: 10px;
+    margin-right:10px;
+}
+#foobar #myschools ul{
+    margin-bottom: 0;
+}/*
+ * jQuery UI CSS Framework @VERSION
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* end clearfix */
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*
+ * jQuery UI Slider @VERSION
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.ui-slider-horizontal { height: .8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider-vertical { width: .8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.ui-slider-vertical .ui-slider-range-max { top: 0; }/*theme for mutual-funds style sliders
+DEPENDS ON 
+--jquery.ui.slider.css
+--jquery.ui.core.css
+*/
+
+/* slider widget */
+.ui-slider {
+text-decoration:none !important;
+margin:0em 1em 1.5em; /* labels and tooltip take up space */
+width:160px;
+}
+.ui-slider .ui-slider-handle {
+overflow:visible !important;
+}
+.ui-slider .ui-slider-tooltip {
+display:none;
+}
+.ui-slider .screenReaderContext {
+position:absolute;
+width:0;
+height:0;
+overflow:hidden;
+left:-999999999px;
+}
+.ui-slider .ui-state-active .ui-slider-tooltip,
+.ui-slider .ui-state-focus .ui-slider-tooltip,
+.ui-slider .ui-state-hover .ui-slider-tooltip {
+bottom:2.5em;
+display:block;
+font-size:.8em;
+line-height:1;
+margin-left:-2.05em;
+padding:.3em .2em .4em;
+position:absolute;
+text-align:center;
+width:5em;
+}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down,
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner {
+position:absolute;
+display:block;
+width:0;
+height:0;
+border-bottom-width:0;
+background:none;
+}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down {
+border-left:7px dashed transparent;
+border-right:7px dashed transparent;
+border-top:8px solid #a6c9e2;
+bottom:-8px;
+right:auto;
+left:50%;
+margin-left:-7px;
+}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner {
+border-left:6px dashed transparent;
+border-right:6px dashed transparent;
+border-top:7px solid #fff;
+bottom:auto;
+top:-9px;
+left:-6px;
+}
+.ui-slider a {
+text-decoration:none;
+}
+.ui-slider ol,
+.ui-slider li,
+.ui-slider dl,
+.ui-slider dd,
+.ui-slider dt {
+list-style:none;
+margin:0;
+padding:0;
+}
+.ui-slider ol,
+.ui-slider dl {
+position:relative;
+top:1.3em;
+width:100%;
+}
+.ui-slider dt {
+top:1.5em;
+position:absolute;
+padding-top:.2em;
+text-align:center;
+border-bottom:1px dotted #ddd;
+height:.7em;
+color:#999;
+}
+.ui-slider dt span {
+background:#fff;
+padding:0 .5em;
+}
+.ui-slider li,
+.ui-slider dd {
+position:absolute;
+overflow:visible;
+color:#666;
+}
+.ui-slider span.ui-slider-label {
+position:absolute;
+}
+.ui-slider li span.ui-slider-label, .ui-slider dd span.ui-slider-label {
+display:none;
+}
+.ui-slider li span.ui-slider-label-show, .ui-slider dd span.ui-slider-label-show {
+display:block;
+}
+.ui-slider span.ui-slider-tic {
+position:absolute;
+left:0;
+height:1em;
+overflow:hidden;
+top:-1.33em;
+}
+.ui-slider li.even span.ui-slider-tic {
+height:.5em;
+top:-.88em;
+}
+.ui-slider li span.ui-widget-content, .ui-slider dd span.ui-widget-content {
+border-right:0;
+border-left-width:1px;
+border-left-style:solid;
+border-top:0;
+border-bottom:0;
+}
+.ui-slider .first .ui-slider-tic, .ui-slider .last .ui-slider-tic {
+display:none;
+}
+
+/* Component containers */
+.ui-slider  {
+font-family:Lucida Grande, Lucida Sans, Arial, sans-serif;
+font-size:1.1em;
+}
+.ui-slider input,
+.ui-slider select,
+.ui-slider textarea,
+.ui-slider button {
+font-family:Lucida Grande, Lucida Sans, Arial, sans-serif;
+font-size:1em;
+}
+.ui-slider,
+.ui-slider .ui-widget-content {
+border:1px solid #ddd;
+border-top:none;
+/* background:#fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x; */
+color:#222;
+}
+/* put back for tooltip (for now)
+   NOTE: border color must match
+   .ui-tooltip-pointer-down border color */
+.ui-slider .ui-slider-tooltip {
+border:1px solid #a6c9e2;
+background-color:#fff;
+}
+
+.ui-slider .ui-widget-content a {
+color:#222;
+}
+.ui-slider-range{
+background-color:#e6a000;
+/* background:#5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x; */
+border:1px solid #4297d7;
+color:#fff;
+font-weight:bold;
+filter:alpha(opacity=50);
+opacity:.5;
+}
+.ui-slider-range a {
+color:#fff;
+}
+
+/* Interaction states */
+.ui-slider .ui-state-default,
+.ui-slider .ui-widget-content .ui-state-default {
+/* background:#dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x; */
+background-image:url(/static/images/ah/slider-thumb.gif);
+background-position:center center;
+background-repeat:no-repeat;
+/* border:1px solid #c5dbec; */
+color:#2e6e9e;
+font-weight:bold;
+outline:none;
+}
+.ui-slider .ui-state-default a,
+.ui-slider .ui-state-default a:link,
+.ui-slider .ui-state-default a:visited {
+color:#2e6e9e;
+text-decoration:none;
+outline:none;
+}
+.ui-slider .ui-slider .ui-state-hover,
+.ui-slider .ui-widget-content .ui-state-hover,
+.ui-slider .ui-state-focus,
+.ui-slider .ui-widget-content .ui-state-focus {
+/* background:#d0e5f5 url(images/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x; */
+/* border:1px solid #79b7e7; */
+color:#1d5987;
+font-weight:bold;
+outline:none;
+}
+.ui-slider .ui-state-hover a,
+.ui-slider .ui-state-hover a:hover {
+color:#1d5987;
+text-decoration:none;
+outline:none;
+}
+.ui-slider .ui-state-active,
+.ui-slider .ui-widget-content .ui-state-active {
+/* background:#f5f8f9 url(images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x; */
+/* border:1px solid #79b7e7; */
+font-weight:bold;
+color:#e17009;
+outline:none;
+}
+.ui-slider .ui-state-active a,
+.ui-slider .ui-state-active a:link,
+.ui-slider .ui-state-active a:visited {
+color:#e17009;
+outline:none;
+text-decoration:none;
+}
+#content form#share-class-selector .cmf-skinned-text {
+color:#888;
+font-weight:bold;
+}
+div.jHtmlArea { display: inline block; }
+div.jHtmlArea div { padding: 0px; margin: 0px; }
+div.jHtmlArea .ToolBar { }
+div.jHtmlArea .ToolBar ul { border: solid 1px #ccc; margin: 1px; padding: 1px; float: left; background: #fff url(/static/images/jHtmlArea_Toolbar_Group_BG.png) repeat-x;}
+div.jHtmlArea .ToolBar ul li { list-style-type: none; float: left; border: none; padding: 1px; margin: 1px; }
+div.jHtmlArea .ToolBar ul li:hover { border: solid 1px #ccc; background: #ddd url(/static/images/jHtmlArea_Toolbar_Group__Btn_Select_BG.png); padding: 0; }
+div.jHtmlArea .ToolBar ul li a { display: block; width: 16px; height: 16px; background: url(/static/images/jHtmlArea.png) no-repeat -16px -500px; border: none; cursor: pointer; padding: 0px; }
+div.jHtmlArea .ToolBar ul li a.highlighted { border: solid 1px #aaa; background-color: #bbb; padding: 0; }
+div.jHtmlArea .ToolBar ul li.separator {height: 16px; margin: 0 2px 0 3px; border-left: 1px solid #ccc;}
+div.jHtmlArea .ToolBar ul li.separator:hover { padding: 1px; background-color: #fff; border-top:none; border-bottom:none; border-right:none;}
+
+div.jHtmlArea .ToolBar ul li a:hover { }
+div.jHtmlArea .ToolBar ul li a.bold { background-position: 0 0; }
+div.jHtmlArea .ToolBar ul li a.italic { background-position: -16px 0; }
+div.jHtmlArea .ToolBar ul li a.underline { background-position: -32px 0; }
+div.jHtmlArea .ToolBar ul li a.strikethrough { background-position: -48px 0; }
+div.jHtmlArea .ToolBar ul li a.link { background-position: -64px 0; }
+div.jHtmlArea .ToolBar ul li a.unlink { background-position: -80px 0; }
+div.jHtmlArea .ToolBar ul li a.orderedlist { background-position: -96px 0; }
+div.jHtmlArea .ToolBar ul li a.unorderedlist { background-position: -112px 0; }
+div.jHtmlArea .ToolBar ul li a.image { background-position: -128px 0; }
+div.jHtmlArea .ToolBar ul li a.cut { background-position: -144px 0; }
+div.jHtmlArea .ToolBar ul li a.copy { background-position: -160px 0; }
+div.jHtmlArea .ToolBar ul li a.paste { background-position: -176px 0; }
+
+div.jHtmlArea .ToolBar ul li a.html { background-position: -192px 0; opacity:0.6; filter:alpha(opacity=60);}
+div.jHtmlArea .ToolBar ul li a.html.highlighted { opacity:1.0; filter:alpha(opacity=100);}
+
+div.jHtmlArea .ToolBar ul li a.h1 { background-position: 0 -16px;}
+div.jHtmlArea .ToolBar ul li a.h2 { background-position: -16px -16px;}
+div.jHtmlArea .ToolBar ul li a.h3 { background-position: -32px -16px;}
+div.jHtmlArea .ToolBar ul li a.h4 { background-position: -48px -16px;}
+div.jHtmlArea .ToolBar ul li a.h5 { background-position: -64px -16px;}
+div.jHtmlArea .ToolBar ul li a.h6 { background-position: -80px -16px;}
+div.jHtmlArea .ToolBar ul li a.subscript   { background-position: -96px -16px;}
+div.jHtmlArea .ToolBar ul li a.superscript { background-position: -112px -16px;}
+div.jHtmlArea .ToolBar ul li a.indent { background-position: -128px -16px;}
+div.jHtmlArea .ToolBar ul li a.outdent { background-position: -144px -16px;}
+div.jHtmlArea .ToolBar ul li a.horizontalrule { background-position: -160px -16px;}
+div.jHtmlArea .ToolBar ul li a.p { background-position: -176px -16px;}
+
+
+div.jHtmlArea .ToolBar ul li a.justifyleft { background-position: 0 -32px;}
+div.jHtmlArea .ToolBar ul li a.justifycenter { background-position: -16px -32px;}
+div.jHtmlArea .ToolBar ul li a.justifyright { background-position: -32px -32px;}
+div.jHtmlArea .ToolBar ul li a.increasefontsize { background-position: -48px -32px;}
+div.jHtmlArea .ToolBar ul li a.decreasefontsize { background-position: -64px -32px;}
+div.jHtmlArea .ToolBar ul li a.forecolor { background-position: -80px -32px;}.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 999999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+.rankings-score {
+background-image:url(/static/images/ah/score-box-white-bg-education.gif);
+background-position:left top;
+background-repeat:no-repeat;
+border-bottom:none;
+display:inline-block;
+padding-left:8px; 
+}
+.rankings-score span {
+background-image:url(/static/images/ah/score-box-white-bg-education.gif);
+background-position:right top;
+background-repeat: no-repeat;
+color:#fff;
+display:block;
+float:left;
+font-size:1.5em;
+font-weight:bold;
+height:28px;
+line-height:1;
+padding:8px 8px 0 0;
+text-align:center;
+}
+.rankings-score-rnp span {
+background-image:url(/static/images/ah/score-box-rnp-on-transparent.gif);
+background-position:right top;
+background-repeat: no-repeat;
+display:block;
+float:left;
+height:36px;
+text-indent:-999em;
+width:84px;
+}
+.rankings-score-unranked span {
+background-image:url(/static/images/ah/score-box-unranked-on-transparent.gif);
+background-position:right top;
+background-repeat: no-repeat;
+display:block;
+float:left;
+height:36px;
+text-indent:-999em;
+width:84px;
+}

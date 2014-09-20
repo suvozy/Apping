@@ -1,0 +1,231 @@
+.box {
+	BORDER-RIGHT: #2281CB 1px solid; BORDER-TOP: #2281CB 1px solid; BORDER-LEFT: #2281CB 1px solid; BORDER-BOTTOM: #2281CB 1px solid
+}
+
+
+
+.date_color {  
+		color: #008000;  
+		}
+		
+.sub_heading {  
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 14px; 
+		font-weight: bold; 
+		color: #2281CB;  
+		text-decoration: none;
+		}
+
+.BlackArial11 {  
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight: normal; 
+		color: #474747;  
+		text-decoration: none;
+		}
+.BlackBArial11 {  
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight: bold; 
+		color: #474747;  
+		text-decoration: none;
+		}
+.BlackArial12 {  
+		font-family:  Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight: normal; 
+		color: #000000; 
+		text-decoration: none;
+		}
+.BlackBArial12 {  
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight: bold; 
+		color: #000000; 
+		text-decoration: none;
+		}
+		/* used in student blog form */
+		.maroontext
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight: bold; 
+		color: #CC0033;  
+		text-decoration: none;
+}
+.heading {  
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 16px; 
+		font-weight:bolder; 
+		color: #000000; 
+		text-decoration: none;
+		}
+		/* used in student blog form */
+		
+.RedVer11 {  
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight: normal; 
+		color: #FF0000; 
+		text-decoration: none;
+		}				
+.bgWhite
+{
+	background-color:#FFFFFF;
+}		
+.bgRed
+{
+	background-color:#FF0000;
+}
+.bgDGreen
+{
+	background-color:#006984;
+}
+.bgPink
+{
+	background-color:#FAE0D6;
+}		
+.textbox {
+		BORDER: #000000 1px solid; 
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px; 
+		font-weight : normal; 
+		color: #000000;
+		}
+.textbox2 {
+		BORDER: #FF0000 1px solid; 
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 10px; 
+		font-weight : Bold; 
+		color: #000000;
+		background-color:#FFE3D6;
+		}
+
+a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #993333;
+	text-decoration: none;
+	}
+	
+a:hover { 
+	color: #993333;
+	text-decoration: underline;
+}
+.tab {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #FF0000;
+		text-decoration: none;
+}
+.tab:link {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #0000FF;
+		font-weight: normal; 
+		text-decoration: none;
+}
+
+.tab:visited {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #993333;
+		font-weight: normal; 
+		text-decoration: none;
+}
+
+a.tab:hover {
+		font-size: 12px;
+		color: #FF0000;		
+		text-decoration: none;
+}
+
+.lnk {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #FF0000;
+		text-decoration: none;
+}
+.lnk:link {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #0000FF;
+		font-weight: normal; 
+		text-decoration: none;
+}
+
+.lnk:visited {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #993333;
+		font-weight: normal; 
+		text-decoration: none;
+}
+
+a.lnk:hover {
+		font-size: 12px;
+		color: #FF0000;		
+		text-decoration: none;
+}
+
+a.topic {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #474747;
+		text-decoration: none;
+}
+a.topic:link {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #474747;
+		font-weight: normal; 
+		text-decoration: none;
+}
+
+a.topic:visited {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		color: #993333;
+		font-weight: normal; 
+		text-decoration: none;
+}
+
+a.topic:hover {
+		font-size: 12px;
+		color: #0000FF;		
+		text-decoration: none;
+}
+/*    The Belowstyle sheet is for the drop down menu on the left pannel */
+
+#dropmenudiv{
+position:absolute;
+background-color: #FFFFFF;
+border:1px solid black;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+}
+
+#dropmenudiv a{
+width: 100%;
+display: block;
+color: #DE2821;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: #DE2821;
+color: #FFFFFF;
+}
+
+
+
+/*    Drop down menu style sheet Ends here */

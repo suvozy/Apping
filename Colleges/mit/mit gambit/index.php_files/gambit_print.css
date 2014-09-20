@@ -1,0 +1,878 @@
+/* Print CSS styles for GAMBIT */
+/* Authored by Geoffrey Long */
+/* July 25, 2008 */
+
+
+/* Global Styles */
+
+
+	.screen_only
+	{
+		display: none;
+	}	
+
+	.print_only
+	{
+	
+	}
+
+	BODY
+	{
+		font-family: Georgia;
+		font-size: 10pt;
+		color: #333333;
+	}
+	
+	BLOCKQUOTE
+	{
+		color: #333333;
+	}
+
+	A
+	{
+		color: #333333;
+		text-decoration: underline;
+	}
+	
+	H1
+	{
+		font-size: 16pt;
+		margin: 0px;
+		color: #000000;
+	}
+
+	H2
+	{
+		font-size: 14pt;
+		margin: 25px 0px 0px 0px;
+		color: #000000;
+		border-style: dotted;
+		border-width: 0px 0px 1px 0px;
+		border-color: #FFCC66;
+	}
+
+
+	P,TD
+	{
+		font-size: 10pt;
+		color: #000000;	
+		line-height: 1.35em;
+	}
+	
+	blockquote
+	{
+		line-height: 1.35em;
+		color: #33333;
+	}
+	
+	LI
+	{
+		font-size: 10pt;
+		color: #000000;	
+		line-height: 1.35em;
+		padding: 0px 0px 5px 0px;
+	}
+
+
+/* Main Body Styles */
+
+
+	.photo_byline_front
+	{
+		font-size: 10px;
+		color: #666666;
+		text-align: right;
+		padding: 2px 0px 0px 0px;
+	}
+	
+	.body_holder
+	{
+
+	}
+	
+	.content_holder
+	{
+		width: 784px;
+	}
+	
+	.main_game
+	{
+		text-align: center;
+		padding: 0px 14px 0px 21px;
+	}
+	
+	.main_content
+	{
+
+	}
+
+
+	.prevnext
+	{
+		display: none;
+		border-style: dotted;
+		border-width: 1px 0px 0px 0px;
+		border-color: #FFCC66;
+		margin: 30px 10px 0px 10px;
+		text-align: left;
+		padding: 10px 0px 0px 0px;
+	}
+	
+	.prevnext_links A
+	{
+		font-size: 11px;
+		font-weight: bold;
+	}
+	
+/* Footer Styles */
+
+
+	.footer
+	{
+		font-size: 8pt;
+		text-align: center;
+		color: #333333;
+		font-family: Georgia;
+		line-height: 1.5em;
+		margin: 0px 0px 15px 0px;
+	}
+	
+	.footer A
+	{
+		color: #333333;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+/* Homepage Styles */
+
+
+	.latest_updates
+	{
+		padding: 0px 10px 0px 0px;
+	}
+	
+	.latest_updates h2
+	{
+		margin: 0px;
+	}
+	
+	
+	.entry
+	{
+		margin: 12px 0px 0px 0px;
+	}
+
+	.latest_updates_entry
+	{
+		margin: 12px 0px 10px 0px;
+/*		border-style: dotted;
+		border-color: #CCCCCC;
+		border-width: 0px 0px 1px 0px; */
+		padding: 0px 0px 10px 0px;
+		text-align: left;
+	}
+	
+	.latest_updates_detail
+	{
+		margin: 5px 0px 0px 0px;
+		font-size: 10pt;
+		color: #000000;	
+		line-height: 1.35em;
+	}
+
+	.input_stream
+	{
+		font-size: 8pt;
+	}
+	
+	.input_stream_entry
+	{
+		padding: 10px 0px 0px 0px;
+	}
+	
+	
+	.read_more
+	{
+		text-align: right;
+		font-size: 8pt;
+		margin: 0px 0px 20px 0px;
+	}
+	
+	.read_more_front
+	{
+		text-align: right;
+		font-size: 8pt;
+	}
+	
+	.timed_events
+	{
+		margin: 10px 0px 0px 0px;
+		font-size: 8pt;
+	}
+	
+	.timed_events_entry
+	{
+		padding: 10px 0px 5px 0px;
+	}
+	
+	
+	.header
+	{
+		padding: 5px 0px 0px 0px;
+	}
+	
+	.body_text
+	{
+		padding: 1px 40px 20px 30px;
+		text-align: left;
+	}
+	
+	.elsewhere_badges
+	{
+		margin: 5px 0px 0px -4px;
+	}
+	
+/* Weblog Styles */
+
+	
+	.entry-body
+	{
+		text-align: justify;
+		padding: 0px 10px 0px 0px;
+	}
+	
+	.entry-more
+	{
+		text-align: justify;
+		padding: 0px 10px 0px 0px;
+		margin: 0px;
+	}
+	
+	.entry_timestamp
+	{
+		font-size: 8pt;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 5px 0px;
+		text-align: left;
+		color: #999999;
+	}
+	
+	.entry_title
+	{
+		font-size: 18pt;
+		margin: 5px 0px 5px 0px;
+		color: #000000;
+		line-height: 1.2em;
+		font-weight: bold;
+	}
+
+	
+	.entry_byline
+	{
+		font-size: 8pt;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 25px 0px;
+		color: #999999;
+	}
+	
+	
+	.entry-illustration
+	{
+		float: right;
+		margin: 0px 0px 10px 10px;
+	}
+	
+	.entry-header
+	{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.entry_footer
+	{
+		font-size: 8pt;
+		border-style: dotted;
+		border-width: 1px 0px 0px 0px;
+		border-color: #CCCCCC;
+		padding: 5px 0px 0px 0px;
+		margin: 10px 0px 25px 0px;
+		text-align: right;
+		color: #999999;
+	}
+	
+	
+	.entry-footer
+	{
+		font-size: 8pt;
+		border-style: dotted;
+		border-width: 1px 0px 0px 0px;
+		border-color: #CCCCCC;
+		padding: 5px 0px 0px 0px;
+		margin: 10px 0px 25px 0px;
+		text-align: right;
+		color: #999999;
+	}
+	
+	
+	.entry h2
+	{
+		font-size: 12pt;
+		margin: 10px 0px 0px 0px;
+	}
+	
+	.entry-tags 
+	{
+	    	margin: 0 0 10px 0px;
+		border-style: dotted;
+		border-width: 1px 0px 0px 0px;
+		border-color: #CCCCCC;
+		padding: 10px 0px 0px 0px;
+		font-size: 8pt;
+	}
+
+	.entry-tags-header,
+	.entry-tags-list,
+	.entry-tag 
+	{ 
+		display: inline; 
+	}
+
+	.entry-tags-list 
+	{
+		list-style:none;
+		padding: 0px;
+	}
+	
+	.name-email
+	{
+		border-spacing: 0px;
+		padding: 0px 0px 10px 0px;
+		border: none;
+	}
+
+	.module
+	{
+		margin: 10px 0px 30px 0px;
+	}
+	
+	.search_module
+	{
+		margin: 0px;
+	}
+	
+	.search_field
+	{
+		color: #CCCCCC;
+		font-size: 8pt;
+		margin: 0px;
+	}
+	
+	.module-content 
+	{
+		margin: 10px 0px 0px 0px;
+		padding: 0px 10px 0px 0px;
+	}
+	
+	.module-content p
+	{
+		font-size: 8pt;
+		color: #999999;	
+	}
+	
+	.module-list,
+	.archive-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	.module-list-item {
+		margin-top: 0px;
+		margin-bottom: 5px;
+		font-size: 9pt;
+	}
+	
+	.module-list-item li {
+		margin-top: 3px;
+		margin-bottom: 0px;
+		margin-left: 10px;
+		font-size: 9pt;
+		padding: 0 0 0 0
+	}
+
+	.module-presence img { vertical-align: middle; }
+	.module-powered .module-content { margin-bottom: 10px; }
+	.module-photo .module-content { text-align: center; }
+	.module-wishlist .module-content { text-align: center; }
+	
+	.module-calendar .module-content table {
+		border-collapse: collapse;
+	}
+	
+	.module-calendar .module-content th,
+	.module-calendar .module-content td {
+		width: 14%;
+		text-align: center;
+	}
+	
+	.typelist-thumbnailed { margin: 0 0 20px 0; }
+	
+	.typelist-thumbnailed .module-list-item {
+		display: block;
+		clear: both;
+		margin: 0;
+	}
+	
+	.more-photos
+	{
+		font-size: 8pt;
+		font-family: Georgia;
+		color: #666666;
+		margin: 5px;
+	}
+	
+	.announcement_timestamp
+	{
+		font-size: 8pt;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 5px 0px;
+		text-align: left;
+		color: #999999;
+	}
+	
+	.announcement_title
+	{
+		font-size: 14pt;
+		margin: 5px 0px 13px 0px;
+		color: #000000;
+		font-weight: bold;
+	}
+
+	
+	.announcement-header
+	{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.announcement-footer
+	{
+		font-size: 8pt;
+		border-style: dotted;
+		border-width: 1px 0px 0px 0px;
+		border-color: #CCCCCC;
+		padding: 5px 0px 0px 0px;
+		margin: 10px 0px 25px 0px;
+		text-align: right;
+		color: #999999;
+	}
+	
+	.comments-open-header
+	{
+		font-size: 12pt;
+		margin: 25px 0px 10px 0px;
+		color: #993300;
+		border-style: dotted;
+		border-width: 0px 0px 1px 0px;
+		border-color: #FFCC66;
+	}
+
+	.comment-header
+	{
+		padding: 13px 10px 0px 0px;
+		color: #666666;
+	}
+	
+	.comment-content
+	{
+		color: #000000;
+	}
+	
+	.blog_prevnext
+	{
+		border-style: dotted;
+		border-width: 1px 0px 0px 0px;
+		border-color: #CCCCCC;
+		padding: 0px 0px 0px 0px;
+		margin: 25px 0px 25px 0px;
+	}
+
+	.blog_prevnext TD A
+	{
+		size: 8pt;
+	}
+	
+	.entry-author-userpic
+	{
+		float: right;
+		margin: 0px 0px 15px 15px;
+	}
+
+	input
+	{
+		font-family: Georgia;
+		font-size: 9pt;
+		color: #000000;
+	}
+	
+	textarea
+	{
+		font-family: Georgia;
+		font-size: 9pt;
+		color: #000000;
+	}
+	
+	
+/* LOAD GAME STYLES */
+
+	.game_name
+	{
+		font-weight: bold;
+		color: #993300;
+		font-size: 14pt;
+		margin: 0px 0px 5px 10px;
+		padding: 35px 0px 5px 0px;
+		border-style: dotted;
+		border-width: 0px 0px 1px 0px;
+		border-color: #FFCC66;
+	}
+
+	.game_data
+	{
+		font-style: italic;
+		margin: 0px 0px 20px 10px;
+	}
+	
+	.game_data_subhead
+	{
+		font-weight: bold;
+		color: #000000;
+		border-style: solid;
+		border-width: 0px 0px 1px 0px;
+		border-color: #CCCCCC;
+		padding: 0px 0px 5px 0px;
+		margin: 30px 0px 5px 0px;
+	}
+	
+
+/* Join Game Styles */
+
+	.job_flag_condensed
+	{
+		padding: 10px 0px 20px 0px;
+	}
+	
+	.job_name
+	{
+		font-weight: bold;
+		color: #000000;
+		font-size: 14pt;
+		margin: 32px 0px 10px 10px;
+	}
+	
+	.job_name_condensed
+	{
+		font-weight: bold;
+		color: #993300;
+		font-size: 13pt;
+		padding: 15px 0px 0px 0px;
+		margin: 0px 0px 5px 10px;
+		border-style: dotted;
+		border-width: 0px 0px 1px 0px;
+		border-color: #FFCC66;
+	}
+	
+	
+	.job_title
+	{
+		font-style: italic;
+		margin: 0px 0px 10px 10px;
+	}
+	
+	.job_school
+	{
+		font-size: 8pt;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		padding: 0px 0px 0px 5px;
+		color: #666666;
+	}
+	
+	.job_content
+	{
+		margin: 0px 0px 0px 10px;
+	}
+	
+	.job_content strong
+	{
+		color: #000000;
+	}
+	
+	.job_content li
+	{
+		margin: 0px 0px 10px 0px;
+		padding: 0px;
+	}
+
+	.job_content ul
+	{
+		margin: 0px 0px 10px 18px;
+		padding: 0px;
+	}
+
+	.job_content h4
+	{
+		font-weight: bold;
+		color: #000000;
+		margin: 0px 0px 10px 0px;
+		font-weight: 11pt;
+	}
+
+
+/* Read Me Styles */
+
+	.readme_icon
+	{
+		padding: 22px 0px 20px 0px;
+	}
+		
+	.readme_name
+	{
+		font-weight: bold;
+		color: #993300;
+		font-size: 12pt;
+		padding: 20px 0px 0px 0px;
+		margin: 0px 0px 5px 10px;
+		border-style: dotted;
+		border-width: 0px 0px 0px 0px;
+		border-color: #FFCC66;
+	}
+	
+	
+	.readme_title
+	{
+		margin: 0px 0px 10px 10px;
+		color: #666666;
+	}
+	
+	.readme_content
+	{
+		margin: 0px 0px 0px 10px;
+	}
+	
+	.readme_content strong
+	{
+		color: #000000;
+	}
+	
+	.readme_download
+	{
+		text-align: right;
+		margin: 0px 0px 20px 0px;
+		font-weight: bold;
+	}
+
+/* Credits Styles */
+
+	.bio_photo
+	{
+		margin: 32px 0px 0px 0px;
+	}
+	
+	.bio_photo_condensed
+	{
+		padding: 15px 0px 20px 0px;
+	}
+	
+	.bio_name
+	{
+		font-weight: bold;
+		color: #000000;
+		font-size: 14pt;
+		margin: 32px 0px 10px 10px;
+	}
+	
+	.bio_name_condensed
+	{
+		font-weight: bold;
+		color: #993300;
+		font-size: 13pt;
+		padding: 20px 0px 0px 0px;
+		margin: 0px 0px 5px 10px;
+		border-style: dotted;
+		border-width: 0px 0px 1px 0px;
+		border-color: #FFCC66;
+	}
+	
+	
+	.bio_title
+	{
+		font-style: italic;
+		margin: 0px 0px 10px 10px;
+	}
+	
+	.bio_school
+	{
+		font-size: 8pt;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		padding: 0px 0px 0px 5px;
+		color: #666666;
+	}
+	
+	.bio_content
+	{
+		margin: 0px 0px 0px 10px;
+	}
+	
+	.bio_content strong
+	{
+		color: #000000;
+	}
+	
+	.returntotop
+	{
+		font-size: 8pt;
+		font-style: italic;
+		margin: 20px 0px 0px 0px;
+	}
+	
+	.returntotop_condensed
+	{
+		font-size: 8pt;
+		font-style: italic;
+		margin: 10px 0px 0px 0px;
+		text-align: right;
+	}
+	
+	.choose_your_player
+	{
+		display: none;
+		margin: 10px 0px 0px 0px;
+	}
+	
+	.choose_your_player_options
+	{
+		margin: 20px 0px 0px 0px;
+	}
+	
+	.choose_your_player_td P
+	{
+		margin: 5px 0px 5px 0px;
+	}
+	
+	.choose_your_player_options TD A
+	{
+		font-weight: bold;
+	}
+	
+	.player_year_first
+	{
+		font-weight: bold;
+		color: #00aae8;
+		margin: 0px 0px 10px 0px;
+		border-style: dotted; 
+		border-width: 0px 0px 1px 0px;
+		padding: 0px 0px 5px 0px;
+		border-color: #00aae8;
+	}
+	
+	
+	.player_year
+	{
+		font-weight: bold;
+		color: #00aae8;
+		margin: 30px 0px 10px 0px;
+		border-style: dotted; 
+		border-width: 0px 0px 1px 0px;
+		padding: 0px 0px 5px 0px;
+		border-color: #00aae8;
+	}
+	
+	.school_links
+	{
+		background-color: #F1F1F1;
+		border-width: 2px;
+		border-color: #999999;
+		border-style: solid;
+		padding: 10px 20px 20px 20px;
+	}
+	
+	.school_links_head
+	{
+		font-weight: bold;
+		border-style: solid;
+		border-width: 0px 0px 1px 0px;
+		border-color: #d7d7d7;
+		font-size: 18px;
+		color: #666666;
+		padding: 0px 0px 4px 0px;
+	}
+	
+	
+/* IN THE PRESS STYLES */
+
+.article_title
+	{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+	}
+	
+.byline
+	{
+	color: #666666;
+	}
+	
+.publication_info
+	{
+	color: #666666;
+	}
+	
+
+/* PRINT-ONLY STYLES */
+
+.print_header
+	{
+		font-size: 18pt;
+		font-weight: bold;
+		text-align: left;
+		margin: 25px 0px 20px 20px;
+		padding: 0px 0px 0px 0px;
+		color: #000000;
+		border-style: dotted;
+		border-width: 0px 0px 1px 0px;
+		border-color: #FFCC66;
+	}
+
+/* SIDEBAR STYLES */
+
+.sidebar_right
+	{
+	float: right;
+	margin: 20px 0px 0px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	}
+	
+.sidebar_content h5
+	{
+	font-weight: bold;
+	color: #000000;
+	font-size: 10pt;
+	margin: 10px 0px 10px 0px;
+	border-style: dotted;
+	border-width: 0px 0px 1px 0px;
+	border-color: #0099CC;
+	padding: 0px 0px 3px 0px;
+	}
+	
+.sidebar_content p
+	{
+	margin: 5px 0px 0px 0px;
+	font-size: 9pt;
+	color: #000000;
+	}

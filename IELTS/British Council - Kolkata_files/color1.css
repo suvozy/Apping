@@ -1,0 +1,24 @@
+/*User Selectable Styles*/
+
+/*.small .box-content P { font-size: 1em; line-height: 1.25em; margin: 0 1em 1.25em 1em; overflow:auto;}*/
+
+/*.small { font-size: 10px; line-height: 1.25em; margin: 0 1em 1.25em 1em; overflow:auto; }*/
+.Caption1 { color:#FF9900; overflow:inherit; }
+
+.Heading1{ font-weight:bold; color: #b90035; }
+
+.Heading5{ font-weight:bold; color: #b90035; }
+
+P { font-size: 11px; line-height: 1.25em; margin: 0 0 0 0; }
+
+DIV { font-size:11px; margin: 0 0 0 0;}
+
+/*.box-content DIV { font-size:10px; margin: 0 0 1.25em 0; overflow:auto;}*/
+
+#container {}
+#frameMiddle {}
+#left-col {}
+#columnLeft {}
+#columnRight {}
+#contentHolder {}
+#frameHolder {}

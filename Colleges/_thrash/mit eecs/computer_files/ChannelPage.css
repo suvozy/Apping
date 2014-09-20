@@ -1,0 +1,603 @@
+body {
+	background-color:#666666;
+	background-image:url("../img/bckground.png");
+	background-position:left top;
+	background-repeat:repeat-x;
+	font-size:10px;
+}
+div#wrapper {
+	width:980px;
+	margin: 0 auto;
+	background:url(../img/RightContentBG.jpg) right top repeat-y;
+	position: relative;
+}
+div#header h1 {
+	float: left;
+	margin-right:15px;
+}
+div#top_nav {
+	float: left;
+	font-size: 1.2em;
+	color: #fff;
+	width:610px;
+	height:50px;
+}
+div#top_nav ul {
+	list-style:none;
+	margin-top:25px;
+}
+div#top_nav ul li.links {
+	float:left;
+	white-space: nowrap;
+}
+div#top_nav ul li.links a {
+	text-align: center;
+	padding:5px 10.5px;
+	display:block;
+}
+/* SEARCH AREA STYLING */
+
+div#search {
+	float: right;
+	width: 21.8em;
+	text-align: left;
+}
+.level {
+	white-space:nowrap;
+}
+div#search #searchBox {
+	margin-top: .2em;
+	width:148px;
+}
+.caps {
+	line-height:1em;
+	color: #FFF;
+}
+input#google, input#people, input#offices {
+	width:1.4em;
+	height:1.4em;
+	margin:0;
+	margin-bottom:.2em;
+}
+input#gobut {
+	font-size:1.1em;
+	padding:.2em;
+	width:4.8em; /* PLEASE ADD */
+	height:auto;
+}
+/* END SEARCH AREA STYLING */
+
+div#ChannelContent {
+	clear:both;
+	position:relative;
+	height:auto;
+}
+div#LeftChannel {
+	float:left;
+	height:auto;
+	margin-bottom:-1px;
+	padding:20px 10px 10px 20px;
+	width:589px;
+}
+div#groups {
+	background-image:url(../img/communityTypes.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width:560px;
+	height:121px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+table#Grouptypes {
+	width:560px;
+	height:121px;
+}
+td.type {
+	width:110px;
+	font-size:2em;
+	padding-left:5px;
+	padding-top:93px;
+}
+td.type a {
+	color:#CCC;
+}
+td.type a:hover {
+	color:#B1180A;
+}
+p.AlphaList {
+	font-size:1.3em;
+	letter-spacing:0.05em;
+	margin-bottom:15px;
+	font-weight:500;
+	color:#666;
+}
+p.AlphaList a {
+	color:#666;
+}
+p.AlphaList a:hover {
+	color:#B1180A;
+}
+span.TrigLink a {
+	color:#B1180A;
+}
+span.TrigLink a:hover {
+	color:#333;
+}
+.rollover p a {
+	display:block;
+	width:295px;
+	height:121px;
+background-image:images/columns-overview-students-480.jpg;
+}
+.rollover p a:hover {
+background-image:images/indian_meds.jpg;
+}
+/* END CONTENT AREA */
+
+/* FOOTER STYLING */
+
+div#BotLinks {
+	float: left;
+}
+p#footlinks {
+	font-size:1.1em;
+	line-height: 1.6em;
+	padding-top: 1em;
+}
+div#BotLinks p#footlinks span.pipeBot {
+	padding: 0 1em;
+}
+/* END FOOTER STYLING */
+
+/* content text styles */
+
+p.head {
+	font-size:3em;
+	font-weight:600;
+	color:#333;
+	padding-bottom:5px;
+}
+p.head a {
+	color:#333;
+}
+.intro {
+	font-size:1.2em;
+	color:#333;
+	line-height:1.6em;
+	padding-top:.5em;
+}
+p.intro a {
+	color:#B1180A;
+}
+p.intro a:hover {
+	color:#666;
+}
+p.introBot {
+	padding-left:10px;
+}
+div#ThirdInfo p {
+	padding-right:200px;
+}
+p.SubHead {
+	font-size:2em;
+	font-weight:600;
+	color:#333;
+	padding:10px 0;
+}
+p.SubHeadBot {
+	padding-left:10px;
+}
+p.BoldText {
+	margin-bottom:5px;
+	font-size:1.2em;
+	font-weight:600;
+	color:#333;/*float:left;
+margin-right:3em;*/ /* use only if we don't have alph list */
+}
+p.BoldText a {
+	color:#B1180A;
+}
+p.BoldText a:hover {
+	color:#666;
+}
+table#Name {
+	width:560px;
+	margin-bottom:10px;
+}
+table#Topics {
+	width:560px;
+}
+td.TopicsList {
+	width:186px;
+	vertical-align:top;
+	text-align:left;
+}
+p.Listings {
+	font-size:1.2em;
+	line-height:1.2em;
+	padding-top:3px;
+}
+p.ListingsHead {
+	color:#000;
+	font-size:1.3em;
+	font-weight:600;
+	line-height:1.2em;
+	padding-bottom:5px;
+}
+p.Listings a {
+	color:#B1180A;
+}
+p.Listings a:hover {
+	color:#333;
+}
+p.Listings a.list_trig {
+	color:#666;
+}
+p.TrigListings {
+	font-size:1.2em;
+	line-height:1.3em;
+	padding-top:10px;
+}
+p.TrigListings a {
+	color:#666;
+}
+p.TrigListings a:hover {
+	color:#B1180A;
+}
+.clearit {
+	clear: both;
+	height: 0;
+	line-height: 0.0;
+	font-size: 0;
+}
+div#ThirdInfo {
+	padding-top:15px;
+	height:auto;
+	clear:both;
+}
+div#ThirdInfoInit {
+	height:auto;
+	clear:both;
+}
+span#athImg {
+	width:15px;
+}
+div#SecondInfoEdu {
+	float:left;
+	width:270px;
+	height:400px;
+}
+div#Departments {
+	float:left;
+	width:269px;
+	height:100%;
+	margin-left:38px;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+table#programList {
+	width:270px;
+	height:100%;
+}
+td.course span.caps {
+	font-size:.8em;
+	text-transform:uppercase;
+	color:#666;
+}
+td.text {
+	font-size:1.2em;
+	font-weight:600;
+	vertical-align:top;
+	color:#666;
+}
+td.text a {
+	color:#666;
+}
+td.text a:hover {
+	color:#B1180A;
+}
+p.SchoolNames {
+	font-size:1.6em;
+	font-weight:600;
+	padding-bottom:10px;
+}
+p.SchoolNames a {
+	color:#666;
+}
+p.SchoolNames a:hover {
+	color:#B1180A;
+}
+/* RIGHT COL TEXT STYLES */
+
+.PhotoHead {
+	font-size:1.8em;
+	line-height:1.2em;
+	margin-bottom:5px;
+}
+div#SecondContent {
+	width:330px;
+	height:auto;
+	margin-top:15px;
+	clear:both;
+}
+p.ListingsRight {
+	font-size:1.2em;
+	line-height:1.6em;
+	padding-left:10px;
+}
+/* ABOUT PAGE STYLES */
+
+div.AboutLnkL {
+	clear:both;
+	width:250px;
+	height:470px;
+	float:left;
+	margin-top:10px;
+}
+div#AboutInR {
+	width:300px;
+	float:right;
+	margin-top:10px;
+	height:auto;
+}
+p.AboutTN {
+	font-size:1.2em;
+	line-height:1.4em;
+	padding-top:10px;
+	color:#333;
+}
+span.BoldText {
+	font-size:1.2em;
+	font-weight:600;
+	color:#333;
+	margin-top:10px;
+}
+span.BoldText a {
+	color:#B1180A;
+}
+span.BoldText a:hover {
+	color:#333;
+}
+.AboutRLnk {
+	font-size:1.1em;
+	line-height:1.5em;
+	padding-bottom:10px;
+	color:#333;
+}
+img.headshot {
+	float:left;
+	margin-top:4px;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+p.photoCaption {
+	font-size:1.2em;
+	line-height:1.5em;
+	padding-top:1.1em;
+}
+img.studentCampaign {
+	margin-bottom:5px;
+	vertical-align:middle;
+}
+p.giveText {
+	font-size:1.3em;
+	font-weight:600;
+	padding-top:8px;
+}
+img.GiveBtn {
+	float:right;
+}
+div#ThirdContent {
+	margin-top:15px;
+	clear:both;
+	height:auto;
+}
+ul.AboutRLnk {
+	list-style-position: none;
+	font-size:1.2em;
+	line-height:1.6em;
+}
+ul.AboutRLnk a {
+	color:#B1180a;
+}
+ul.AboutRLnk a:hover {
+	color:#333;
+}
+.AboutBldLnk {
+	margin-top:10px;
+	font-size:1.3em;
+	font-weight:600;
+	color:#333;
+}
+.AboutBldLnk a {
+	color:#B1180A;
+}
+.AboutBldLnk a:hover {
+	color:#333;
+}
+/* IMPACT PAGE STYLES */
+
+.GiveBtnImpact {
+	float:left;
+	margin-top:10px;
+}
+div#impactInfo {
+	width:590px;
+	height:auto;
+	position:relative;
+}
+div.ImpactColumns {
+	margin-top:10px;
+	float:left;
+	width:196px;
+}
+p.ImpactList {
+	font-size:1.2em;
+	color:#333;
+	padding-bottom:20px;
+}
+p.ImpactList a {
+	color:#B1180A;
+}
+p.ImpactList a:hover {
+	color:#333;
+}
+/* initiatives styles */
+
+p.photoCaptionSub {
+	font-size:1.1em;
+	line-height:1.5em;
+	margin-bottom:10px;
+}
+p.photoCaptionSub a {
+	color:#97cae8;
+}
+p.photoCaptionSub a:hover {
+	color:#FFF;
+}
+img.InitPhoto {
+	margin:5px 59px;
+}
+img.diversPhoto {
+	margin-top:10px;
+}
+/*LIFE PAGE STYLES */
+
+div.artsnav {
+	width:590px;
+	height:auto;
+	float:left;
+	margin-top:.9em;
+}
+p.Listings {
+	margin-bottom:5px;
+}
+div#athImg {
+	padding-top:25px;
+}
+div.columns {
+	width:280px;
+	height:auto;
+	float:left;
+}
+div.columns p.Listings {
+	margin-bottom:5px;
+}
+/* RESEARCH STYLES */
+
+div.columnsResearch {
+	width:176px;
+	height:auto;
+	float:left;
+	margin-right:15px;
+}
+div.columnsResearch p.Listings {
+	margin-bottom:5px;
+}
+div.columnsResults {
+	clear:both;
+	height:20px;
+}
+/* IMPACT STYLES */
+
+div#PSCpics {
+	width:295px;
+	float:left;
+	padding-top:15px;
+	padding-bottom:20px;
+}
+div#PSCpics img {
+	padding-bottom: 2px;
+}
+div#PSCtext {
+	width:280px;
+	float:right;
+}
+div#SecondInfo {
+	padding-bottom:20px;
+}
+div#credit p {
+	padding-top: 0px;
+}
+div#RightChannel img {
+	padding-bottom:10px;
+}
+img.left {
+	padding-right: 10px;
+}
+.formtext {
+	color:#000000;
+	font-size: 1.2em;
+}
+.formtext a {
+	color:#B1180A;
+}
+div#form {
+	margin-left:25px;
+	padding-top:10px;
+}
+#aboutLinks {
+	clear:both;
+	padding-top:10px;
+	;
+}
+hr.divider {
+	margin-bottom:15px;
+	clear:both;
+}
+/*Admissions Page Styling */
+div.AdmitColumns {
+	margin-top:10px;
+	padding-right:11px;
+	float:left;
+	width:185px;
+}
+.AdmiTitle {
+	font-size:1.4em;
+	font-weight:600;
+	color:#333;
+}
+.intro img {
+	margin-bottom:5px;
+	margin-right:10px;
+}
+.AdmiTitle a {
+	color:#B1180A;
+	font-size:1.2em;
+}
+.AdmiTitle a:hover {
+	color:#666
+}
+p.finAid {
+	font-size: 1.5em;
+	margin-top: .8em;
+}
+span#partners a {
+	text-align: center;
+}
+div#comments_form {
+	clear:none;
+	width:350px;
+	padding:15px 25px;
+	border: 2px solid #000;
+	margin-left:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:#CCCCCC;
+}
+#Admissions {
+	height:275px;
+}
+/* SNOW PAGE STYLES */
+
+#ChannelContent h2 {
+	color:#333333;
+	font-size:3em;
+	font-weight:600;
+	padding-bottom:5px;
+}
+div#LeftChannel img#snow {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+

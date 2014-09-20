@@ -1,0 +1,317 @@
+/* Page background */
+body {
+    background-color: #CCC;
+}
+.main-container {
+	max-width: 800px;
+    min-width: 100px;
+	background-color: white;
+	margin: 0px auto;
+	font-size: 10pt;
+	margin-top:50px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:150%;
+	padding-top:1em;
+}
+.main-container .text {
+	padding: 1em;
+	text-align:justify;
+}
+
+
+.main-container .hhh {
+	font-weight:bold;
+	border-bottom: 1px solid darkgray;
+	margin-bottom:0.8em;
+		margin-top:2em;
+}
+
+.main-container .comment {
+	font-size:8pt;
+	color:#666;
+	padding-left:1em;
+}
+
+.main-container .text a:link {
+    font-weight: none;
+	color: #003;
+    text-decoration: none;
+}
+
+.main-container .text a:visited {
+    font-weight: none;
+		color: #003;
+    text-decoration: none;
+}
+.main-container .text a:hover {
+    text-decoration: underline;
+		color: #006;
+	background:none;
+}
+
+.hh1 {
+	font-variant: small-caps;
+	font-size:175%;
+}
+
+.container {
+  margin-bottom: 18px;
+}
+.container:before, .container:after {
+  display: table;
+  content: "";
+}
+.container:after {
+  clear: both;
+}
+
+.topbar1 {
+  height: 39px;
+  position: fixed;
+  vertical-align:central;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-align:center;
+  line-height: 40px;
+  border-bottom:2px solid #000;
+  z-index:1000;
+}
+.topbar1 .fill {
+	background: white;
+	background-color: white;
+	background-repeat: repeat-x;
+	font-size:1em;
+	font-weight:bolder;
+	font-family: Geneva, sans-serif
+}
+
+.topbar1 a {
+  color: black;
+  text-decoration:none;
+}
+.topbar1 a:hover, .topbar ul li.active a {
+  text-decoration: none;
+  background:none;
+}
+
+
+.topbar {
+  height: 30px;
+  position: fixed;
+  top: 41px;
+  left: -10px;
+  right: 0;
+/*  overflow: hidden;*/
+  width: 101%;
+  text-align:center;
+  font-size:1em;
+  font-variant:small-caps;
+  z-index:99;
+  line-height:10px;
+}
+
+.topbar .fill {
+  background: #222;
+  background-color: #222222;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
+  background-image: -moz-linear-gradient(top, #333333, #222222);
+  background-image: -ms-linear-gradient(top, #333333, #222222);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(top, #333333, #222222);
+  background-image: -o-linear-gradient(top, #333333, #222222);
+  background-image: linear-gradient(top, #333333, #222222);
+}
+
+.topbar a {
+  color: #bfbfbf;
+}
+.topbar a:hover, .topbar ul li.active a {
+  background-color: white;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.topbar ul {
+  margin: 0 10px 0 0;
+  position: relative;
+  left:50%;  
+  text-align:center;
+  margin:0;
+  padding:0;
+  float:left;
+  list-style:none; 
+}
+.topbar ul li {
+  float: left;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  right:50%;
+}
+.topbar ul li a {
+  padding: 7px 15px 11px;
+  text-decoration: none;
+  float:left;
+  margin:0 0 0 1px;
+  position:relative;
+}
+.topbar ul li a:hover {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.topbar ul li.active a {
+	background-color: white;/*#222;
+	background-color: rgba(0, 0, 0, 0.5);*/
+	text-align: center;
+	color: black;
+}
+.hiddenDiv{
+	display:none;
+}
+.toggle{
+	background: #F0F0F0;
+    border-bottom:1px solid #000;
+	border-top:1px solid #000;
+	cursor:pointer;
+	font-size: 11pt;
+	padding-left:0.8em;
+	font-variant:small-caps;
+}
+
+.toggle:hover, a:hover{
+	background: #E8E8E8;
+	text-decoration:none;
+}
+
+.toggle a {
+	text-decoration:none;
+	color: black;
+}
+
+.toggle img{
+text-align:center;
+margin-top: 10px;
+margin-bottom:: 0px;
+padding:3px 0 0 7px ;
+height: 0.9em;
+width: 0.9em;
+}
+
+.footer {
+	text-align:justify;
+	text-decoration: none;
+}
+
+.footer a:link {
+    font-weight: none;
+    text-decoration: none;
+}
+
+.footer a:visited {
+    font-weight: none;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+	background:none;
+}
+
+h2{
+	position: relative;
+	z-index:1;
+	background: white;
+	border-bottom:2px solid #000;
+	border-top:2px solid #000;
+	font-size: 13pt;
+	padding-left:0.8em;
+	font-variant:small-caps;
+	font-weight: bold;
+	float:none;
+	margin-bottom: 5px;
+}
+.projectD{
+	padding-top:1em;	
+	padding-left:1em;	
+	padding-right:1em;
+	display:block;
+}
+
+.projectD .details{
+	text-align:justify;
+	padding-bottom:1em;
+}
+.projectD .details hh{
+	font-weight:bold;
+	text-decoration:underline;
+}
+.projectD .details timeline{
+	font-size:0.8em;
+}
+
+.projectD img{
+	width:20%;
+	float:left;
+	padding-right:1em;
+	margin-top:10px;
+}
+
+.projectD .details a:link {
+    font-weight: none;
+	color: #003;
+    text-decoration: none;
+}
+
+.projectD .details a:visited {
+    font-weight: none;
+		color: #003;
+    text-decoration: none;
+}
+.projectD .details a:hover {
+    text-decoration: underline;
+		color: #006;
+	background:none;
+}
+
+/* rotator in-page placement */
+.rotator {
+	position:relative;
+	height:200px;
+}
+/* rotator css */
+.rotator ul li {
+	position:absolute;
+	list-style: none;
+	text-align:center;
+	left: 10px;
+	top: -20px;
+}
+/* rotator image style */	
+.rotator ul li img {
+	background: #FFF;
+	text-align:right;
+	margin-left:auto;
+}
+.rotator ul li.show {
+	float:right;
+	text-align:right;
+	z-index:10;
+}
+
+.pub t{
+	font-weight:bold;
+}
+
+.pub auth{
+	font-size:0.9em;
+}
+.pub conf{
+	font-size:0.9em;
+	font-weight:400;
+}
+#conash3D0 {height:0px; top:-1px;}
+.conash3D0 {height:0px; top:-1px;}
